@@ -1,0 +1,71 @@
+<!DocType html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Ubuntu 14.04 Countdown</title>
+		<link rel="icon" href="http://howtoubuntu.org/favicon.ico" />
+		<link rel="shortcut icon" href="http://howtoubuntu.org/favicon.ico" />
+		<script>var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-28932148-2"]);_gaq.push(["_trackPageview"]);(function(){var b=document.createElement("script");b.type="text/javascript";b.async=true;b.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(b,a)})();</script>
+		<style>
+			body {
+				margin: 0px;
+				padding: 0px;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 14px;
+				line-height: 19px;
+				background: transprent;
+				cursor: pointer !important;
+			}
+				#count {
+				margin: 0 10px;
+				padding: 10px;
+				background: #ffffff;
+				color: #333333;
+				text-align: center;
+				width: auto;
+				height: auto;
+				cursor: pointer !important;
+				border: 1px solid #EFEFEF;
+				-webkit-border-radius: 2px;
+				-moz-border-radius: 2px;
+				border-radius: 2px;
+			}
+			.light {
+				color: #DD4814;
+			}
+		</style>
+	</head>
+	<body class="ubuntu-count" onclick="top.location='http://howtoubuntu.org/countdown';">
+		<div id="count"></div>
+		<script>
+			var montharray=new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec")
+			function countdown(yr,m,d){
+				theyear=yr;themonth=m;theday=d
+				var today=new Date()
+				var todayy=today.getYear()
+				if (todayy < 1000)
+				todayy+=1900
+				var todaym=today.getMonth()
+				var todayd=today.getDate()
+				var todaystring=montharray[todaym]+" "+todayd+", "+todayy
+				futurestring=montharray[m-1]+" "+d+", "+yr
+				dd=Date.parse(futurestring)-Date.parse(todaystring)
+				dday=Math.floor(dd/(60*60*1000*24)*1)
+				if(dday==0){
+					document.getElementById("count").innerHTML="Ubuntu <span class='light'>14.04</span> comes today!";
+					document.title = "Ubuntu 14.04 comes today!";
+					return
+				} else if(dday<0){
+					document.getElementById("count").innerHTML="Download Ubuntu <span class='light'>14.04</span>";
+					document.title = "Ubuntu 14.04 is here!";
+					return
+				} else {
+					document.getElementById("count").innerHTML="Only <span class='light'>"+dday+"</span> days until Ubuntu 14.04";
+					document.title = ""+dday+" days until Ubuntu 14.04";
+					return
+				}
+			}
+			countdown(2014,04,17)
+		</script>
+	</body>
+</html>

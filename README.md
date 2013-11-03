@@ -1,4 +1,4 @@
-howtoubuntu.org
+How to Ubuntu
 ===============
 
-Ubuntu Tutorials and How to's 
+Ubuntu Tutorials and How to's
