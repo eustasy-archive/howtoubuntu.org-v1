@@ -16,11 +16,11 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 	<h2>How to Edit Dash Application Results</h2>
 
 	<div class="section group">
-		<div class="col span_5_of_11">
+		<div class="col span_1_of_3">
 			<p>When you search for something in the Unity Dash, you may wish to remove some of the applications listed, or add some that are either hidden by default, or simply don't exist.</p>
 		</div>
-		<div class="col span_1_of_11"><br></div>
-		<div class="col span_5_of_11">
+		<div class="col span_1_of_6"><br></div>
+		<div class="col span_1_of_2">
 			<div class="box">
 				<h3>Contents</h3>
 				<div class="section group">
