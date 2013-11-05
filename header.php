@@ -54,8 +54,8 @@
 		</div>
 		<nav class="section group span_1_of_1">
 			<div class="col span_1_of_3"><a href="<?php echo $Request['scheme'].'://'.$Request['host']; ?>/about">About</a></div>
-			<div class="col span_1_of_3"><a href="<?php echo $Request['scheme'].'://'.$Request['host']; ?>/contribute">Contribute</a></div>
 			<div class="col span_1_of_3"><a href="<?php echo $Request['scheme'].'://'.$Request['host']; ?>/countdown">Countdown</a></div>
+			<div class="col span_1_of_3"><a href="<?php echo $Request['scheme'].'://'.$Request['host']; ?>/contribute">Contribute</a></div>
 		</nav>
 	</header>
 

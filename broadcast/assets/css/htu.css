@@ -240,6 +240,7 @@ code, .code {
 	resize: none;
 }
 .code.resize { padding: 3% 3% 0 3%; }
+textarea.code { text-align: left; }
 
 .editable { color: #3a8ee6; }
 
@@ -413,11 +414,11 @@ input {
 	background: #fff;
 }
 textarea {
+	text-align: left;
 	width: 98%;
 	margin: 0 0 20px 0;
 	border: 1px solid #eee;
 	padding: 1%;
-	font-family: inherit;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
