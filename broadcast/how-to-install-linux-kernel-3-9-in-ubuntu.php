@@ -1,6 +1,6 @@
 <?php
 
-	$TextTitle = 'How to Install Linux Kernel 3.9 in Ubuntu';
+	$TextTitle = 'How to Install Linux Kernel 3.9';
 	$WebTitle = 'How to Install Linux Kernel 3.9 in Ubuntu';
 	$Canonical = 'how-to-install-linux-kernel-3-9-in-ubuntu';
 	$FeaturedImage = '';

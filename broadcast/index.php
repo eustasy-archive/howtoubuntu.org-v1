@@ -71,7 +71,7 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 		<div class="clear"></div>
 	</div>
 
-	<div class="content spanpage rocks">
+	<div class="content">
 		<div class="section group">
 			<div class="col span_1_of_2">
 				<div class="bubble equalize">
@@ -105,6 +105,5 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 				</div>
 			</div>
 		</div>
-		<div class="clear"></div>
 
 <?php require '../footer.php'; } ?>

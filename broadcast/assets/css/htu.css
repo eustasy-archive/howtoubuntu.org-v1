@@ -62,7 +62,6 @@ h2 {
 	font: 300 1.7em/1.4 Ubuntu,'lucida sans unicode','lucida grande','Trebuchet MS',verdana,arial,helvetica,helve,Sans;
 	color: #222222;
 	margin: .5em 0;
-	text-align: center;
 }
 .content h2,
 #content h2
@@ -74,14 +73,12 @@ h3 {
 	font: 300 1.5em/1.4 Ubuntu,'lucida sans unicode','lucida grande','Trebuchet MS',verdana,arial,helvetica,helve,Sans;
 	color: #222222;
 	margin: .5em 0;
-	text-align: center;
 }
 
 h4 {
 	font: 300 1.3em/1.25 Ubuntu,'lucida sans unicode','lucida grande','Trebuchet MS',verdana,arial,helvetica,helve,Sans;
 	color: #333333;
 	margin: 1em 0 .5em;
-	text-align: center;
 }
 
 h5 {
@@ -216,9 +213,9 @@ footer p { padding: 5px; }
 	border-radius: 3px;
 	display: inline-block;
 	margin: 0 auto;
+	text-align: center;
 }
-.download:hover { color: #fff; background: #3a8ee6; }
-.after-download { margin: 4% 0; }
+.download:hover { color: #fff; }
 .breaker {
 	clear: both;
 	height: 10px;
