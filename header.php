@@ -59,7 +59,7 @@
 		</nav>
 	</header>
 
-	<div id="content" class="top">
+	<div id="content" class="content top">
 
 		<div class="ad-banner">
 			<script src="//serve.adsi.st/javascript.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Banner&AdsistAdSize=Leaderboard"></script>

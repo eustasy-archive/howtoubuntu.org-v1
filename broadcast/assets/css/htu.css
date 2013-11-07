@@ -29,12 +29,14 @@ footer {
 	border-top: 6px solid #ddd;
 	-webkit-border-radius: 12px 12px 0 0;
 	border-radius: 12px 12px 0 0;
+	padding: 1px 2% 2%;
 }
 .bottom {
 	border-bottom: 6px solid #ddd;
 	-webkit-border-radius: 0 0 12px 12px;
 	border-radius: 0 0 12px 12px;
 	min-height: 12px;
+	padding: 1px 2%;
 }
 .last {
 	padding: 6% 2%;
@@ -49,6 +51,9 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: Ubuntu, MuseoSlab300, 'lucida sans unicode', 'lucida grande', 'Trebuchet MS', verdana, arial, helvetica, helve, sans-serif;
 	font-weight: 300;
 	margin: 0;
+	margin-left: 10px !important;
+	margin-right: 10px !important;
+	padding: 0;
 }
 
 h1 {
