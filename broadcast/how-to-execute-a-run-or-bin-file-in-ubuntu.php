@@ -13,11 +13,11 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 
 	require '../header.php'; ?>
 
-	<h2>How to Execute a .Run or .Bin file</h2>
-
 	<div class="section group">
 		<div class="col span_3_of_11"><br></div>
-		<div class="col span_5_of_11"><p>.Run or .Bin files are probably the only file types you will ever need to mark as executable in normal use of Ubuntu. There are two ways to execute them (which usually installs something), either in the terminal, or graphically (which usually relies on the terminal somewhat as well). Whichever you choose, read the red warnings below.</p>
+		<div class="col span_5_of_11">
+			<h2>How to Execute a .Run or .Bin file</h2>
+			<p>.Run or .Bin files are probably the only file types you will ever need to mark as executable in normal use of Ubuntu. There are two ways to execute them (which usually installs something), either in the terminal, or graphically (which usually relies on the terminal somewhat as well). Whichever you choose, read the red warnings below.</p>
 		</div>
 		<div class="col span_3_of_11"><br></div>
 	</div>

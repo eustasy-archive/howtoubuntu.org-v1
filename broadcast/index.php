@@ -42,6 +42,7 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 					<h2>About Ubuntu</h2>
 					<?php
 						$items = glob('about-ubuntu-*.php');
+						array_multisort(array_map('filemtime', $items), SORT_NUMERIC, SORT_DESC, $items);
 						$i = 0;
 						foreach($items as $entry) {
 							if($i==3) break;
@@ -57,6 +58,7 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 					<h2>Install Ubuntu</h2>
 					<?php
 						$items = glob('how-to-install-ubuntu-*.php');
+						array_multisort(array_map('filemtime', $items), SORT_NUMERIC, SORT_DESC, $items);
 						$i = 0;
 						foreach($items as $entry) {
 							if($i==3) break;
@@ -74,35 +76,31 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 	<div class="content">
 		<div class="section group">
 			<div class="col span_1_of_2">
-				<div class="bubble equalize">
-					<h2>Kernels</h2>
-					<?php
-						$items = glob('how-to-install-linux-kernel-*.php', GLOB_NOSORT);
-						array_multisort(array_map('filemtime', $items), SORT_NUMERIC, SORT_DESC, $items);
-						$i = 0;
-						foreach($items as $entry) {
-							if($i==3) break;
-							require $entry;
-							echo '<h3><a href="'.$Request['scheme'].'://'.$Request['host'].'/'.$Canonical.'">' . $TextTitle . '</a></h3>';
-							$i++;
-						}
-					?>
-				</div>
+				<h2>Kernels</h2>
+				<?php
+					$items = glob('how-to-install-linux-kernel-*.php', GLOB_NOSORT);
+					array_multisort(array_map('filemtime', $items), SORT_NUMERIC, SORT_DESC, $items);
+					$i = 0;
+					foreach($items as $entry) {
+						if($i==3) break;
+						require $entry;
+						echo '<h3><a href="'.$Request['scheme'].'://'.$Request['host'].'/'.$Canonical.'">' . $TextTitle . '</a></h3>';
+						$i++;
+					}
+				?>
 			</div>
 			<div class="col span_1_of_2">
-				<div class="bubble equalize">
-					<h2>Latest Video</h2>
-					<?php
-						$items = glob('video-*.php', GLOB_NOSORT);
-						array_multisort(array_map('filemtime', $items), SORT_NUMERIC, SORT_DESC, $items);
-						foreach($items as $entry) {
-							require $entry;
-							echo '<h3><a href="'.$Request['scheme'].'://'.$Request['host'].'/'.$Canonical.'">' . $TextTitle . '</a></h3>';
-							echo $Video;
-							break;
-						}
-					?>
-				</div>
+				<h2>Latest Video</h2>
+				<?php
+					$items = glob('video-*.php', GLOB_NOSORT);
+					array_multisort(array_map('filemtime', $items), SORT_NUMERIC, SORT_DESC, $items);
+					foreach($items as $entry) {
+						require $entry;
+						echo '<h3><a href="'.$Request['scheme'].'://'.$Request['host'].'/'.$Canonical.'">' . $TextTitle . '</a></h3>';
+						echo $Video;
+						break;
+					}
+				?>
 			</div>
 		</div>
 
