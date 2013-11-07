@@ -21,15 +21,6 @@
 				<a class="addthis_button_google_plusone" g:plusone:size="tall"></a>
 				<a class="addthis_counter"></a>
 			</div>
-			<script>
-				var addthis_config = {
-					"data_track_addressbar": true,
-					ui_offset_top: 100,
-					data_ga_property: 'UA-28932148-2',
-				data_ga_social: true
-				};
-			</script>
-			<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f4687845b292fed"></script>
 			<h3>Share and find us elsewhere</h3>
 			<div class="addthis_toolbox addthis_32x32_style addthis_default_style" style="margin: 3% auto; width: 150px;">
 				<a class="addthis_button_facebook_follow" addthis:userid="howtoubuntu"></a>
@@ -39,17 +30,6 @@
 			</div>
 			<h3>Trending</h3>
 			<div id="addthis_trendingcontent" style="margin: 0 auto; text-align: center;"></div>
-			<script>
-				addthis.box("#addthis_trendingcontent", {
-					feed_title : "",
-					feed_type : "trending",
-					feed_period : "month",
-					num_links : 7,
-					remove : "  ·  How to Ubuntu",
-					height : "auto",
-					width : "auto"
-				});
-			</script>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -93,9 +73,18 @@
 
 	</footer>
 
+	<!-- AdCheck -->
+	<script src="<?php echo $Request['scheme'].'://'.$Request['host']; ?>/assets/js/ad.js"></script>
+
 	<!-- jQuery -->
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="<?php echo $Request['scheme'].'://'.$Request['host']; ?>/assets/js/jquery-1.10.2.min.js"><\/script>')</script>
+
+	<!-- Code select-all functions -->
+	<script>$('input.code').one('click', function() { $(this).select(); });</script>
+	<script>$('input.code').dblclick(function() { $(this).select(); });</script>
+	<script>$('textarea.code').one('click', function() { $(this).select(); });</script>
+	<script>$('textarea.code').dblclick(function() { $(this).select(); });</script>
 
 	<!-- Equalize Bubbles -->
 	<script src="<?php echo $Request['scheme'].'://'.$Request['host']; ?>/assets/js/jquery.equalize.min.js"></script>
@@ -104,15 +93,53 @@
 	<script src="<?php echo $Request['scheme'].'://'.$Request['host']; ?>/assets/js/jquery.autosize.min.js"></script>
 	<script>$('textarea.resize').autosize();</script>
 
-	<!-- Code select-all functions -->
-	<script>$('input.code').one('click', function() { $(this).select(); });</script>
-	<script>$('input.code').dblclick(function() { $(this).select(); });</script>
-	<script>$('textarea.code').one('click', function() { $(this).select(); });</script>
-	<script>$('textarea.code').dblclick(function() { $(this).select(); });</script>
+	<!-- Fancybox -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.pack.js"></script>
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.css" media="screen">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-media.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('.fancybox').fancybox();
+			$('.fancybox-media').fancybox({
+				openEffect  : 'none',
+				closeEffect : 'none',
+				'padding'	: 0,
+				width		: 1072,
+				height		: 603,
+				helpers : {
+					media : {}
+				}
+			});
+		});
+	</script>
 
-	<script src="<?php echo $Request['scheme'].'://'.$Request['host']; ?>/assets/js/ad.js"></script>
+	<!-- AddThis Config -->
+	<script>
+		var addthis_config = {
+			'data_track_addressbar': true,
+			ui_offset_top: 100,
+			data_ga_property: 'UA-28932148-2',
+			data_ga_social: true
+		};
+	</script>
 
-	<!-- AddThis Smart Layers -->
+	<!-- AddThis Load -->
+	<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f4687845b292fed"></script>
+
+	<!-- AddThis Trending -->
+	<script>
+		addthis.box("#addthis_trendingcontent", {
+			feed_title : "",
+			feed_type : "trending",
+			feed_period : "month",
+			num_links : 7,
+			remove : "  ·  How to Ubuntu",
+			height : "auto",
+			width : "auto"
+		});
+	</script>
+
+	<!-- AddThis Smart Layers (Share, Follow, Recommended) -->
 	<script>
 		addthis.layers({
 			'theme' : 'transparent',
@@ -122,40 +149,76 @@
 			},
 			'follow' : {
 				'services' : [
-				{'service': 'facebook', 'id': 'howtoubuntu'},
-				{'service': 'twitter', 'id': 'htubuntu'},
-				{'service': 'google_follow', 'id': '117279225305045556184'}
+					{'service': 'facebook', 'id': 'howtoubuntu'},
+					{'service': 'twitter', 'id': 'htubuntu'},
+					{'service': 'google_follow', 'id': '117279225305045556184'},
+					{'service': 'youtube', 'id': 'eustasyv'}
 				]
 			},
-			'whatsnext' : {},
-			'recommended' : {
-				'title': 'Recommended for you:'
-			}
+			'whatsnext' : {}
 		});
 	</script>
 
-	<!-- Fancybox -->
-	<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.pack.js"></script>
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.css" media="screen">
-	<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-media.js"></script>
-	<script type="text/javascript">
-	$(document).ready(function() {
-		$('.fancybox').fancybox();
-		$('.fancybox-media').fancybox({
-			openEffect  : 'none',
-			closeEffect : 'none',
-			'padding'	: 0,
-			width		: 1072,
-			height		: 603,
-			helpers : {
-				media : {}
-			}
-		});
-	});
+	<!-- AddThis Bar -->
+	<script>
+		addthis.bar.initialize({
+			"default": {
+				backgroundColor: "#111",
+				buttonColor: "#098DF4",
+				textColor: "#FFFFFF",
+				buttonTextColor: "#FFFFFF"
+			},
+			rules: [{
+				name: "Twitter",
+				match: {
+					referringService: "twitter"
+				},
+				message: "If you find this page helpful, please",
+				action: {
+					type: "button",
+					text: "Tweet it!",
+					verb: "share",
+					service: "twitter"
+				}
+			}, {
+				name: "Facebook",
+				match: {
+					referringService: "facebook"
+				},
+				message: "If you find this page helpful, please",
+				action: {
+					type: "button",
+					text: "Share on Facebook",
+					verb: "share",
+					service: "facebook"
+				}
+			}, {
+				name: "Google",
+				match: {
+					referrer: "google.com"
+				},
+				message: "If you find this page helpful, please",
+				action: {
+					type: "button",
+					text: "+1",
+					verb: "share",
+					service: "google_plusone"
+				}
+			}, {
+				name: "Google Plus",
+				match: {
+					referrer: "plus.google.com"
+				},
+				message: "If you find this page helpful, please",
+				action: {
+					type: "button",
+					text: "+1",
+					verb: "share",
+					service: "google_plusone"
+				}
+			}]
+		})
 	</script>
-
-	<!-- Social by AddThis -->
-	<script>addthis.bar.initialize({"default":{backgroundColor:"#111",buttonColor:"#098DF4",textColor:"#FFFFFF",buttonTextColor:"#FFFFFF"},rules:[{name:"Twitter",match:{referringService:"twitter"},message:"If you find this page helpful, please",action:{type:"button",text:"Tweet it!",verb:"share",service:"twitter"}},{name:"Facebook",match:{referringService:"facebook"},message:"If you find this page helpful, please",action:{type:"button",text:"Share on Facebook",verb:"share",service:"facebook"}},{name:"Google",match:{referrer:"google.com"},message:"If you find this page helpful, please",action:{type:"button",text:"+1",verb:"share",service:"google_plusone"}},{name:"Google Plus",match:{referrer:"plus.google.com"},message:"If you find this page helpful, please",action:{type:"button",text:"+1",verb:"share",service:"google_plusone_share"}}]})</script>
 
 </body>
 </html>
