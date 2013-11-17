@@ -198,9 +198,9 @@ footer p { padding: 5px; }
 	padding: 1px 3px;
 }
 
-.general { background: #eee; border-radius: 3px; }
-.warning { background: #DF382C; color: #ffffff; border-radius: 3px; }
-.info { background: #3a8ee6; color: #ffffff; border-radius: 3px; }
+.general { background: #eee; border-radius: 3px; padding: 1%; }
+.warning { background: #DF382C; color: #ffffff; border-radius: 3px; padding: 1%; }
+.info { background: #3a8ee6; color: #ffffff; border-radius: 3px; padding: 1%; }
 .warning h3, .info h3, .warning h4, .info h4 { color: #ffffff; }
 .warning a, .info a { color: #efefef; }
 .warning a:hover, .info a:hover { color: #ffffff; }

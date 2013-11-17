@@ -38,5 +38,4 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 		</div>
 	</div>
 
-
 <?php require '../footer.php'; } ?>
