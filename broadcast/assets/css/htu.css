@@ -262,7 +262,7 @@ p.intro, p.important {
 	margin-bottom: .5em;
 }
 p, ol, ul, dl, address {
-	margin-bottom: 1em;
+	margin: .5em 0;
 	font-size: .9em;
 }
 ul { list-style: disc; }
