@@ -62,6 +62,7 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 			<p>A pop-up will appear over the Skype window, tick the check-box to allow the Skype Wrapper to access Skype all the time.</p>
 		</div>
 	</div>
+	<br>
 	<h3>Congratulations, you have just Installed Skype Wrapper and Integrated Skype into Ubuntu!</h3>
 
 <?php require '../footer.php'; } ?>
