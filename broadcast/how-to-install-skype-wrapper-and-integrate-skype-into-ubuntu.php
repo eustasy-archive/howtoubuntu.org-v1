@@ -13,7 +13,7 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 
 	require '../header.php'; ?>
 
-	<h2>How to Install Skype Wrapper and Integrate Skype into Ubuntu<h2>
+	<h2>How to Install Skype Wrapper and Integrate Skype into Ubuntu</h2>
 
 	<div class="section group">
 		<div class="col span_1_of_2">
