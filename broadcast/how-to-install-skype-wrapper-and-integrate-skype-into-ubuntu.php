@@ -1,6 +1,6 @@
 <?php
 
-	$TextTitle = 'How to Install Skype Wrapper and Integrate Skype into Ubuntu';
+	$TextTitle = 'How to Install Skype Wrapper and Integrate Skype';
 	$WebTitle = 'How to Install Skype Wrapper and Integrate Skype into Ubuntu';
 	$Canonical = 'how-to-install-skype-wrapper-and-integrate-skype-into-ubuntu';
 	$FeaturedImage = '';
