@@ -5,6 +5,23 @@
 	<div class="section group content bottom"></div>
 
 	<div class="section group content last">
+		<div class="col span_2_of_3">
+			<div class="addthis_toolbox addthis_default_style addthis_counter_style" style="margin: .5em;">
+				<a class="addthis_button_facebook_like" fb:like:layout="box_count"></a>
+				<a class="addthis_button_tweet" tw:count="vertical"></a>
+				<a class="addthis_button_google_plusone" g:plusone:size="tall"></a>
+				<a class="addthis_counter"></a>
+			</div>
+			<h3>Share and find us elsewhere</h3>
+			<div class="addthis_toolbox addthis_32x32_style addthis_default_style" style="margin: .5em;">
+				<a class="addthis_button_facebook_follow" addthis:userid="howtoubuntu"></a>
+				<a class="addthis_button_twitter_follow" addthis:userid="htubuntu"></a>
+				<a class="addthis_button_google_follow" addthis:userid="117279225305045556184"></a>
+				<a class="addthis_button_youtube_follow" addthis:userid="eustasyv"></a>
+			</div>
+			<h3>Trending</h3>
+			<div id="addthis_trendingcontent" style="margin: 0; text-align: left;"></div>
+		</div>
 		<div class="col span_1_of_3">
 			<div class="ad-skyscraper">
 				<script src="//serve.adsi.st/javascript.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Rectangle&AdsistAdSize=Large"></script>
@@ -13,23 +30,6 @@
 				<noscript><iframe src="//serve.adsi.st/iframe.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Rectangle&AdsistAdSize=Large"></iframe></noscript>
 				<p class="about-ads"><a href="http://eustasy.org/advertisements">Why are there ads?</a></p>
 			</div>
-		</div>
-		<div class="col span_2_of_3">
-			<div class="addthis_toolbox addthis_default_style addthis_counter_style" style="margin: 3% auto; width: 225px;">
-				<a class="addthis_button_facebook_like" fb:like:layout="box_count"></a>
-				<a class="addthis_button_tweet" tw:count="vertical"></a>
-				<a class="addthis_button_google_plusone" g:plusone:size="tall"></a>
-				<a class="addthis_counter"></a>
-			</div>
-			<h3>Share and find us elsewhere</h3>
-			<div class="addthis_toolbox addthis_32x32_style addthis_default_style" style="margin: 3% auto; width: 150px;">
-				<a class="addthis_button_facebook_follow" addthis:userid="howtoubuntu"></a>
-				<a class="addthis_button_twitter_follow" addthis:userid="htubuntu"></a>
-				<a class="addthis_button_google_follow" addthis:userid="117279225305045556184"></a>
-				<a class="addthis_button_youtube_follow" addthis:userid="eustasyv"></a>
-			</div>
-			<h3>Trending</h3>
-			<div id="addthis_trendingcontent" style="margin: 0 auto; text-align: center;"></div>
 		</div>
 		<div class="clear"></div>
 	</div>
