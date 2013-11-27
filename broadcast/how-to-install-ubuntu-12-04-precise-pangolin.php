@@ -1,6 +1,6 @@
 <?php
 
-	$TextTitle = 'How to Install Ubuntu 12.04 Precise Pangolin';
+	$TextTitle = 'Install Ubuntu 12.04 Precise Pangolin';
 	$WebTitle = 'How to Install Ubuntu 12.04 Precise Pangolin';
 	$Canonical = 'how-to-install-ubuntu-12-04-precise-pangolin';
 	$FeaturedImage = '';
