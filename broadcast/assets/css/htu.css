@@ -231,7 +231,10 @@ code, .code {
 	color: #FAFAFA;
 	font: 400 1em/1.5em 'Ubuntu Mono',monospace;
 	border: none;
+	-webkit-border-radius: 3px;
 	border-radius: 3px;
+	text-align: left;
+	text-area
 	outline: 0px;
 	width: 94%;
 	padding: 3%;
@@ -241,7 +244,6 @@ code, .code {
 	resize: none;
 }
 .code.resize { padding: 3% 3% 0 3%; }
-textarea.code { text-align: left; }
 
 .editable { color: #3a8ee6; }
 
