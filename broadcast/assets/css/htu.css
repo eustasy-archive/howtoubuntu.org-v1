@@ -230,7 +230,6 @@ footer p { padding: 5px; }
 code, .code {
 	color: #FAFAFA;
 	font: 400 1em/1.5em 'Ubuntu Mono',monospace;
-	text-align: center;
 	border: none;
 	border-radius: 3px;
 	outline: 0px;
