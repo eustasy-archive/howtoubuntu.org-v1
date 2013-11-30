@@ -27,6 +27,8 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 			<h3 id="easy">Ease of Use</h3>
 			<p>We aim to make this site, and it's tutorials, easy for everyone to use, navigate, and execute regardless of placement, language, eyesight, hearing, manual dexterity, or experience.</p>
 		</div>
+	</div>
+	<div class="section group">
 		<div class="col span_1_of_2">
 			<h3 id="relevancy">Relevancy</h3>
 			<p>To keep this site relevant in a rapidly evolving landscape, all tutorials will be checked and marked for more recent versions as they are released.Replacements will be created and linked as necessary.</p>
