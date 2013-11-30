@@ -28,7 +28,7 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 			<p>Mount the partition your Ubuntu Installation is on. If you are not sure which it is, launch <span class="box">GParted</span> (included in the Live CD) and find out. It is usually a EXT4 Partition. Replace the XY with the drive letter, and partition number, for example: <span class="box">sudo mount <span class="editable">/dev/sda5</span> /mnt</span>.</p>
 			<code>sudo mount <span class="editable">/dev/sdXY</span> /mnt</code>
 			<p>Now bind the directories that grub needs access to to detect other operating systems, like so.</p>
-			<textarea class="code">sudo mount --bind /dev /mnt/dev &&
+			<textarea class="code resize">sudo mount --bind /dev /mnt/dev &&
 sudo mount --bind /dev/pts /mnt/dev/pts &&
 sudo mount --bind /proc /mnt/proc &&
 sudo mount --bind /sys /mnt/sys</textarea>
@@ -40,7 +40,7 @@ sudo mount --bind /sys /mnt/sys</textarea>
 			<code>grub-install --recheck <span class="editable">/dev/sdX</span></code>
 			<input class="code" value="update-grub" />
 			<p>Now grub is back, all that is left is to exit the chrooted system and unmount everything.</p>
-			<textarea class="code">exit &&
+			<textarea class="code resize">exit &&
 sudo umount /mnt/dev &&
 sudo umount /mnt/dev/pts &&
 sudo umount /mnt/proc &&
