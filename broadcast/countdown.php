@@ -13,11 +13,10 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 
 	require '../header.php'; ?>
 
-	<h2>Countdown</h2>
-
 	<div class="section group">
 		<div class="col span_1_of_6"><br></div>
 		<div class="col span_4_of_6">
+			<h2>Countdown</h2>
 			<iframe style="float: left; width: 270px; height: 42px; border: none;" src="http://howtoubuntu.org/count.html"></iframe>
 			<p>If you want to embed our countdown on your website, blog or space station, then just copy and paste this code into your theme / sidebar / supercomputer.</p>
 			<input class="code" type="text" value='&lt;iframe style="float: left; width: 270px; height: 42px; border: none;" src="http://howtoubuntu.org/count.html"&gt;&lt;/iframe&gt;'>
