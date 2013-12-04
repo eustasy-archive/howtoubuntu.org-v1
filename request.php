@@ -16,4 +16,6 @@
 		header ('Location: '.$Request['scheme'].'://'.$Request['host'].'/'.$Canonical);
 	}
 
+	$pages = array('all.php', 'about.php', 'contact.php', 'contribute.php', 'countdown.php', 'index.php');
+
 ?>

@@ -1,6 +1,6 @@
 <?php
 
-	$TextTitle = '';
+	$TextTitle = 'Ubuntu Tutorials and How to\'s';
 	$WebTitle = 'Ubuntu Tutorials and How to\'s';
 	$Canonical = '';
 	$FeaturedImage = '';
@@ -21,7 +21,7 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 				$i = 0;
 				foreach($items as $entry) {
 					if($i==3) break;
-					if ($entry != 'about.php' && $entry != 'contact.php' && $entry != 'contribute.php' && $entry != 'countdown.php' &&  $entry != 'index.php') {
+					if (!in_array($entry, $pages)) {
 						require $entry;
 						echo '
 			<div class="col span_1_of_3">
@@ -33,40 +33,23 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 				}
 			?>
 		</div>
+		<h5 class="textright"><a href="all">All Tutorials &raquo;</a></h5>
 	</div>
 
 	<div class="content spanpage latest">
 		<div class="section group">
 			<div class="col span_1_of_2">
 				<div class="bubble equalize">
-					<h2>About Ubuntu</h2>
-					<?php
-						$items = glob('about-ubuntu-*.php');
-						array_multisort(array_map('filemtime', $items), SORT_NUMERIC, SORT_DESC, $items);
-						$i = 0;
-						foreach($items as $entry) {
-							if($i==3) break;
-							require $entry;
-							echo '<h3><a href="'.$Request['scheme'].'://'.$Request['host'].'/'.$Canonical.'">' . $TextTitle . '</a></h3>';
-							$i++;
-						}
-					?>
+					<h2>Install Ubuntu</h2>
+					<h3><a href="how-to-install-ubuntu-13-10-saucy-salamander">Install Ubuntu 13.10 Saucy Salamander</a></h3>
+					<h3><a href="how-to-install-ubuntu-12-04-precise-pangolin">Install Ubuntu 12.04 Precise Pangolin</a></h3>
 				</div>
 			</div>
 			<div class="col span_1_of_2">
 				<div class="bubble equalize">
-					<h2>Install Ubuntu</h2>
-					<?php
-						$items = glob('how-to-install-ubuntu-*.php');
-						array_multisort(array_map('filemtime', $items), SORT_NUMERIC, SORT_DESC, $items);
-						$i = 0;
-						foreach($items as $entry) {
-							if($i==3) break;
-							require $entry;
-							echo '<h3><a href="'.$Request['scheme'].'://'.$Request['host'].'/'.$Canonical.'">' . $TextTitle . '</a></h3>';
-							$i++;
-						}
-					?>
+					<h2>Things to do after Installing</h2>
+					<h3><a href="things-to-do-after-installing-ubuntu-13-10-saucy-salamander">After Installing Ubuntu 13.10</a></h3>
+					<h3><a href="things-to-do-after-installing-ubuntu-12-04-precise-pangolin">After Installing Ubuntu 12.04</a></h3>
 				</div>
 			</div>
 		</div>
