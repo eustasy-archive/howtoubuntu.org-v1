@@ -25,7 +25,7 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 			</div>
 			<br>
 			<h3 id="terminal">Terminal Commands</h3>
-			<p>Mount the partition your Ubuntu Installation is on. If you are not sure which it is, launch <span class="box">GParted</span> (included in the Live CD) and find out. It is usually a EXT4 Partition. Replace the XY with the drive letter, and partition number, for example: <span class="box">sudo mount <span class="editable">/dev/sda5</span> /mnt</span>.</p>
+			<p>Mount the partition your Ubuntu Installation is on. If you are not sure which it is, launch <span class="box">GParted</span> (included in the Live CD) and find out. It is usually a EXT4 Partition. Replace the XY with the drive letter, and partition number, for example: <span class="box">sudo mount <span class="editable">/dev/sda1</span> /mnt</span>.</p>
 			<code>sudo mount <span class="editable">/dev/sdXY</span> /mnt</code>
 			<p>Now bind the directories that grub needs access to to detect other operating systems, like so.</p>
 			<textarea class="code resize">sudo mount --bind /dev /mnt/dev &&
