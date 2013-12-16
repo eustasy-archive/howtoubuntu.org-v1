@@ -1,1 +1,1 @@
-_trackEvent('Adverts', 'Enabled',);
+ga('send', 'event', 'Adverts', 'Enabled');
