@@ -14,10 +14,10 @@
 			</div>
 			<h3>Share and find us elsewhere</h3>
 			<div class="addthis_toolbox addthis_32x32_style addthis_default_style" style="margin: .5em;">
-				<a class="addthis_button_facebook_follow" addthis:userid="howtoubuntu"></a>
+				<a class="addthis_button_google_follow" addthis:userid="+HowtoUbuntuOrg"></a>
 				<a class="addthis_button_twitter_follow" addthis:userid="htubuntu"></a>
-				<a class="addthis_button_google_follow" addthis:userid="117279225305045556184"></a>
-				<a class="addthis_button_youtube_follow" addthis:userid="eustasyv"></a>
+				<a class="addthis_button_facebook_follow" addthis:userid="howtoubuntu"></a>
+				<a class="addthis_button_youtube_follow" addthis:userid="HowtoUbuntuOrg"></a>
 			</div>
 			<h3>Trending</h3>
 			<div id="addthis_trendingcontent" style="margin: 0; text-align: left;"></div>
@@ -150,10 +150,10 @@
 			},
 			'follow' : {
 				'services' : [
+					{'service': 'google_follow', 'id': '+HowtoUbuntuOrg'},
 					{'service': 'facebook', 'id': 'howtoubuntu'},
 					{'service': 'twitter', 'id': 'htubuntu'},
-					{'service': 'google_follow', 'id': '117279225305045556184'},
-					{'service': 'youtube', 'id': 'eustasyv'}
+					{'service': 'youtube', 'id': 'HowtoUbuntuOrg'}
 				]
 			},
 			'whatsnext' : {}
