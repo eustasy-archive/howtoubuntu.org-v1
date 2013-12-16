@@ -145,7 +145,8 @@
 			'theme' : 'transparent',
 			'share' : {
 				'position' : 'right',
-				'numPreferredServices' : 6
+				'numPreferredServices' : 6,
+				//'services' : 'google_plusone_share,twitter,facebook,more'
 			},
 			'follow' : {
 				'services' : [
