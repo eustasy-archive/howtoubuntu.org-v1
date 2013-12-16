@@ -1,1 +1,1 @@
-_gaq.push(['_trackEvent', 'Adverts', 'Enabled']);
+_trackEvent('Adverts', 'Enabled',);
