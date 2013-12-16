@@ -77,8 +77,14 @@
 	<script src="<?php echo $Request['scheme'].'://'.$Request['host']; ?>/assets/js/ad.js"></script>
 
 	<!-- jQuery -->
-	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script>window.jQuery || document.write('<script src="<?php echo $Request['scheme'].'://'.$Request['host']; ?>/assets/js/jquery-1.10.2.min.js"><\/script>')</script>
+	<!--[if lt IE 9]>
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript">window.jQuery || document.write('<script src="<?php echo $Request['scheme'].'://'.$Request['host']; ?>/assets/js/jquery-1.10.2.min.js"><\/script>');</script>
+	<![endif]-->
+	<!--[if IE 9]><!-->
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="<?php echo $Request['scheme'].'://'.$Request['host']; ?>/assets/js/jquery-2.0.3.min.js"><\/script>');</script>
+	<!--<![endif]-->
 
 	<!-- Code select-all functions -->
 	<script>$('input.code').one('click', function() { $(this).select(); });</script>
@@ -128,14 +134,14 @@
 
 	<!-- AddThis Trending -->
 	<script>
-		addthis.box("#addthis_trendingcontent", {
-			feed_title : "",
-			feed_type : "trending",
-			feed_period : "month",
+		addthis.box('#addthis_trendingcontent', {
+			feed_title : '',
+			feed_type : 'trending',
+			feed_period : 'month',
 			num_links : 7,
-			remove : "  ·  How to Ubuntu",
-			height : "auto",
-			width : "auto"
+			remove : '  ·  How to Ubuntu',
+			height : 'auto',
+			width : 'auto'
 		});
 	</script>
 
@@ -151,8 +157,8 @@
 			'follow' : {
 				'services' : [
 					{'service': 'google_follow', 'id': '+HowtoUbuntuOrg'},
-					{'service': 'facebook', 'id': 'howtoubuntu'},
 					{'service': 'twitter', 'id': 'htubuntu'},
+					{'service': 'facebook', 'id': 'howtoubuntu'},
 					{'service': 'youtube', 'id': 'HowtoUbuntuOrg'}
 				]
 			},
@@ -163,59 +169,59 @@
 	<!-- AddThis Bar -->
 	<script>
 		addthis.bar.initialize({
-			"default": {
-				backgroundColor: "#111",
-				buttonColor: "#098DF4",
-				textColor: "#FFFFFF",
-				buttonTextColor: "#FFFFFF"
+			'default': {
+				backgroundColor: '#111',
+				buttonColor: '#098DF4',
+				textColor: '#FFFFFF',
+				buttonTextColor: '#FFFFFF'
 			},
 			rules: [{
-				name: "Twitter",
+				name: 'Twitter',
 				match: {
-					referringService: "twitter"
+					referringService: 'twitter'
 				},
-				message: "If you find this page helpful, please",
+				message: 'If you find this page helpful, please',
 				action: {
-					type: "button",
-					text: "Tweet it!",
-					verb: "share",
-					service: "twitter"
+					type: 'button',
+					text: 'Tweet it!',
+					verb: 'share',
+					service: 'twitter'
 				}
 			}, {
-				name: "Facebook",
+				name: 'Facebook',
 				match: {
-					referringService: "facebook"
+					referringService: 'facebook'
 				},
-				message: "If you find this page helpful, please",
+				message: 'If you find this page helpful, please',
 				action: {
-					type: "button",
-					text: "Share on Facebook",
-					verb: "share",
-					service: "facebook"
+					type: 'button',
+					text: 'Share on Facebook',
+					verb: 'share',
+					service: 'facebook'
 				}
 			}, {
-				name: "Google",
+				name: 'Google',
 				match: {
-					referrer: "google.com"
+					referrer: 'google.com'
 				},
-				message: "If you find this page helpful, please",
+				message: 'If you find this page helpful, please',
 				action: {
-					type: "button",
-					text: "+1",
-					verb: "share",
-					service: "google_plusone"
+					type: 'button',
+					text: '+1',
+					verb: 'share',
+					service: 'google_plusone'
 				}
 			}, {
-				name: "Google Plus",
+				name: 'Google Plus',
 				match: {
-					referrer: "plus.google.com"
+					referrer: 'plus.google.com'
 				},
-				message: "If you find this page helpful, please",
+				message: 'If you find this page helpful, please',
 				action: {
-					type: "button",
-					text: "+1",
-					verb: "share",
-					service: "google_plusone"
+					type: 'button',
+					text: '+1',
+					verb: 'share',
+					service: 'google_plusone'
 				}
 			}]
 		})
