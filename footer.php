@@ -28,7 +28,7 @@
 				<noscript><iframe src="//serve.adsi.st/iframe.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Rectangle&AdsistAdSize=Large"></iframe></noscript>
 				<script src="//serve.adsi.st/javascript.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Rectangle&AdsistAdSize=Large"></script>
 				<noscript><iframe src="//serve.adsi.st/iframe.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Rectangle&AdsistAdSize=Large"></iframe></noscript>
-				<p class="about-ads"><a href="http://eustasy.org/advertisements">Why are there ads?</a></p>
+				<p class="about-ads">Advertisement <a href="http://eustasy.org/advertisements">Why are there ads?</a></p>
 			</div>
 		</div>
 		<div class="clear"></div>

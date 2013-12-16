@@ -163,11 +163,15 @@ footer p { padding: 5px; }
 }
 .about-ads {
 	margin: 0;
-	text-align: right;
 	color: #AEA79F;
+	padding-left: 0;
+	padding-right: 0;
 	font: 400 .8em/1 Ubuntu,'lucida sans unicode','lucida grande','Trebuchet MS',verdana,arial,helvetica,helve,Sans;
 }
-.about-ads a { color: #AEA79F; }
+.about-ads a {
+	color: #AEA79F;
+	float: right;
+}
 .about-ads a:hover { color: #DD4814; }
 @media only screen and ( max-width: 800px ){ .ad-banner { width: 320px; min-height: 71px; } }
 

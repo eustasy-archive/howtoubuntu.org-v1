@@ -24,8 +24,6 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 						if($i%3==0) echo '
 			</div>
 			<div class="section group">';
-
-							echo $Video;
 						require $entry;
 						echo '
 			<div class="col span_1_of_3">

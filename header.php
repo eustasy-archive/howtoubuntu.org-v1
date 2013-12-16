@@ -71,5 +71,5 @@
 		<div class="ad-banner">
 			<script src="//serve.adsi.st/javascript.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Banner&AdsistAdSize=Leaderboard"></script>
 			<noscript><iframe src="//serve.adsi.st/iframe.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Banner&AdsistAdSize=Leaderboard"></iframe></noscript>
-			<p class="right about-ads"><a href="http://eustasy.org/advertisements">Why are there ads?</a></p>
+			<p class="about-ads">Advertisement <a href="http://eustasy.org/advertisements">Why are there ads?</a></p>
 		</div>
