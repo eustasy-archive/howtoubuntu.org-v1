@@ -23,15 +23,14 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 				foreach($items as $entry) {
 					if(!in_array($entry, $pages)) {
 						require $entry;
-						if($PostType=='Post'){
+						if($PostType=='Post') {
 							echo '
 			<div class="col span_1_of_3">
 				<h2><a href="'.$Request['scheme'].'://'.$Request['host'].'/'.$Canonical.'">' . $TextTitle . '</a></h2>
 				<p>' . $Description . '</p>
 			</div>';
-							if ($loop==3) break;
 							$loop = $loop + 1;
-							}
+							if ($loop==3) break;
 						}
 					}
 				}
