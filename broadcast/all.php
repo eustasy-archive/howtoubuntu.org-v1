@@ -15,27 +15,45 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 	require '../header.php'; ?>
 
 		<h2>All Tutorials</h2>
+		<div class="breaker"></div>
 		<div class="section group">
 			<?php
 				$items = glob('*.php', GLOB_NOSORT);
 				array_multisort(array_map('filemtime', $items), SORT_NUMERIC, SORT_DESC, $items);
 				$i = 0;
 				foreach($items as $entry) {
-					if (!in_array($entry, $pages)&&substr($entry, 0, 6)!='video-') {
-						if($i%3==0) echo '
-			</div>
-			<div class="section group">';
+					if(!in_array($entry, $pages) && substr($entry, 0, 6)!='video-') {
 						require $entry;
-						echo '
+						if($PostType=='Post') {
+							echo '
 			<div class="col span_1_of_3">
 				<h3><a href="'.$Request['scheme'].'://'.$Request['host'].'/'.$Canonical.'">' . $TextTitle . '</a></h3>
-				<p>'.$Description.'</p>
+				<p>' . $Description . '</p>
 			</div>';
-						$i++;
+							$i++;
+							if($i%3==0) echo '
+		</div>
+		<div class="breaker"></div>
+		<div class="section group">';
+						}
+					} else if(!in_array($entry, $pages) && substr($entry, 0, 6)=='video-') {
+						require $entry;
+						if($PostType=='Post') {
+							echo '
+			<div class="col span_1_of_3">
+				<h3><a href="'.$Request['scheme'].'://'.$Request['host'].'/'.$Canonical.'">' . $TextTitle . '</a></h3>
+				'.$Video.'
+			</div>';
+							$i++;
+							if($i%3==0) echo '
+		</div>
+		<div class="breaker"></div>
+		<div class="section group">';
+						}
 					}
 				}
 			?>
 		</div>
 	</div>
 
-<?php require '../footer.php'; } ?>
+<?php require '../footer.php'; }
