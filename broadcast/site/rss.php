@@ -16,8 +16,7 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 	echo '<?xml version="1.0" encoding="utf-8"?>
 ';
 
-?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<atom:link href="<?php echo $Request['scheme'].'://'.$Request['host'].'/'.$Canonical; ?>" rel="self" type="application/rss+xml" />
 		<title><?php echo $Sitewide_Title; ?></title>

@@ -17,19 +17,22 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 		<h2>Latest Tutorials</h2>
 		<div class="section group">
 			<?php
+				$loop = 0;
 				$items = glob('*.php', GLOB_NOSORT);
 				array_multisort(array_map('filemtime', $items), SORT_NUMERIC, SORT_DESC, $items);
-				$i = 0;
 				foreach($items as $entry) {
-					if($i==3) break;
-					if (!in_array($entry, $pages)) {
+					if(!in_array($entry, $pages)) {
 						require $entry;
-						echo '
+						if($PostType=='Post'){
+							echo '
 			<div class="col span_1_of_3">
-				<h3><a href="'.$Request['scheme'].'://'.$Request['host'].'/'.$Canonical.'">' . $TextTitle . '</a></h3>
-				<p>'.$Description.'</p>
+				<h2><a href="'.$Request['scheme'].'://'.$Request['host'].'/'.$Canonical.'">' . $TextTitle . '</a></h2>
+				<p>' . $Description . '</p>
 			</div>';
-						$i++;
+							if ($loop==3) break;
+							$loop = $loop + 1;
+							}
+						}
 					}
 				}
 			?>
