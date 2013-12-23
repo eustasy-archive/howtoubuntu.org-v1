@@ -3,6 +3,7 @@
 	$TextTitle = 'How to get more free disk space in Ubuntu';
 	$WebTitle = 'How to get more free disk space in Ubuntu';
 	$Canonical = 'how-to-get-more-free-disk-space-in-ubuntu';
+	$PostType = 'Post';
 	$FeaturedImage = '';
 	$Description = 'Over time, any Operating System can become cluttered as programs are added and removed. In Ubuntu, the downloaded packages are cached for a certain time, as well as tmp (temporary) files, such as browser caches, which can take up valuable Gigabytes of space.';
 	$Keywords = 'get more free space disk hard drive';

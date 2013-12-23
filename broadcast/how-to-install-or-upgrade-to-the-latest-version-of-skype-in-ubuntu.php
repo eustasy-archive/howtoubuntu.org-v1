@@ -3,6 +3,7 @@
 	$TextTitle = 'How to Install or Upgrade to the latest version of Skype';
 	$WebTitle = 'How to Install or Upgrade to the latest version of Skype in Ubuntu';
 	$Canonical = 'how-to-install-or-upgrade-to-the-latest-version-of-skype-in-ubuntu';
+	$PostType = 'Post';
 	$FeaturedImage = '';
 	$Description = 'The version of Skype, like so many programs, is often out of date in the official repositories for Ubuntu. Upgrading to or Installing the latest version of Skype in Ubuntu is a simple as downloading the right package, opening it, and hitting Upgrade or Install.';
 	$Keywords = 'install update upgrade skype';

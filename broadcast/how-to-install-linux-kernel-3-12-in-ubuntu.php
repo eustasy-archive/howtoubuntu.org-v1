@@ -3,6 +3,7 @@
 	$TextTitle = 'How to Install Linux Kernel 3.12';
 	$WebTitle = 'How to Install Linux Kernel 3.12 in Ubuntu';
 	$Canonical = 'how-to-install-linux-kernel-3-12-in-ubuntu';
+	$PostType = 'Post';
 	$FeaturedImage = '';
 	$Description = 'Linux Kernel 3.12 includes some major patches, including improved Dynamic Power Management on Radeon, a new DRM/KMS Driver, support for aggressive extent caching and better recovery capabilities on an EXT4 file-system, and other improvements on F2FS, XFS, and Btrfs file-systems.';
 	$Keywords = 'install linux kernel headers 3 12 3.12';

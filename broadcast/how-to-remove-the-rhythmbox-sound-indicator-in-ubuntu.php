@@ -3,6 +3,7 @@
 	$TextTitle = 'How to Remove the Rhythmbox Sound Indicator';
 	$WebTitle = 'How to Remove the Rhythmbox Sound Indicator in Ubuntu';
 	$Canonical = 'how-to-remove-the-rhythmbox-sound-indicator-in-ubuntu';
+	$PostType = 'Post';
 	$FeaturedImage = '';
 	$Description = 'While some may find it useful to have music players listed in the sound indicator menu with individual controls, installers of multiple software may want to blacklist some media players from appearing there. It can be done with this simple command, or edited in dconf Editor.';
 	$Keywords = 'remove rythmbox disable hide sound indicator blacklist';

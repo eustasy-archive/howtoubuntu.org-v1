@@ -3,6 +3,7 @@
 	$TextTitle = 'All Tutorials &nbsp;&middot;&nbsp; Ubuntu Tutorials and How to\'s';
 	$WebTitle = 'All Tutorials &nbsp;&middot;&nbsp; Ubuntu Tutorials and How to\'s';
 	$Canonical = 'all';
+	$PostType = 'Blog';
 	$FeaturedImage = '';
 	$Description = '';
 	$Keywords = '';

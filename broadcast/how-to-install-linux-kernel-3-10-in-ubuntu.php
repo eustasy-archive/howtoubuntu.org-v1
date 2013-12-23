@@ -3,6 +3,7 @@
 	$TextTitle = 'How to Install Linux Kernel 3.10';
 	$WebTitle = 'How to Install Linux Kernel 3.10 in Ubuntu';
 	$Canonical = 'how-to-install-linux-kernel-3-10-in-ubuntu';
+	$PostType = 'Post';
 	$FeaturedImage = '';
 	$Description = 'Linux Kernel 3.10 is the most recent LTS kernel release, with 18 releases to date. With a plethora of fixes for literally thousands of bugs, the latest updates stress stable network connectivity.';
 	$Keywords = 'install linux kernel headers 3 10 3.10';

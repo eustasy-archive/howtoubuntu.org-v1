@@ -3,6 +3,7 @@
 	$TextTitle = 'Tracking AdBlocking';
 	$WebTitle = 'Tracking AdBlocking';
 	$Canonical = 'site/tracking-adblocking';
+	$PostType = 'Post';
 	$FeaturedImage = '';
 	$Description = 'We\'ve recently instigated a new tracking procedure to investigate how many of our users block the ads we display. As these are our only source of revenue, and this site accounts for the majority of visits, and, therefore, resources, they are vital not only to the continued availability of this site, but the entire eustasy network.';
 	$Keywords = '';

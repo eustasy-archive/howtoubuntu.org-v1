@@ -3,6 +3,7 @@
 	$TextTitle = 'How to Create a Wireless Ad-Hoc Network in Ubuntu';
 	$WebTitle = 'How to Create a Wireless Ad-Hoc Network in Ubuntu';
 	$Canonical = 'how-to-create-a-wireless-ad-hoc-network-in-ubuntu';
+	$PostType = 'Post';
 	$FeaturedImage = '';
 	$Description = 'Sometimes, either when connected via a Wired Connection or USB Dongle, you may want to use your computers Wi-Fi to create a Network to share your internet connection over. Such networks are commonly referred to as Ad-Hoc, and we detail below some simple instructions on how to create one.';
 	$Keywords = 'create wireless ad hoc ad-hoc adhoc network';

@@ -3,6 +3,7 @@
 	$TextTitle = 'How to decide if you should use 32bit or 64bit Ubuntu';
 	$WebTitle = 'How to decide if you should use 32bit or 64bit Ubuntu';
 	$Canonical = 'how-to-decide-if-you-should-use-32bit-or-64bit-ubuntu';
+	$PostType = 'Post';
 	$FeaturedImage = '';
 	$Description = 'Ubuntu 12.04 and 12.10 were both set to be the first release to have 64bit set as the "recommended" architecture, except neither did. Now, Canonical recommend 64bit for both 13.10 and 12.04.3, unless you have 2GB of RAM or less. But what are the pros and cons of each?';
 	$Keywords = '';

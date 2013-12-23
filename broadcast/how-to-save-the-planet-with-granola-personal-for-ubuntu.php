@@ -3,6 +3,7 @@
 	$TextTitle = 'How to Save the Planet with Granola Personal for Ubuntu';
 	$WebTitle = 'How to Save the Planet with Granola Personal for Ubuntu';
 	$Canonical = 'how-to-save-the-planet-with-granola-personal-for-ubuntu';
+	$PostType = 'Post';
 	$FeaturedImage = '';
 	$Description = 'Granola Personal is a small little app that cycles down your CPU in an intelligent manner to save computer time and money, but mainly energy and trees.';
 	$Keywords = 'granola personal free gui download install repository settings save planet energy saving computer time money trees green cycles down';

@@ -3,6 +3,7 @@
 	$TextTitle = 'How to Install Fonts in Ubuntu';
 	$WebTitle = 'How to Install Fonts in Ubuntu';
 	$Canonical = 'how-to-install-fonts-in-ubuntu';
+	$PostType = 'Post';
 	$FeaturedImage = '';
 	$Description = 'Fonts are an integral part of any computer, if you\'re reading this, you\'re using a font. More fonts are only generally required by designers of some kind, or maybe some specific applications. Fonts are, simply put, the way letters look.';
 	$Keywords = 'install font fonts fnt fon otf ttc ttf woff files file extension extensions type types';

@@ -3,6 +3,7 @@
 	$TextTitle = 'How to Repair, Restore, or Reinstall Grub 2 with a Ubuntu Live CD or USB';
 	$WebTitle = 'How to Repair, Restore, or Reinstall Grub 2 with a Ubuntu Live CD or USB';
 	$Canonical = 'how-to-repair-restore-reinstall-grub-2-with-a-ubuntu-live-cd';
+	$PostType = 'Post';
 	$FeaturedImage = '';
 	$Description = 'Grub 2 typically gets overridden when you install Windows or another Operating System. To make Ubuntu control the boot process, you need Reinstall (Repair/Restore) Grub using a Ubuntu Live CD.';
 	$Keywords = 'repair restore reinstall install grub 2 burn boot live cd dvd usb';

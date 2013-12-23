@@ -3,6 +3,7 @@
 	$TextTitle = 'Install Ubuntu 12.04 Precise Pangolin';
 	$WebTitle = 'How to Install Ubuntu 12.04 Precise Pangolin';
 	$Canonical = 'how-to-install-ubuntu-12-04-precise-pangolin';
+	$PostType = 'Post';
 	$FeaturedImage = '';
 	$Description = 'Ubuntu 12.04 Precise Pangolin came out on April the 26th of 2012. It features an improved version of Unity, the new Heads-Up Display (HUD), and version support for the next five years. It is completely free to download and install and offers a fast, free, and secure alternative to Windows or OS X.';
 	$Keywords = 'install ubuntu 12.04 12 04 1204 precise pangolin linux';

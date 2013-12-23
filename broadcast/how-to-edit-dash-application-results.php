@@ -3,6 +3,7 @@
 	$TextTitle = 'How to Edit Dash Application Results in Ubuntu';
 	$WebTitle = 'How to Edit Dash Application Results in Ubuntu';
 	$Canonical = 'how-to-edit-dash-application-results';
+	$PostType = 'Post';
 	$FeaturedImage = '';
 	$Description = 'When you search for something in the Unity Dash, you may wish to remove some of the applications listed, or add some that are either hidden by default, or simply don\'t exist.';
 	$Keywords = 'edit dash application results';

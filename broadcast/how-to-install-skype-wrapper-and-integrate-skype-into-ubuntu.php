@@ -3,6 +3,7 @@
 	$TextTitle = 'How to Install Skype Wrapper and Integrate Skype';
 	$WebTitle = 'How to Install Skype Wrapper and Integrate Skype into Ubuntu';
 	$Canonical = 'how-to-install-skype-wrapper-and-integrate-skype-into-ubuntu';
+	$PostType = 'Post';
 	$FeaturedImage = '';
 	$Description = 'If you\'ve used Skype then you may have come across some of the patchy integration that is now Microsoft\'s problem. While they take their time fixing that, there is, in typical Linux fashion, a home-grown alternative. Skype Wrapper gives you tighter integration into Ubuntu and Unity via a convenient python app.';
 	$Keywords = 'install skype-wrapper skype wrapper integrate unity';

@@ -3,6 +3,7 @@
 	$TextTitle = 'Video: How Linux is Built';
 	$WebTitle = 'Video: How Linux is Built';
 	$Canonical = 'video-how-linux-is-built';
+	$PostType = 'Post';
 	$FeaturedImage = '';
 	$Description = 'The Linux Foundation have an amazing video about just how Linux, the base of ubuntu and many other free systems, is built.';
 	$Video = '<p><a href="https://www.youtube.com/user/TheLinuxFoundation">The Linux Foundation</a> have an amazing video about just how Linux, the base of ubuntu and many other free systems, is built.</p><h3 class="textcenter"><a class="download fancybox-media" href="http://www.youtube.com/embed/yVpbFMhOAwE?autohide=1&showinfo=0">Play Video</a></h3>';

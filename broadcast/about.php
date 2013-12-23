@@ -3,6 +3,7 @@
 	$TextTitle = 'About';
 	$WebTitle = 'About';
 	$Canonical = 'about';
+	$PostType = 'Page';
 	$FeaturedImage = '';
 	$Description = 'How to Ubuntu aim to provide reliable, precise, tested tutorials on anything and everything Ubuntu.';
 	$Keywords = 'about';

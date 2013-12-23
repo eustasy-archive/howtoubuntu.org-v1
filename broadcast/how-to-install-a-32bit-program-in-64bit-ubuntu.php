@@ -3,6 +3,7 @@
 	$TextTitle = 'How to Install a 32bit program in 64bit Ubuntu';
 	$WebTitle = 'How to Install a 32bit program in 64bit Ubuntu';
 	$Canonical = 'how-to-install-a-32bit-program-in-64bit-ubuntu';
+	$PostType = 'Post';
 	$FeaturedImage = '';
 	$Description = 'With Ubuntu 12.04 and 13.10 both recommending 64bit for most users (at last), you may find that some software doesn\'t have a 64bit counterpart.';
 	$Keywords = 'install 32bit 64bit 32 64 bit program ubuntu';

@@ -3,6 +3,7 @@
 	$TextTitle = 'How to Install Linux Kernel 3.11';
 	$WebTitle = 'How to Install Linux Kernel 3.11 in Ubuntu';
 	$Canonical = 'how-to-install-linux-kernel-3-11-in-ubuntu';
+	$PostType = 'Post';
 	$FeaturedImage = '';
 	$Description = 'Linux Kernel 3.11 is mostly a driver-driven release, with fixes for bugs and updates for Radeon, Intel i915, Wireless and USB devices, as well as the standard list of bugs and security fixes that simply can\'t all be listed here.';
 	$Keywords = 'install linux kernel headers 3 11 3.11';

@@ -3,6 +3,7 @@
 	$TextTitle = 'How to Play a DVD in Ubuntu';
 	$WebTitle = 'How to Play a DVD in Ubuntu';
 	$Canonical = 'how-to-play-a-dvd-in-ubuntu';
+	$PostType = 'Post';
 	$FeaturedImage = '';
 	$Description = 'Ubuntu, by default, does not include the necessary libraries or codecs to decode DVDs. As such, it will not play commercial videos off of them. Here we detail the variety of ways to Play a DVD in Ubuntu.';
 	$Keywords = 'play dvd codec';

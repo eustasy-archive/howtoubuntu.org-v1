@@ -3,6 +3,7 @@
 	$TextTitle = 'How to Enable Sharing in Miro on Ubuntu';
 	$WebTitle = 'How to Enable Sharing in Miro on Ubuntu';
 	$Canonical = 'how-to-enable-sharing-in-miro-on-ubuntu';
+	$PostType = 'Post';
 	$FeaturedImage = '';
 	$Description = 'If you have just installed Miro in Ubuntu, you may be wondering why trying to enable sharing results in an error message about the Avahi mDNSResponder Compatibility Library.';
 	$Keywords = 'enable sharing miro avahi mdnsresponder compatibility library apt libavahi compat libdnssd1 libavahi-compat-libdnssd1 apt:libavahi-compat-libdnssd1';

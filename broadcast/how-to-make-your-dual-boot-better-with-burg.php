@@ -3,6 +3,7 @@
 	$TextTitle = 'How to make your Dual Boot better with Burg';
 	$WebTitle = 'How to make your Dual Boot better with Burg';
 	$Canonical = 'how-to-make-your-dual-boot-better-with-burg';
+	$PostType = 'Post';
 	$FeaturedImage = '';
 	$Description = 'Burg gives you the ability to use custom themes for selecting your bootloader, both with and without text. It also opens up the possibility of customizing and developing your own themes.';
 	$Keywords = 'install burg boot dual';

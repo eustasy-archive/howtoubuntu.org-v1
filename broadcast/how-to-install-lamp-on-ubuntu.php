@@ -3,6 +3,7 @@
 	$TextTitle = 'How to Install LAMP on Ubuntu';
 	$WebTitle = 'How to Install LAMP on Ubuntu';
 	$Canonical = 'how-to-install-lamp-on-ubuntu';
+	$PostType = 'Post';
 	$FeaturedImage = '';
 	$Description = 'The following tutorial presumes you understand what a LAMP Server is, how to work a website from the back end and how to install software using either the Software Centre or the Terminal. It also expect experience running other Basic Terminal Commands.';
 	$Keywords = 'install lamp stack linux apache mysql php check restart server';

@@ -3,6 +3,7 @@
 	$TextTitle = 'How to find out how much RAM is installed in Ubuntu';
 	$WebTitle = 'How to find out how much RAM is installed in Ubuntu';
 	$Canonical = 'how-to-find-out-how-much-ram-is-installed-in-ubuntu';
+	$PostType = 'Post';
 	$FeaturedImage = '';
 	$Description = 'You may find yourself struggling to remember how much RAM you have at your disposal, or just wondering how much is being recognized by Ubuntu. This tutorial details ways to find out.';
 	$Keywords = 'find out much ram installed recognized';

@@ -3,6 +3,7 @@
 	$TextTitle = 'Countdown';
 	$WebTitle = 'Countdown';
 	$Canonical = 'countdown';
+	$PostType = 'Page';
 	$FeaturedImage = '';
 	$Description = '';
 	$Keywords = 'countdown';

@@ -3,6 +3,7 @@
 	$TextTitle = 'How to Disable, Stop or Uninstall Apport Error Reporting in Ubuntu';
 	$WebTitle = 'How to Disable, Stop or Uninstall Apport Error Reporting in Ubuntu';
 	$Canonical = 'how-to-disable-stop-uninstall-apport-error-reporting-in-ubuntu';
+	$PostType = 'Post';
 	$FeaturedImage = '';
 	$Description = 'Popups reading "Sorry, Ubuntu 12.04 has experienced an internal error" are part of Apport, an internal debugger which automatically generate reports to submit for packages that crash.';
 	$Keywords = 'disable stop uninstall apport error reporting';

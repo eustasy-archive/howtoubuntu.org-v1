@@ -3,6 +3,7 @@
 	$TextTitle = 'How to Install or Upgrade to the latest version of Gimp';
 	$WebTitle = 'How to Install or Upgrade to the latest version of Gimp in Ubuntu';
 	$Canonical = 'how-to-install-or-upgrade-to-the-latest-version-of-gimp-in-ubuntu';
+	$PostType = 'Post';
 	$FeaturedImage = '';
 	$Description = 'Gimp is one of the most popular image editing programs that doesn\'t cost big money. This free programme is frequently tooted as an alternative for Adobe Photoshop. Unfortunately, the Ubuntu sources don\'t tend to stock the most recent version.';
 	$Keywords = 'install update upgrade gimp';

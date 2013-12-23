@@ -2,6 +2,8 @@
 
 	// This is the Title of your Site
 	$Sitewide_Title = 'How to Ubuntu';
+	
+	$Sitewide_Tagline = 'Ubuntu Tutorials and How to\'s';
 
 	// This is the Base URL of your Site
 	$Sitewide_Root = 'http://b.howtoubuntu.org';

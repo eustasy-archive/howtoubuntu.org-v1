@@ -3,6 +3,7 @@
 	$TextTitle = 'How to Cut, Copy, and Paste in the Terminal in Ubuntu';
 	$WebTitle = 'How to Cut, Copy, and Paste in the Terminal in Ubuntu';
 	$Canonical = 'how-to-cut-copy-and-paste-in-the-terminal-in-ubuntu';
+	$PostType = 'Post';
 	$FeaturedImage = '';
 	$Description = 'If you\'re new to the Terminal, Pasting Commands probably seems like a godsend. Until it doesn\'t work. Here\'s how to do it properly.';
 	$Keywords = 'cut copy paste terminal command line';

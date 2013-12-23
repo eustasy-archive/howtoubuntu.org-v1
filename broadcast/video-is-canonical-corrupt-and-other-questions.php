@@ -3,6 +3,7 @@
 	$TextTitle = 'Video: Is Canonical Corrupt? and Other Questions';
 	$WebTitle = 'Video: Is Canonical Corrupt? and Other Questions';
 	$Canonical = 'video-is-canonical-corrupt-and-other-questions';
+	$PostType = 'Post';
 	$FeaturedImage = '';
 	$Description = 'NixiePixel doesn\'t usually do the \'ask Nixie\' type thing.. but here are some of your most commonly asked Linux / FOSS questions and her replies.';
 	$Video = '<p><a href="http://www.youtube.com/nixiedoeslinux">NixiePixel</a> doesn\'t usually do the \'ask Nixie\' type thing.. but here are some of your most commonly asked Linux / FOSS questions and her replies. || <a href="http://plus.google.com/+NixiePixel/">+NixiePixel</a></p><h3 class="textcenter"><a class="download fancybox-media" href="http://www.youtube.com/embed/KOF05L1tZaE?autohide=1&showinfo=0">Play Video</a></h3>';

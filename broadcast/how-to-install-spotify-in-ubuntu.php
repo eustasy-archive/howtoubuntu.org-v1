@@ -3,6 +3,7 @@
 	$TextTitle = 'How to Install Spotify in Ubuntu';
 	$WebTitle = 'How to Install Spotify in Ubuntu';
 	$Canonical = 'how-to-install-spotify-in-ubuntu';
+	$PostType = 'Post';
 	$FeaturedImage = '';
 	$Description = 'While Spotify has no supported release for Linux as such, their is, hidden away a little bit, a nice little "Preview" release that runs reasonably well, even if it is not the most native of applications.';
 	$Keywords = 'install spotify music preview';

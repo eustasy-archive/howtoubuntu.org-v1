@@ -3,6 +3,7 @@
 	$TextTitle = 'How to Install and Update avast! Antivirus in Ubuntu';
 	$WebTitle = 'How to Install and Update avast! Antivirus in Ubuntu';
 	$Canonical = 'how-to-install-and-update-avast-antivirus-in-ubuntu';
+	$PostType = 'Post';
 	$FeaturedImage = '';
 	$Description = 'Ubuntu doesn\'t tend to get viruses, but if you work with Windows, you can scan your machine using avast! Antivirus, once you\'ve fixed the update issue.';
 	$Keywords = 'install update avast antivirus';

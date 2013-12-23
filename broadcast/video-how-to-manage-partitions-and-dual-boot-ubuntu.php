@@ -3,6 +3,7 @@
 	$TextTitle = 'Video: How to Manage Partitions and Dual Boot Ubuntu';
 	$WebTitle = 'Video: How to Manage Partitions and Dual Boot Ubuntu';
 	$Canonical = 'video-how-to-manage-partitions-and-dual-boot-ubuntu';
+	$PostType = 'Post';
 	$FeaturedImage = '';
 	$Description = 'The lovely NixiePixel has a video on Resizing and Dual Booting Ubuntu.';
 	$Video = '<p>The lovely <a target="_blank" href="http://www.youtube.com/nixiedoeslinux">NixiePixel</a> has a video on Resizing and Dual Booting Ubuntu.</p><h3 class="textcenter"><a class="download fancybox-media" href="http://www.youtube.com/embed/eSMMs4cfMqY?autohide=1&showinfo=0">Play Video</a></h3>';

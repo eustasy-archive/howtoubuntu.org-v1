@@ -3,6 +3,7 @@
 	$TextTitle = 'About Ubuntu 12.04 Precise Pangolin';
 	$WebTitle = 'About Ubuntu 12.04 Precise Pangolin';
 	$Canonical = 'about-ubuntu-12-04-precise-pangolin';
+	$PostType = 'Post';
 	$FeaturedImage = '';
 	$Description = 'Ubuntu 12.04 was released on the 26th of April 2012, which just so happened to be a Thursday. From there on in, Ubuntu 12.04 Precise Pangolin provided millions of users all over the world with a free, stable, secure operating system.';
 	$Keywords = 'about ubuntu 12.04 precise pangolin';

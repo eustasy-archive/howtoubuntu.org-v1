@@ -3,6 +3,7 @@
 	$TextTitle = 'How to Execute a .Run or .Bin file in Ubuntu';
 	$WebTitle = 'How to Execute a .Run or .Bin file in Ubuntu';
 	$Canonical = 'how-to-execute-a-run-or-bin-file-in-ubuntu';
+	$PostType = 'Post';
 	$FeaturedImage = '';
 	$Description = '.Run or .Bin files are probably the only file types you will ever need to mark as executable in normal use of Ubuntu. There are two ways to execute them (which usually installs something), either in the terminal, or graphically (which usually relies on the terminal somewhat as well).';
 	$Keywords = 'execute run bing .run .bin file install';

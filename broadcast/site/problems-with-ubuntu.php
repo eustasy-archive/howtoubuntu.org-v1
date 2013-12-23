@@ -3,6 +3,7 @@
 	$TextTitle = 'Problems with Ubuntu';
 	$WebTitle = 'Problems with Ubuntu';
 	$Canonical = 'site/problems-with-ubuntu';
+	$PostType = 'Post';
 	$FeaturedImage = '';
 	$Description = 'There are some things that i thought would all be fixed by 12.04, and wonder now why they weren\'t.';
 	$Keywords = '';
