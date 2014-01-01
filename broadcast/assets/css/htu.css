@@ -247,7 +247,6 @@ code, .code {
 	background-color: #333333;
 	resize: none;
 }
-.code.resize { padding: 3% 3% 0 3%; }
 
 .editable { color: #3a8ee6; }
 
