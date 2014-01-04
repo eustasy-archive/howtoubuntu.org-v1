@@ -4,7 +4,7 @@ How to Ubuntu
 Ubuntu Tutorials and How to's
 
 ### TODO Before Stable
-- [Things to do after installing Ubuntu 12.04 Precise Pangolin](http://b.howtoubuntu.org/things-to-do-after-installing-ubuntu-12-04-precise-pangolin) requires suitable screenshots and documentation of step 1, "Install Additional Drivers".
+- [Things to do after installing Ubuntu 12.04 Precise Pangolin](http://b.howtoubuntu.org/things-to-do-after-installing-ubuntu-12-04-precise-pangolin) requires suitable screenshots and documentation of Step 1, "Install Additional Drivers".
 - [Install Ubuntu 13.10 Saucy Salamander](http://b.howtoubuntu.org/how-to-install-ubuntu-13-10-saucy-salamander) is to be written in a similar style to its predecessor.
 - [Things to do after installing Ubuntu 13.10 Saucy  Salamander](http://b.howtoubuntu.org/things-to-do-after-installing-ubuntu-13-10-saucy-salamander) is to be written in a similar style to its predecessor.
 
