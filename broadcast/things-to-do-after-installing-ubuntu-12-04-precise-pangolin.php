@@ -57,16 +57,26 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 	<br>
 	<div class="section group">
 		<div class="col span_4_of_11">
-			<h4 id="drivers">1. Install Additional Drivers</h4>
-			<p></p>
+			<a class="fancybox" href="assets/images/things-to-do-after-installing-ubuntu-12-04-precise-pangolin/1-additional-drivers.png"><img class="round" src="assets/images/things-to-do-after-installing-ubuntu-12-04-precise-pangolin/1-additional-drivers.png"></a>
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_6_of_11">
+			<h4 id="drivers">1. Install Additional Drivers</h4>
+			<p>If the Additional Drivers dialogue has not opened, and does not appear as an icon in the system tray, you may not require any Additional Drivers. However, if you wish to check, you can simply search for and open Additional Drivers. It will automatically check for the latest drivers for your system as it opens. This may take a few seconds.</p>
+			<p></p>
+		</div>
+	</div>
+	<br>
+	<div class="section group">
+		<div class="col span_4_of_11">
 			<h4 id="partners">2. Enable Partner Repositories</h4>
 			<p>The partner repositories are another source of software, but for those with restrictive licenses that mean the general public cannot simply share them, such as Flash and Skype. These are official repo's that are already added but disabled in Ubuntu. This command enables them.</p>
+		</div>
+		<div class="col span_1_of_11"><br></div>
+		<div class="col span_6_of_11">
 			<textarea class="left code resize">sudo sed -i "/^# deb .*partner/ s/^# //" /etc/apt/sources.list
 
-if [ $(lsb_release -cs) = "luna" ]
+if [[ $(lsb_release -si) = "elementary OS" ]]
 then
 	echo "elementary OS Luna, Modifying to be Precise" &&
 	sudo sed -i 's/luna/precise/g' /etc/apt/sources.list &&
@@ -94,7 +104,7 @@ sudo dpkg -i getdeb-repository_0.1-1~getdeb1_all.deb &&
 echo "Installing PlayDeb" &&
 sudo dpkg -i playdeb_0.3-1~getdeb1_all.deb &&
 
-if [ $(lsb_release -cs) = "luna" ]
+if [[ $(lsb_release -si) = "elementary OS" ]]
 then
 	echo "elementary OS Luna, Modifying to be Precise" &&
 	sudo sed -i 's/luna/precise/g' /etc/apt/sources.list.d/getdeb.list &&
@@ -294,7 +304,7 @@ wget -O - http://download.videolan.org/pub/debian/videolan-apt.asc|sudo apt-key 
 			<p class="strong"><a href="https://www.google.com/chrome?platform=linux" target="_blank">Google Chrome</a> is not only one of the more popular, fastest, and most reliable browsers available, but it also includes a pre-packed and fully patched version of Adobe Flash and a huge array of extensions and apps.</p><p>This is another section of the script that seems long for what it does, but Google Chrome sets up it's repository itself when you install it. This script is set to download the current version and install it, but is more than three times as long so that it can detect whether you are using 32bit or 64bit and download and install the right one.</p>
 		</div>
 		<div class="col span_1_of_11"><br></div>
-		<div class="col span_6_of_11"><textarea class="left code resize">if [ $(getconf LONG_BIT) = "64" ]
+		<div class="col span_6_of_11"><textarea class="left code resize">if [[ $(getconf LONG_BIT) = "64" ]]
 then
 	echo "64bit Detected" &&
 	echo "Installing Google Chrome" &&
