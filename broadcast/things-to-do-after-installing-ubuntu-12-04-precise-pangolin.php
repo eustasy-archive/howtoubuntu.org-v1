@@ -63,7 +63,9 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 		<div class="col span_6_of_11">
 			<h4 id="drivers">1. Install Additional Drivers</h4>
 			<p>If the Additional Drivers dialogue has not opened, and does not appear as an icon in the system tray, you may not require any Additional Drivers. However, if you wish to check, you can simply search for and open Additional Drivers. It will automatically check for the latest drivers for your system as it opens. This may take a few seconds.</p>
-			<p></p>
+			<p>Once the Additional Drivers program has finished searching for new drivers, it will open a dialogue similar to the one to the left (above on mobiles). Here you can see the selection of drivers, if any, available to you. Grey icons indicate that the driver is not in use, and green indicates that it is in use, or "activated".</p>
+			<p>To learn which driver you should be activating, if any at all, you should do some research into the component it applies to. Some basic details are provided: testing, license, and a short description, but much more information can usually be found online. Specifically, drivers for mid-to-high -end Graphics Cards are frequently complained about when they offer sub-standard performance, because the people in possession of them frequently car about such things.</p>
+			<p>Ultimately, the decision is yours, but most drivers tested by Ubuntu Developers should work without a hitch.</p>
 		</div>
 	</div>
 	<br>
