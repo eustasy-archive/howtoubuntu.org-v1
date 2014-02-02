@@ -1,8 +1,7 @@
 
 		<div class="clear"></div>
 	</div>
-
-	<div class="section group content bottom"></div>
+	<div class="content bottom"></div>
 
 	<div class="section group content last">
 		<div class="col span_2_of_3">
@@ -74,50 +73,7 @@
 	</footer>
 
 	<!-- AdCheck -->
-	<script src="<?php echo $Request['scheme'].'://'.$Request['host']; ?>/assets/js/ad.js"></script>
-
-	<!-- jQuery -->
-	<!--[if lt IE 9]>
-		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script type="text/javascript">window.jQuery || document.write('<script src="<?php echo $Request['scheme'].'://'.$Request['host']; ?>/assets/js/jquery-1.10.2.min.js"><\/script>');</script>
-	<![endif]-->
-	<!--[if IE 9]><!-->
-		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-		<script>window.jQuery || document.write('<script src="<?php echo $Request['scheme'].'://'.$Request['host']; ?>/assets/js/jquery-2.0.3.min.js"><\/script>');</script>
-	<!--<![endif]-->
-
-	<!-- Code select-all functions -->
-	<script>$('input.code').one('click', function() { $(this).select(); });</script>
-	<script>$('input.code').dblclick(function() { $(this).select(); });</script>
-	<script>$('textarea.code').one('click', function() { $(this).select(); });</script>
-	<script>$('textarea.code').dblclick(function() { $(this).select(); });</script>
-
-	<!-- Equalize Bubbles -->
-	<script src="<?php echo $Request['scheme'].'://'.$Request['host']; ?>/assets/js/jquery.equalize.min.js"></script>
-
-	<!-- Autosize Textarea -->
-	<script src="//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.1/jquery.autosize.min.js"></script>
-	<script>$('textarea.resize').autosize();</script>
-
-	<!-- Fancybox -->
-	<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.pack.js"></script>
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.css" media="screen">
-	<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-media.min.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$('.fancybox').fancybox();
-			$('.fancybox-media').fancybox({
-				openEffect  : 'none',
-				closeEffect : 'none',
-				'padding'	: 0,
-				width		: 1072,
-				height		: 603,
-				helpers : {
-					media : {}
-				}
-			});
-		});
-	</script>
+	<script src="<?php echo $Sitewide_Root; ?>assets/js/ad.js"></script>
 
 	<!-- AddThis Config -->
 	<script>

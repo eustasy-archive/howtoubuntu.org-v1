@@ -26,7 +26,7 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 						if($PostType=='Post') {
 							echo '
 			<div class="col span_1_of_3">
-				<h2><a href="'.$Request['scheme'].'://'.$Request['host'].'/'.$Canonical.'">' . $TextTitle . '</a></h2>
+				<h3><a href="'.$Sitewide_Root.$Canonical.'">' . $TextTitle . '</a></h3>
 				<p>' . $Description . '</p>
 			</div>';
 							$loop = $loop + 1;

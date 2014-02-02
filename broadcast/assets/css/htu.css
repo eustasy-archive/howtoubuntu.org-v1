@@ -1,18 +1,29 @@
-
-
-
 /* $ Global */
 
 body {
+	margin: 0 auto;
+	padding: 0;
 	font: 300 1em/1.4 Ubuntu, 'lucida sans unicode', 'lucida grande', 'Trebuchet MS', verdana, arial, helvetica, helve, sans-serif;
 	color: #333;
 	text-align: center;
 	background: #fafafa;
 }
 
+header,
+.content,
+footer {
+	clear: both;
+	margin: 0 auto;
+	width: 76%;
+	padding: 2%;
+	background: #fff;
+	text-align: left;
+}
+
 header {
 	background: #fafafa;
-	padding-bottom: 0;
+	padding: 0;
+	width: 80%;
 }
 
 footer {
@@ -25,24 +36,28 @@ footer {
 	color: #bbb;
 }
 
+.content {
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+}
+
 .top {
-	border-top: 6px solid #ddd;
-	-webkit-border-radius: 12px 12px 0 0;
-	border-radius: 12px 12px 0 0;
-	padding: 1px 2% 2%;
+	border-top: 6px solid #ccc;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
 }
+
 .bottom {
-	border-bottom: 6px solid #ddd;
-	-webkit-border-radius: 0 0 12px 12px;
-	border-radius: 0 0 12px 12px;
-	min-height: 12px;
-	padding: 1px 2%;
+	border-bottom: 6px solid #ccc;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
 }
+
 .last {
 	padding: 6% 2%;
 	background: transparent;
+	border: none;
 }
-/* TODO ^ Responsive ^ */
 
 
 /* $ Typography */
@@ -50,10 +65,8 @@ footer {
 h1, h2, h3, h4, h5, h6 {
 	font-family: Ubuntu, MuseoSlab300, 'lucida sans unicode', 'lucida grande', 'Trebuchet MS', verdana, arial, helvetica, helve, sans-serif;
 	font-weight: 300;
-	margin: 0;
-	margin-left: 10px !important;
-	margin-right: 10px !important;
 	padding: 0;
+	margin: .45em;
 }
 
 h1 {
@@ -66,36 +79,36 @@ h1 a:hover { color: #DD4814; }
 h2 {
 	font: 300 1.7em/1.4 Ubuntu,'lucida sans unicode','lucida grande','Trebuchet MS',verdana,arial,helvetica,helve,Sans;
 	color: #222222;
-	margin: .5em 0;
+	text-align: center;
+	margin: .765em 0;
 }
-.content h2,
-#content h2
-{ border-bottom: 3px solid #efefef; }
+.content h2 { border-bottom: 3px solid #ccc; }
 h2 a { color: #444; }
-h2 a:hover { color: #333; }
+h2 a:hover { color: #DD4814; }
 
 h3 {
 	font: 300 1.5em/1.4 Ubuntu,'lucida sans unicode','lucida grande','Trebuchet MS',verdana,arial,helvetica,helve,Sans;
 	color: #222222;
-	margin: .5em 0;
+	text-align: center;
+	margin: .675em 0;
 }
 
 h4 {
 	font: 300 1.3em/1.25 Ubuntu,'lucida sans unicode','lucida grande','Trebuchet MS',verdana,arial,helvetica,helve,Sans;
 	color: #333333;
-	margin: 1em 0 .5em;
+	margin: .5em .585em;
 }
 
 h5 {
 	font: 400 1em/1.4 Ubuntu,'lucida sans unicode','lucida grande','Trebuchet MS',verdana,arial,helvetica,helve,Sans;
 	color: #555555;
-	margin: .5em 0;
+	margin: .45em;
 }
 
 h6 {
 	font: 400 1em/1.4 Ubuntu,'lucida sans unicode','lucida grande','Trebuchet MS',verdana,arial,helvetica,helve,Sans;
 	color: #666666;
-	margin: .5em 0;
+	margin: .45em;
 }
 
 a {
@@ -121,6 +134,11 @@ a:hover, a:active, a:focus {
 
 /* $ Navigation */
 
+header nav {
+    margin: 0 2%;
+    width: 96%;
+}
+
 header nav a {
 	font: 400 1em/1 Ubuntu,'lucida sans unicode','lucida grande','Trebuchet MS',verdana,arial,helvetica,helve,Sans;
 	padding: 1em 0;
@@ -131,10 +149,9 @@ header nav a {
 	text-align: center;
 }
 header nav a:hover {
-	background: #DDDDDD;
+	background: #ccc;
 	color: #DD4814;
 }
-header nav ul { margin-bottom: 0; }
 
 footer a { color: #ccc; }
 footer a:hover { color: #eee; }
@@ -179,7 +196,11 @@ footer p { padding: 5px; }
 
 
 
-
+.spanpage {
+	display: block;
+	position: relative;
+	padding: 2%;
+}
 
 .spanpage.latest {
 	background: #ddd url(../images/ubuntu-background-1310.jpg) no-repeat top center fixed;
@@ -196,15 +217,14 @@ footer p { padding: 5px; }
 }
 
 .box {
-	-webkit-box-shadow: 0 2px 2px 0 #AEA79F;
-	box-shadow: 0 2px 2px 0 #AEA79F;
-	margin: 5px;
-	padding: 1px 3px;
+	border: 1px solid #ccc;
+	margin: .5em 0;
+	border-radius: 3px;
 }
 
-.general { background: #eee; border-radius: 3px; padding: 1%; }
-.warning { background: #DF382C; color: #ffffff; border-radius: 3px; padding: 1%; }
-.info { background: #3a8ee6; color: #ffffff; border-radius: 3px; padding: 1%; }
+.general { background: #eee; border: 1px solid #ddd; border-radius: 3px; padding: 1%; }
+.warning { background: #DF382C; border: 1px solid #ce271b; color: #ffffff; border-radius: 3px; padding: 1%; }
+.info { background: #3a8ee6; border: 1px solid #297dd5; color: #ffffff; border-radius: 3px; padding: 1%; }
 .warning h3, .info h3, .warning h4, .info h4 { color: #ffffff; }
 .warning a, .info a { color: #efefef; }
 .warning a:hover, .info a:hover { color: #ffffff; }
@@ -217,6 +237,7 @@ footer p { padding: 5px; }
 .download {
 	color: #fff;
 	background: #DD4814;
+	border: 1px solid #cc3703;
 	padding: 3%;
 	-webkit-radius: 3px;
 	border-radius: 3px;
@@ -231,6 +252,18 @@ footer p { padding: 5px; }
 }
 .break { margin-top: 10%; }
 
+.textright { text-align: right; }
+.textcenter { text-align: center; }
+.textleft { text-align: left; }
+
+.clear { clear: both; }
+.clearleft { clear: left; }
+.clearright { clear: right; }
+
+.floatnone { float: none; }
+.floatleft { float: left; }
+.floatright { float: right; }
+
 code, .code {
 	color: #FAFAFA;
 	font: 400 1em/1.5em 'Ubuntu Mono',monospace;
@@ -244,7 +277,8 @@ code, .code {
 	padding: 3%;
 	margin: 2% 0;
 	display: block;
-	background-color: #333333;
+	background: #333333;
+	border: 1px solid #222;
 	resize: none;
 }
 
@@ -266,7 +300,7 @@ p.intro, p.important {
 	margin-bottom: .5em;
 }
 p, ol, ul, dl, address {
-	margin: .5em 0;
+	margin: .5em;
 	font-size: .9em;
 }
 ul { list-style: disc; }
@@ -314,7 +348,7 @@ th { font-weight: 400; }
 tr:nth-child(even) { background: #eee; }
 th, td, caption { padding: .25em 10px .25em 5px; }
 tfoot { font-style: italic; }
-caption { background-color: transparent; }
+caption { background: transparent; }
 
 form {
 	margin: 0;
@@ -417,7 +451,8 @@ input {
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
-	background: #fff;
+	background: #eee;
+	border: 1px solid #ccc;
 }
 textarea {
 	text-align: left;
@@ -457,6 +492,44 @@ button.no:hover, input[type='button'].no:hover, input[type='reset'].no:hover, in
 
 
 
+.bubble {
+	background: #fefefe;
+	border: 1px solid #ccc;
+	border: 1px solid #ccc;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	padding: 1% 3% 3%;
+	margin: 7% 3%;
+	border: 1px solid #ccc;
+}
+
+
+/* General Fixes */
+img {
+	border : 0;
+	max-width: 100%;
+	vertical-align: middle;
+}
+.round, .round img { -webkit-border-radius: 3px; border-radius: 3px; }
+b, strong { font-weight: 600; }
+sub, sup {
+	font-size: .75em;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+sup { top: -.5em; }
+sub { bottom: -.25em; }
+small {
+	font-size: .9em;
+	color: #777;
+}
+table { width: 100%; }
+
+.transparent { background: transparent; }
+
+
+
 /* Google Search Box Fixes */
 .gsc-search-box td { vertical-align: top !important; }
 .gsc-input { padding-top: 0px !important; }
@@ -478,3 +551,25 @@ button.no:hover, input[type='button'].no:hover, input[type='reset'].no:hover, in
 .cse .gsc-search-button input.gsc-search-button-v2, input.gsc-search-button-v2 { margin-top: 0 !important; }
 .gsc-control-cse, .gsc-control-cse .gsc-table-result { font-family: Ubuntu, sans-serif !important; }
 .gsc-selected-option { font-weight: normal; }
+
+
+
+/* Responsive Pages */
+@media only screen and (min-width:1200px) {
+	.content,
+	footer { width: 56%; }
+	header { width: 60%; }
+}
+
+@media only screen and (max-width:799px) {
+	header,
+	.content,
+	footer {
+		width: 98%;
+		padding: 2%;
+	}
+	.bubble {
+		-webkit-border-radius: 0;
+		border-radius: 0;
+	}
+}
