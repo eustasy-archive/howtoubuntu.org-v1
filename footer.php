@@ -96,7 +96,7 @@
 	<script src="<?php echo $Request['scheme'].'://'.$Request['host']; ?>/assets/js/jquery.equalize.min.js"></script>
 
 	<!-- Autosize Textarea -->
-	<script src="<?php echo $Request['scheme'].'://'.$Request['host']; ?>/assets/js/jquery.autosize.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.1/jquery.autosize.min.js"></script>
 	<script>$('textarea.resize').autosize();</script>
 
 	<!-- Fancybox -->
