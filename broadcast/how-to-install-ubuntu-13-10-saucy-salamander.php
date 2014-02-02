@@ -1,32 +1,33 @@
 <?php
 
-	$TextTitle = 'Install Ubuntu 12.04 Precise Pangolin';
-	$WebTitle = 'How to Install Ubuntu 12.04 Precise Pangolin';
-	$Canonical = 'how-to-install-ubuntu-12-04-precise-pangolin';
+	$TextTitle = 'Install Ubuntu 13.10 Saucy Salamander';
+	$WebTitle = 'How to Install Ubuntu 13.10 Saucy Salamander';
+	$Canonical = 'how-to-install-ubuntu-13-10-saucy-salamander';
 	$PostType = 'Post';
 	$FeaturedImage = '';
-	$Description = 'Ubuntu 12.04 Precise Pangolin came out on April the 26th of 2012. It features an improved version of Unity, the new Heads-Up Display (HUD), and version support for the next five years. It is completely free to download and install and offers a fast, free, and secure alternative to Windows or OS X.';
-	$Keywords = 'install ubuntu 12.04 12 04 1204 precise pangolin linux';
+	$Description = 'Ubuntu 13.10 Saucy Salamander came out on 17th of October 2013. Future releases will reoccur every 6 months (you can upgrade as easily as updating, it just takes a little longer) in April and October. Ubuntu 13.10 is the first version to have only 9 months of support, with previous releases offering 18 months as a minimum. This comes after the upgrade to five years of support of the last LTS release, Ubuntu 12.04.';
+	$Keywords = 'install ubuntu 13.10 13 10 1310 saucy salamander linux';
 
 	require '../request.php';
 
 if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 
-	require '../header.php'; ?>
+	require '../header.php';
+	?>
 
 	<div class="section group">
 		<div class="col span_1_of_6"><br></div>
 		<div class="col span_4_of_6">
-			<h2>How to Install Ubuntu 12.04 Precise Pangolin</h2>
+			<h2>How to Install Ubuntu 13.10 Saucy Salamander</h2>
 
-			<p>Ubuntu 12.04 Precise Pangolin came out on April the 26th of 2012. It features an improved version of Unity, the new Heads-Up Display (HUD), and version support for the next five years. It is completely free to download and install and offers a fast, free, and secure alternative to Windows or OS X.</p>
+			<p>Ubuntu 13.10 Saucy Salamander came out on 17th of October 2013. Future releases will reoccur every 6 months (you can upgrade as easily as updating, it just takes a little longer) in April and October. Ubuntu 13.10 is the first version to have only 9 months of support, with previous releases offering 18 months as a minimum. This comes after the upgrade to five years of support of the last LTS release, Ubuntu 12.04.</p>
 			<br>
 			<div class="warning">
 				<h3 id="warnings">Warnings</h3><p>When choosing how to install, some options will <strong>completely erase</strong> your drive before doing so. Please read carefully the description of your options below <em>before</em> choosing an install method. If you are comfortable managing partitions, we recommend doing so manually.</p>
 			</div>
 			<br>
 			<div class="contents box">
-				<h3 id="contents">How to Install Ubuntu 12.04 Precise Pangolin</h3>
+				<h3 id="contents">How to Install Ubuntu 13.10 Saucy Salamander</h3>
 				<div class="section group">
 					<div class="col span_1_of_2">
 						<p><a href="#warnings">Warnings</a></p>
@@ -41,7 +42,7 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 			</div>
 			<br>
 			<h3 id="download">Downloading</h3>
-			<p>You can <a href="http://www.ubuntu.com/download/desktop">Download Ubuntu 12.04</a> directly. The file size is just under a Gigabyte and may take anything from a few minutes to a few hours, depending primarily on your connection speed. Downloads will be faster after the first day of release (as less people download).</p>
+			<p>You can <a href="http://www.ubuntu.com/download/desktop">Download Ubuntu 13.10</a> directly. The file size is just under a Gigabyte and may take anything from a few minutes to a few hours, depending primarily on your connection speed. Downloads will be faster after the first day of release (as less people download).</p>
 			<h4 id="architecture">32 or 64 Bit</h4>
 			<p>A good general rule of thumb is if your computer has 4GB of RAM or more, go for 64bit. Less, go for 32bit.</p>
 			<p>You might need to know how to find out how much ram you have, if you don't already know, in <a href="how-to-find-out-how-much-ram-is-installed-in-ubuntu" target="_blank">Ubuntu</a>, <a href="http://windows.microsoft.com/en-GB/windows7/Find-out-how-much-RAM-your-computer-has" target="_blank">Windows</a>, or <a href="http://support.apple.com/kb/HT2353?viewlocale=en_US" target="_blank">OS X</a>. You might want to take a look at the <a title="Pros and Cons of 32 and 64bit systems." href="how-to-decide-if-you-should-use-32bit-or-64bit-ubuntu#what" target="_blank">pros and cons</a>.</p>
@@ -78,7 +79,7 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 	<div class="section group">
 		<div class="col span_1_of_6"><br></div>
 		<div class="col span_4_of_6">
-			<h3 id="install">Install Ubuntu 12.04 Precise Pangolin</h3>
+			<h3 id="install">Install Ubuntu 13.10 Saucy Salamander</h3>
 			<p>Once you've put the image you downloaded onto a CD, DVD, or USB, you will need to shut down your computer. This may be a good time to print this page, or just read through and make notes.</p>
 			<p>Turn your computer back on, tapping F12 to select a boot device when your screen shows the name of the manufacturer. You can then use the arrow keys, finally hitting enter, to select either USB or Disc Drive.</p>
 		</div>
@@ -92,7 +93,7 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_5_of_11">
-			<a href="assets/images/how-to-install-ubuntu-12-04-precise-pangolin/1-Welcome.png" class="fancybox rounded" rel="install" title="Click Install"><img src="assets/images/how-to-install-ubuntu-12-04-precise-pangolin/1-Welcome.png" alt="Click Install" title="Click Install"></a>
+			<a href="assets/images/how-to-install-ubuntu-13-10-saucy-salamander/1-Welcome.png" class="fancybox rounded" rel="install" title="Click Install"><img src="assets/images/how-to-install-ubuntu-13-10-saucy-salamander/1-Welcome.png" alt="Click Install" title="Click Install"></a>
 		</div>
 	</div>
 	<br>
@@ -104,7 +105,7 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 		</div>
 		<div class="col span_1_of_11 floatright"><br></div>
 		<div class="col span_5_of_11">
-			<a href="assets/images/how-to-install-ubuntu-12-04-precise-pangolin/2-Check.png" class="fancybox rounded" rel="install" title="Check both Boxes"><img src="assets/images/how-to-install-ubuntu-12-04-precise-pangolin/2-Check.png" alt="Check both Boxes" title="Check both Boxes"></a>
+			<a href="assets/images/how-to-install-ubuntu-13-10-saucy-salamander/2-Check.png" class="fancybox rounded" rel="install" title="Check both Boxes"><img src="assets/images/how-to-install-ubuntu-13-10-saucy-salamander/2-Check.png" alt="Check both Boxes" title="Check both Boxes"></a>
 		</div>
 	</div>
 	<br>
@@ -117,7 +118,7 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_5_of_11">
-			<a href="assets/images/how-to-install-ubuntu-12-04-precise-pangolin/3-Choose.png" class="fancybox rounded" rel="install" title="Choose How to Install"><img src="assets/images/how-to-install-ubuntu-12-04-precise-pangolin/3-Choose.png" alt="Choose How to Install" title="Choose How to Install"></a>
+			<a href="assets/images/how-to-install-ubuntu-13-10-saucy-salamander/3-Choose.png" class="fancybox rounded" rel="install" title="Choose How to Install"><img src="assets/images/how-to-install-ubuntu-13-10-saucy-salamander/3-Choose.png" alt="Choose How to Install" title="Choose How to Install"></a>
 		</div>
 	</div>
 	<br>
@@ -138,14 +139,12 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 	<br>
 	<div class="section group">
 		<div class="col span_5_of_11 floatright">
-			<h4>4. Confirm your Choice</h4>
-			<p>After clicking continue, you may be presented with a confirmation screen, much like this, to confirm your choices.</p>
-			<p>Click <span class="box">Install Now</span> to begin installing.</p>
-			<p>You'll be asked a few more questions in a second about where you are, what your name is, and how you want your computer set up. These are for time settings, user names, and home folders.</p>
+			<h4>4. Partition (Maybe)</h4>
+			<p>This step you may be required to partition some things manually. You shouldn't be doing this unless you already know how and understand this is most definitely one of those steps that could destroy everything. We offer only two pieces of advice: Don't do this unless you have to, and format means destroy everything.</p>
 		</div>
 		<div class="col span_1_of_11 floatright"><br></div>
 		<div class="col span_5_of_11">
-			<a href="assets/images/how-to-install-ubuntu-12-04-precise-pangolin/4-Confirm.png" class="fancybox rounded" rel="install" title="Confirm your Choice"><img src="assets/images/how-to-install-ubuntu-12-04-precise-pangolin/4-Confirm.png" alt="Confirm your Choice" title="Confirm your Choice"></a>
+			<a href="assets/images/how-to-install-ubuntu-13-10-saucy-salamander/4-Partition.png" class="fancybox rounded" rel="install" title="Partition (Maybe)"><img src="assets/images/how-to-install-ubuntu-13-10-saucy-salamander/4-Partition.png" alt="Partition (Maybe)" title="Partition (Maybe)"></a>
 		</div>
 	</div>
 	<br>
@@ -156,7 +155,7 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_5_of_11">
-			<a href="assets/images/how-to-install-ubuntu-12-04-precise-pangolin/5-Where.png" class="fancybox rounded" rel="install" title="Choose your Location"><img src="assets/images/how-to-install-ubuntu-12-04-precise-pangolin/5-Where.png" alt="Choose your Location" title="Choose your Location"></a>
+			<a href="assets/images/how-to-install-ubuntu-13-10-saucy-salamander/5-Where.png" class="fancybox rounded" rel="install" title="Choose your Location"><img src="assets/images/how-to-install-ubuntu-13-10-saucy-salamander/5-Where.png" alt="Choose your Location" title="Choose your Location"></a>
 		</div>
 	</div>
 	<br>
@@ -167,7 +166,7 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 		</div>
 		<div class="col span_1_of_11 floatright"><br></div>
 		<div class="col span_5_of_11">
-			<a href="assets/images/how-to-install-ubuntu-12-04-precise-pangolin/6-How.png" class="fancybox rounded" rel="install" title="Choose your Keyboard Layout"><img src="assets/images/how-to-install-ubuntu-12-04-precise-pangolin/6-How.png" alt="Choose your Keyboard Layout" title="Choose your Keyboard Layout"></a>
+			<a href="assets/images/how-to-install-ubuntu-13-10-saucy-salamander/6-How.png" class="fancybox rounded" rel="install" title="Choose your Keyboard Layout"><img src="assets/images/how-to-install-ubuntu-13-10-saucy-salamander/6-How.png" alt="Choose your Keyboard Layout" title="Choose your Keyboard Layout"></a>
 		</div>
 	</div>
 	<br>
@@ -179,24 +178,35 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_5_of_11">
-			<a href="assets/images/how-to-install-ubuntu-12-04-precise-pangolin/7-Who.png" class="fancybox rounded" rel="install" title="Set a Username and Password"><img src="assets/images/how-to-install-ubuntu-12-04-precise-pangolin/7-Who.png" alt="Set a Username and Password" title="Set a Username and Password"></a>
+			<a href="assets/images/how-to-install-ubuntu-13-10-saucy-salamander/7-Who.png" class="fancybox rounded" rel="install" title="Set a Username and Password"><img src="assets/images/how-to-install-ubuntu-13-10-saucy-salamander/7-Who.png" alt="Set a Username and Password" title="Set a Username and Password"></a>
 		</div>
 	</div>
 	<br>
 	<div class="section group">
 		<div class="col span_5_of_11 floatright">
-			<h4>8. Sit Back and Relax</h4>
-			<p>Sit back and enjoy a little slideshow about Ubuntu, all the free, full-version software you've got, and just how great it is to have installed Ubuntu 12.04 Precise Pangolin LTS.</p>
-			<p>You can rest easy in the knowledge that your computer is faster, safer, and simpler to use, now it's running a free open-source system.</p>
-			<p>Check out <a href="http://askubuntu.com/">askubuntu.com</a> if you need any further help.</p>
+			<h4>8. Sign in to Ubuntu One</h4>
+			<p>If you and use your Ubuntu One account, now would be the time to sign into it. If you don't, consider signing up to the cloud storage run by the makers of your new software, and directly designed to integrate into it. You get 5GB of storage for free, and can choose what you sync. This could make upgrades a whole lot easier.</p>
 		</div>
 		<div class="col span_1_of_11 floatright"><br></div>
 		<div class="col span_5_of_11">
-			<a href="assets/images/how-to-install-ubuntu-12-04-precise-pangolin/8-Welcome-to-Ubuntu-12.04-Precise-Pangolin-LTS.png" class="fancybox rounded" rel="install" title="Sit Back and Relax"><img src="assets/images/how-to-install-ubuntu-12-04-precise-pangolin/8-Welcome-to-Ubuntu-12.04-Precise-Pangolin-LTS.png" alt="Sit Back and Relax" title="Sit Back and Relax"></a>
+			<a href="assets/images/how-to-install-ubuntu-13-10-saucy-salamander/8-Ubuntu-One.png" class="fancybox rounded" rel="install" title="Sit Back and Relax"><img src="assets/images/how-to-install-ubuntu-13-10-saucy-salamander/8-Ubuntu-One.png" alt="Sit Back and Relax" title="Sit Back and Relax"></a>
 		</div>
 	</div>
 	<br>
-	<h3>Welcome to Ubuntu 12.04 Precise Pangolin LTS!</h3>
+	<div class="section group">
+		<div class="col span_5_of_11">
+			<h4>9. Sit Back and Relax</h4>
+			<p>Sit back and enjoy a little slideshow about Ubuntu, all the free, full-version software you've got, and just how great it is to have installed Ubuntu 13.10 Saucy Salamander.</p>
+			<p>You can rest easy in the knowledge that your computer is faster, safer, and simpler to use, now it's running a free open-source system.</p>
+			<p>Check out <a href="http://askubuntu.com/">askubuntu.com</a> if you need any further help.</p>
+		</div>
+		<div class="col span_1_of_11"><br></div>
+		<div class="col span_5_of_11">
+			<a href="assets/images/how-to-install-ubuntu-13-10-saucy-salamander/9-Welcome-to-Ubuntu-13.10-Saucy-Salamander.png" class="fancybox rounded" rel="install" title="Sit Back and Relax"><img src="assets/images/how-to-install-ubuntu-13-10-saucy-salamander/9-Welcome-to-Ubuntu-13.10-Saucy-Salamander.png" alt="Sit Back and Relax" title="Sit Back and Relax"></a>
+		</div>
+	</div>
+	<br>
+	<h3>Welcome to Ubuntu 13.10 Saucy Salamander!</h3>
 	<div class="section group">
 		<div class="col span_5_of_11">
 			<h4>References</h4>
@@ -209,8 +219,8 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_5_of_11">
 			<h4>Further Reading</h4>
-			<p><a href="about-ubuntu-12-04-precise-pangolin" target="_blank">About Ubuntu 12.04 Precise Pangolin</a><br>
-			<a href="things-to-do-after-installing-ubuntu-12-04-precise-pangolin">Things to go after Installing Ubuntu 12.04 Precise Pangolin</a></p>
+			<p><a href="about-ubuntu-13-10-saucy-salamander" target="_blank">About Ubuntu 13.10 Saucy Salamander</a><br>
+			<a href="things-to-do-after-installing-ubuntu-13-10-saucy-salamander">Things to go after Installing Ubuntu 13.10 Saucy Salamander</a></p>
 		</div>
 	</div>
 

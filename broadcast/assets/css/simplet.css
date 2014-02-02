@@ -327,7 +327,7 @@ img {
 
 img.floatleft { float: left; margin: 0 10px 10px 0; }
 img.floatright { float: right; margin: 0 0 10px 10px; }
-.round { -webkit-border-radius: 3px; border-radius: 3px; }
+.round, .round img { -webkit-border-radius: 3px; border-radius: 3px; }
 
 
 
