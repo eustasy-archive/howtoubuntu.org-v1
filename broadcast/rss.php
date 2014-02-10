@@ -13,10 +13,9 @@
 if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 
 	header('Content-Type: application/rss+xml');
-	echo '<?xml version="1.0" encoding="utf-8"?>
-';
-
-?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	echo '<?xml version="1.0" encoding="utf-8"?>';
+	?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<atom:link href="<?php echo $Request['scheme'].'://'.$Request['host'].'/'.$Canonical; ?>" rel="self" type="application/rss+xml" />
 		<title><?php echo $Sitewide_Title; ?></title>
@@ -32,7 +31,7 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 				if($entry!='rss.php') {
 					require $entry;
 					if($PostType=='Post') {
-						$PostLink = $Request['scheme'].'://'.$Request['host'].'/'.$Canonical;
+						$PostLink = $Sitewide_Root.$Canonical;
 						echo '
 		<item>
 			<title>'.$WebTitle.'</title>
@@ -46,4 +45,4 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 			}
 		?>
 	</channel>
-</rss><?php } ?>
+</rss><?php }
