@@ -5,7 +5,7 @@
 	$Canonical = 'how-to-resize-partitions-with-the-ubuntu-or-gparted-live-cd';
 	$PostType = 'Post';
 	$FeaturedImage = '';
-	$Description = 'Having installed Ubuntu, you may find yourself wanting to shrink or get rid of your Windows partition completely. This tutorial will show you how do do either of those things, with a variety or filesystems, including NTFS, and EXT4. The instructions do <strong>not</strong> vary based on filesystem format.';
+	$Description = 'Having installed Ubuntu, you may find yourself wanting to shrink or get rid of your Windows partition completely. This tutorial will show you how do do either of those things, with a variety or filesystems, including NTFS, and EXT4. The instructions do not vary based on filesystem format.';
 	$Keywords = 'resize partitions live cd dvd usb gparted';
 
 	require '../request.php';
