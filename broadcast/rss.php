@@ -13,11 +13,12 @@
 if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 
 	header('Content-Type: application/rss+xml');
-	echo '<?xml version="1.0" encoding="utf-8"?>';
+	echo '<?xml version="1.0" encoding="utf-8"?>
+';
 	?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<atom:link href="<?php echo $Request['scheme'].'://'.$Request['host'].'/'.$Canonical; ?>" rel="self" type="application/rss+xml" />
+		<atom:link href="<?php echo $Sitewide_Root.$Canonical; ?>" rel="self" type="application/rss+xml" />
 		<title><?php echo $Sitewide_Title; ?></title>
 		<description><?php echo $Sitewide_Tagline; ?></description>
 		<link><?php echo $Sitewide_Root; ?></link>
@@ -28,7 +29,7 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 			$items = glob('*.php', GLOB_NOSORT);
 			array_multisort(array_map('filemtime', $items), SORT_NUMERIC, SORT_DESC, $items);
 			foreach($items as $entry) {
-				if($entry!='rss.php') {
+				if($entry!='rss.php') { // Exclude self to avoid infinite loop.
 					require $entry;
 					if($PostType=='Post') {
 						$PostLink = $Sitewide_Root.$Canonical;
