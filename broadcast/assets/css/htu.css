@@ -261,12 +261,11 @@ footer p { padding: 5px; }
 
 code, .code {
 	color: #fefefe;
-	font: 400 1em/1.5em 'Ubuntu Mono',monospace;
+	font: 400 1em/1.5em 'Ubuntu Mono', monospace;
 	border: none;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
 	text-align: left;
-	text-area
 	outline: 0px;
 	width: 94%;
 	padding: 3%;
@@ -275,6 +274,14 @@ code, .code {
 	background: #333333;
 	border: 1px solid #222;
 	resize: none;
+}
+.inline-code {
+	font: 400 1em/1.5em 'Ubuntu Mono', monospace;
+	border: none;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	padding: 3px;
+	background: rgba(0,0,0,0.3);
 }
 
 .editable { color: #3a8ee6; }
