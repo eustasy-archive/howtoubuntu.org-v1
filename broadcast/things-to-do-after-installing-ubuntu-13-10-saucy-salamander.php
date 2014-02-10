@@ -52,26 +52,26 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 	<br>
 	<div class="section group">
 		<div class="col span_4_of_11">
-			<a class="fancybox" href="assets/images/things-to-do-after-installing-ubuntu-13-10-saucy-salamander/1-enable-partners-repositories.png"><img class="round" src="assets/images/things-to-do-after-installing-ubuntu-13-10-saucy-salamander/1-enable-partners-repositories.png"></a>
+			<h4 id="partners">1. Enable Partner Repositories</h4>
+			<p>The partner repositories are another source of software, but for those with restrictive licenses that mean the general public cannot simply share them, such as Flash and Skype. These are official repo's that are already added but disabled in Ubuntu. This command enables them.</p>
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_6_of_11">
-			<h4 id="partners">1. Enable Partner Repositories</h4>
-			<p>The partner repositories are another source of software, but for those with restrictive licenses that mean the general public cannot simply share them, such as Flash and Skype. These are official repo's that are already added but disabled in Ubuntu. This command enables them.</p>
+			<a class="fancybox" href="assets/images/things-to-do-after-installing-ubuntu-13-10-saucy-salamander/1-enable-partners-repositories.png"><img class="round" src="assets/images/things-to-do-after-installing-ubuntu-13-10-saucy-salamander/1-enable-partners-repositories.png"></a>
 		</div>
 	</div>
 	<br>
 	<div class="section group">
 		<div class="col span_4_of_11">
-			<a class="fancybox" href="assets/images/things-to-do-after-installing-ubuntu-13-10-saucy-salamander/2-additional-drivers.png"><img class="round" src="assets/images/things-to-do-after-installing-ubuntu-13-10-saucy-salamander/2-additional-drivers.png"></a>
-		</div>
-		<div class="col span_1_of_11"><br></div>
-		<div class="col span_6_of_11">
 			<h4 id="drivers">2. Install Additional Drivers</h4>
 			<p>If the Additional Drivers dialogue has not opened, and does not appear as an icon in the system tray, you may not require any Additional Drivers. However, if you wish to check, you can simply search for and open Additional Drivers. It will automatically check for the latest drivers for your system as it opens. This may take a few seconds.</p>
 			<p>Once the Additional Drivers program has finished searching for new drivers, it will open a dialogue similar to the one to the left (above on mobiles). Here you can see the selection of drivers, if any, available to you. Grey icons indicate that the driver is not in use, and green indicates that it is in use, or "activated".</p>
 			<p>To learn which driver you should be activating, if any at all, you should do some research into the component it applies to. Some basic details are provided: testing, license, and a short description, but much more information can usually be found online. Specifically, drivers for mid-to-high -end Graphics Cards are frequently complained about when they offer sub-standard performance, because the people in possession of them frequently car about such things.</p>
 			<p>Ultimately, the decision is yours, but most drivers tested by Ubuntu Developers should work without a hitch.</p>
+		</div>
+		<div class="col span_1_of_11"><br></div>
+		<div class="col span_6_of_11">
+			<a class="fancybox" href="assets/images/things-to-do-after-installing-ubuntu-13-10-saucy-salamander/2-additional-drivers.png"><img class="round" src="assets/images/things-to-do-after-installing-ubuntu-13-10-saucy-salamander/2-additional-drivers.png"></a>
 		</div>
 	</div>
 	<br>
@@ -241,7 +241,7 @@ wget -O - http://download.videolan.org/pub/debian/videolan-apt.asc|sudo apt-key 
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_6_of_11">
-			<textarea class="left code resize">sudo apt-get install synaptic ubuntu-tweak vlc gimp gimp-data gimp-plugin-registry gimp-data-extras y-ppa-manager firestarter bleachbit openjdk-7-jre oracle-java7-installer flashplugin-installer unace unrar zip unzip p7zip-full p7zip-rar sharutils rar uudeview mpack lha arj cabextract file-roller libxine1-ffmpeg mencoder flac faac faad sox ffmpeg2theora libmpeg2-4 uudeview libmpeg3-1 mpeg3-utils mpegdemux liba52-dev mpeg2dec vorbis-tools id3v2 mpg321 mpg123 libflac++6 ffmpeg totem-mozilla icedax lame libmad0 libjpeg-progs libdvdcss2 libdvdread4 libdvdnav4 libavcodec-extra-53 libavformat-extra-53 libavutil-extra-51 libpostproc-extra-52 libswscale-extra-2 ubuntu-restricted-extras ubuntu-wallpapers*</textarea>
+			<textarea class="left code resize">sudo apt-get install synaptic ubuntu-tweak vlc gimp gimp-data gimp-plugin-registry gimp-data-extras y-ppa-manager bleachbit openjdk-7-jre oracle-java7-installer flashplugin-installer unace unrar zip unzip p7zip-full p7zip-rar sharutils rar uudeview mpack arj cabextract file-roller libxine1-ffmpeg mencoder flac faac faad sox ffmpeg2theora libmpeg2-4 uudeview libmpeg3-1 mpeg3-utils mpegdemux liba52-dev mpeg2dec vorbis-tools id3v2 mpg321 mpg123 libflac++6 ffmpeg totem-mozilla icedax lame libmad0 libjpeg-progs libdvdcss2 libdvdread4 libdvdnav4 libavcodec-extra-53 libavformat-extra-53 libavutil-extra-51 libpostproc-extra-52 libswscale-extra-2 ubuntu-restricted-extras ubuntu-wallpapers*</textarea>
 		</div>
 	</div>
 	<br>
@@ -255,11 +255,10 @@ wget -O - http://download.videolan.org/pub/debian/videolan-apt.asc|sudo apt-key 
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_3_of_11">
-			<p><span class="inline-code">firestarter</span> is a Firewall management application. All ports are closed by default, which means you should never need to use.</p>
 			<p><span class="inline-code">bleachbit</span> is a powerful cleaning utility.</p>
 			<p><span class="inline-code">openjdk-7-jre</span> is an open-source Java emulator.</p><p><span class="inline-code">oracle-java7-installer</span> is the official Java installer.</p>
 			<p><span class="inline-code">flashplugin-installer</span> is the official Flash installer.</p>
-			<p><span class="inline-code">unace</span>, <span class="inline-code">unrar</span>, <span class="inline-code">zip</span>, <span class="inline-code">unzip</span>, <span class="inline-code">p7zip-full</span>, <span class="inline-code">p7zip-rar</span>, <span class="inline-code">sharutils</span>, <span class="inline-code">rar</span>, <span class="inline-code">uudeview</span>, <span class="inline-code">mpack</span>, <span class="inline-code">lha</span>, <span class="inline-code">arj</span>, <span class="inline-code">cabextract</span>, and <span class="inline-code">file-roller</span> are there to extract and compress files in various archive formats.</p>
+			<p><span class="inline-code">unace</span>, <span class="inline-code">unrar</span>, <span class="inline-code">zip</span>, <span class="inline-code">unzip</span>, <span class="inline-code">p7zip-full</span>, <span class="inline-code">p7zip-rar</span>, <span class="inline-code">sharutils</span>, <span class="inline-code">rar</span>, <span class="inline-code">uudeview</span>, <span class="inline-code">mpack</span>, <span class="inline-code">arj</span>, <span class="inline-code">cabextract</span>, and <span class="inline-code">file-roller</span> are there to extract and compress files in various archive formats.</p>
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_3_of_11">
