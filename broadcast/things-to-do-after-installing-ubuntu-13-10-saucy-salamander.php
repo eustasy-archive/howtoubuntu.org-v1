@@ -80,8 +80,6 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 			<h4 id="getdeb">3. Download and Install GetDeb and PlayDeb</h4>
 			<p class="strong">Both <a href="http://www.getdeb.net/updates/Ubuntu/13.10#how_to_install">GetDeb</a> and <a href="http://www.playdeb.net/updates/Ubuntu/13.10#how_to_install">PlayDeb</a> are repositories, sources of updates for actual software you have or will have installed. They are useful for getting more up-to-date versions than those that ship in the official Ubuntu repositories, which programmers can find difficult to update as they encounter red tape. They may also contain less popular software which is not listed in the official repo's.</p>
 			<p>While this may look like an awful lot of code for something that should be relatively simple, you should know that while GetDeb and PlayDeb <em>are</em> repositories, they're not launchpad hosted, and hence a little more difficult to add.</p>
-			<p>A large part of this script is also adding support for elementary OS Luna, which, while based upon Ubuntu 13.10 Saucy Salamander, is detected as Luna by GetDeb. Since GetDeb doesn't support Luna, we have to pretend to be running Precise.</p>
-			<p>If you really want to shorten it down, you can remove everything from <span class="box">if</span> to <span class="box">fi &&</span>. This won't have much affect on Ubuntu, only a very slight speed increase, but will break support for elementary OS.</p>
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_6_of_11">
@@ -93,15 +91,6 @@ sudo dpkg -i getdeb-repository_0.1-1~getdeb1_all.deb &&
 
 echo "Installing PlayDeb" &&
 sudo dpkg -i playdeb_0.3-1~getdeb1_all.deb &&
-
-if [[ $(lsb_release -si) = "elementary OS" ]]
-then
-	echo "elementary OS Luna, Modifying to be Precise" &&
-	sudo sed -i 's/luna/precise/g' /etc/apt/sources.list.d/getdeb.list &&
-	sudo rm -f /etc/apt/sources.list.d/getdeb.list.bck &&
-	sudo sed -i 's/luna/precise/g' /etc/apt/sources.list.d/playdeb.list &&
-	sudo rm -f /etc/apt/sources.list.d/playdeb.list.bck
-fi &&
 
 echo "Deleting Downloads" &&
 rm -f getdeb-repository_0.1-1~getdeb1_all.deb &&
