@@ -5,7 +5,6 @@ Ubuntu Tutorials and How to's
 
 ### TODO Before Stable
 - [Things to do after installing Ubuntu 13.10 Saucy  Salamander](http://b.howtoubuntu.org/things-to-do-after-installing-ubuntu-13-10-saucy-salamander) is to be written in a similar style to its predecessor.
-- Switch out Fancybox for [colorbox](https://github.com/jackmoore/colorbox)
 - [Evaluate need for excessive Addthis](https://github.com/eustasy/howtoubuntu.org/issues/5)
 
 ### Roadmap
