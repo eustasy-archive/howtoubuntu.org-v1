@@ -74,10 +74,10 @@
 	<div id="skiptomain"><a href="#content">skip to main content</a></div>
 
 	<header class="group">
-		<div class="col span_1_of_3">
+		<div class="col span_1_of_2">
 			<h1><a href="<?php echo $Sitewide_Root.'">'.$Sitewide_Title; ?></a></h1>
 		</div>
-		<div class="col span_2_of_3 search">
+		<div class="col span_1_of_2 search">
 			<script>
 				(function() {
 					var cx = '016342184554362490504:58zeicq5nbc';
