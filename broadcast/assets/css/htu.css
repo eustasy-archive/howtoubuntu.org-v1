@@ -14,7 +14,7 @@ header,
 footer {
 	clear: both;
 	margin: 0 auto;
-	width: 76%;
+	width: 86%;
 	padding: 2%;
 	background: #fff;
 	text-align: left;
@@ -23,7 +23,7 @@ footer {
 header {
 	background: #fefefe;
 	padding: 0;
-	width: 80%;
+	width: 90%;
 }
 
 footer {
@@ -631,21 +631,30 @@ table { width: 100%; }
 
 
 /* Responsive Pages */
-@media only screen and (min-width:1200px) {
+
+@media only screen and (min-width:1340px) {
+	.content,
+	footer { width: 76%; }
+	header { width: 80%; }
+}
+
+@media only screen and (min-width:1500px) {
+	.content,
+	footer { width: 66%; }
+	header { width: 70%; }
+}
+
+@media only screen and (min-width:1900px) {
 	.content,
 	footer { width: 56%; }
 	header { width: 60%; }
 }
 
-@media only screen and (max-width:799px) {
+@media only screen and (max-width:899px) {
 	header,
 	.content,
 	footer {
-		width: 98%;
+		width: 95%;
 		padding: 2%;
-	}
-	.bubble {
-		-webkit-border-radius: 0;
-		border-radius: 0;
 	}
 }
