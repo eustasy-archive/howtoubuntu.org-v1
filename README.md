@@ -25,7 +25,7 @@ Ubuntu Tutorials and How to's
 [Homepage](http://modernizr.com/) - [GitHub](https://github.com/Modernizr/Modernizr) - [Releases](https://github.com/Modernizr/Modernizr/releases) - [Latest](http://cdn.jsdelivr.net/modernizr/latest/modernizr.min.js) - MIT & BSD License
 
 #### Selectivizr
-[Homepage](http://selectivizr.com) - [GitHub](http://github.com/keithclark/selectivizr) - [Releases](http://github.com/keithclark/selectivizr/releases) - [Latest](http://cdn.jsdelivr.net/selectivizr/latest/selectivizr.min.js) - MIT License
+[Homepage](http://selectivizr.com) - [GitHub](http://github.com/keithclark/selectivizr) - [Releases](http://github.com/keithclark/selectivizr/releases) - [Latest](http://cdn.jsdelivr.net/selectivizr/latest/selectivizr.min.js) - MIT License  
 CSS3 pseudo-class and attribute selectors for IE 6-8
 
 #### jQuery
@@ -35,9 +35,9 @@ CSS3 pseudo-class and attribute selectors for IE 6-8
 [Homepage](http://www.jacklmoore.com/colorbox/) - [GitHub](https://github.com/jackmoore/colorbox) - [Releases](https://github.com/jackmoore/colorbox/releases) - [Latest](http://cdn.jsdelivr.net/colorbox/latest/jquery.colorbox-min.js) - MIT License
 
 #### jQuery Autosize
-[Homepage](http://www.jacklmoore.com/autosize/) - [GitHub](https://github.com/jackmoore/autosize) - [Releases](https://github.com/jackmoore/autosize/releases) - [Latest](http://cdn.jsdelivr.net/jquery.autosize/latest/jquery.autosize.min.js) - MIT License
+[Homepage](http://www.jacklmoore.com/autosize/) - [GitHub](https://github.com/jackmoore/autosize) - [Releases](https://github.com/jackmoore/autosize/releases) - [Latest](http://cdn.jsdelivr.net/jquery.autosize/latest/jquery.autosize.min.js) - MIT License  
 A plugin to automatically adjust textarea height.
 
 #### jQuery.equalize
-[Homepage](http://labs.eustasy.org/jquery.equalize) - [GitHub](https://github.com/eustasy/jquery.equalize) - [Releases](https://github.com/eustasy/jquery.equalize/releases) - [Latest](http://cdn.jsdelivr.net/jquery.equalize/latest/jquery.equalize.min.js) - MIT License
+[Homepage](http://labs.eustasy.org/jquery.equalize) - [GitHub](https://github.com/eustasy/jquery.equalize) - [Releases](https://github.com/eustasy/jquery.equalize/releases) - [Latest](http://cdn.jsdelivr.net/jquery.equalize/latest/jquery.equalize.min.js) - MIT License  
 jQuery.equalize is a small jQuery plugin to equalize the height of elements with the equalize class within groups, or the entire page.
