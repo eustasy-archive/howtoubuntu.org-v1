@@ -41,6 +41,6 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 	</div>
 	<h3>But why&#8253;</h3>
 	<p>All of these have one thing in common, they eliminate what keeps this site running. This site costs money, and while i and occasionally others are happy to donate our time, i am not in possession of trees that bear the fruit of gold, any other item of value, nor currency. The great thing about AdSense (Google's Ad Programme), is that it is so scalable. If our visitors double tomorrow, our costs go up accordingly. Rather than having to hunt for more money, Google will just serve the same two ads per page to every person, and our earnings keep (roughly) in line with costs.</p>
-	<p>There is also a <a class="about-ads" href="http://eustasy.org/advertisements/">Why are there ads?</a> link under every advert we show, both clearly marking them and explaining more about what they're paying for.</p>
+	<p>There is also a <a class="about-ads" href="http://eustasy.org/advertisements">Why are there ads?</a> link under every advert we show, both clearly marking them and explaining more about what they're paying for.</p>
 
 <?php require '../../footer.php'; } ?>
