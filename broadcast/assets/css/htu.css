@@ -630,6 +630,65 @@ table { width: 100%; }
 
 
 
+/* Social */
+.networks a { color: #555; }
+.network {
+	margin: 0;
+	padding: 16px 16px;
+	position: relative;
+}
+.network:first-child {
+	-webkit-border-radius: 3px 3px 0 0;
+	border-radius: 3px 3px 0 0;
+}
+.network:last-child {
+	-webkit-border-radius: 0 0 3px 3px;
+	border-radius: 0 0 3px 3px;
+}
+.network iframe { border: none; padding: none; margin: none; }
+.network .box {
+	margin: 0 auto;
+	padding: 12px;
+	height: 20px;
+	color: #4f4f4f;
+	clear: both;
+	text-align: right;
+	background: white;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-transition: 300ms color ease;
+	-moz-transition: 300ms color ease;
+	-ms-transition: 300ms color ease;
+	-o-transition: 300ms color ease;
+	transition: 300ms color ease;
+}
+.google { background-color: #cc3732 }
+.facebook { background-color: #3b5998 }
+.twitter { background-color: #4099ff }
+.youtube { background-color: #c4302b }
+.google #___follow_0,
+.google iframe,
+.facebook .fb_iframe_widget,
+.facebook > iframe,
+.twitter .twitter-follow-button,
+.twitter iframe,
+.youtube #___ytsubscribe_0,
+.youtube iframe {
+	position: absolute;
+	left: 28px;
+	top: 28px;
+}
+/* Fix YouTube alignment.
+	As it HAS to be 4px taller than all the others,
+	move it 2px further up. If it won't be the same,
+	it will damn well be symmetrical.
+*/
+.youtube #___ytsubscribe_0 { top: 26px !important; }
+/* Responsiveness */
+@media only screen and (max-width: 999px) { .network .type { display: none; } }
+
+
+
 /* Responsive Pages */
 
 @media only screen and (min-width:1340px) {
