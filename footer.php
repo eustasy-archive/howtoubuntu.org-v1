@@ -11,7 +11,7 @@
 					<div class="box">
 						<a class="type" target="_blank" href="https://plus.google.com/+HowtoubuntuOrg"><span>Google+</span></a>
 						<script type="text/javascript">document.write('<div class="g-follow" data-annotation="bubble" data-height="20" data-href="//plus.google.com/117279225305045556184" data-rel="publisher"></div>');</script>
-						<noscript><!-- TODO Fallback to Link --></noscript>
+						<noscript><a target="_blank" href="https://plus.google.com/+HowtoubuntuOrg">Circle</a></noscript>
 					</div>
 				</div>
 				<div class="network facebook">
