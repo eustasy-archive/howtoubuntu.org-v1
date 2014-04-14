@@ -7,7 +7,7 @@
 		<div class="col span_5_of_11">
 			<h3>Trending</h3>
 			<?php
-				$Trending = Trending(basename(__FILE__));
+				$Trending = Trending(basename(__FILE__), 5);
 				foreach ($Trending as $Trending_Canonical => $Trending_Count) {
 					if (substr($Trending_Canonical, -1) == '/') require $Trending_Canonical.'index.php';
 					else require $Trending_Canonical.'.php';
