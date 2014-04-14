@@ -69,7 +69,7 @@
 	<footer class="group">
 
 		<div class="col span_2_of_12">
-			<a href="http://eustasy.org/" title="eustasy organisation"><img src="http://eustasy.org/images/eustasy-light.png" class="eustasy"></a>
+			<a href="http://eustasy.org/" title="eustasy organisation"><img src="http://eustasy.org/images/eustasy-dark.png" class="eustasy"></a>
 		</div>
 
 		<div class="col span_1_of_12"><br></div>
@@ -84,8 +84,8 @@
 		<div class="col span_1_of_12"><br></div>
 
 		<div class="col span_2_of_12">
-			<h4 class="nomargin">powered by</h4>
-			<h2 class="nomargin"><a href="http://simplet.eustasy.org/">Simplet</a></h2>
+			<h4 class="nomargin textcenter">powered by</h4>
+			<h2 class="nomargin textcenter"><a href="http://simplet.eustasy.org/">Simplet</a></h2>
 			<p class="nomargin textcenter">the file-based blog for github</p>
 		</div>
 

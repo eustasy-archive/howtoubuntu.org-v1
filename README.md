@@ -8,7 +8,6 @@ Ubuntu Tutorials and How to's
 - Add About, How to Install and Things to do After for 14.04
 - Add Kernel Control Article.
 - Attain YouTube Partnership(s).
-- Redesign Footer
 - Update Kernel Articles
 - Arrange Regular Checking of:
 	- Kernel Versions

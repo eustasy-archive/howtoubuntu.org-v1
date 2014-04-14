@@ -27,14 +27,14 @@ header {
 }
 
 footer {
-	background: #111111;
-	border-top: 6px solid #DD4814;
+	background: #eee;
+	border-top: 6px solid #333;
 	border-bottom: none;
 	-webkit-border-radius: 12px 12px 0 0;
 	border-radius: 12px 12px 0 0;
 	font: 400 1em/1.7 Ubuntu,'lucida sans unicode','lucida grande','Trebuchet MS',verdana,arial,helvetica,helve,Sans;
 	text-align: left;
-	color: #bbb;
+	color: #333;
 }
 
 .content {
@@ -156,9 +156,6 @@ header nav a:hover {
 	color: #DD4814;
 }
 
-footer a { color: #eee; }
-footer a:hover { color: #eee; }
-footer h4 { color: #bbb; }
 footer p { padding: 5px; }
 
 
