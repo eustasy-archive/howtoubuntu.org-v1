@@ -14,10 +14,10 @@ if ( isset($_REQUEST['payload']) ) {
 
 	// git reset --hard HEAD && git pull
 
-	$GitPull = nl2br( shell_exec('git reset --hard HEAD && git pull') ); // Capture the output.
+	$GitPull = nl2br( exec('git reset --hard HEAD && git pull') ); // Capture the output.
 
 } else { // Or not.
-	$GitPull = nl2br( shell_exec('git reset --hard HEAD') ); // Just tell us where we are
+	$GitPull = nl2br( exec('git reset --hard HEAD') ); // Just tell us where we are
 }
 
 // That is all.
