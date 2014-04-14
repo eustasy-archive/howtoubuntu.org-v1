@@ -25,7 +25,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 		if (isset($_GET['category'])) $Category = htmlentities($_GET['category'], ENT_QUOTES, 'UTF-8');
 		else $Category = false;
 
-		Blog(basename(__FILE__), $Category);
+		Blog(basename(__FILE__), $Category, 3, 12);
 
 	require '../footer.php';
 
