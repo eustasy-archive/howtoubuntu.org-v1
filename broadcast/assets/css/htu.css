@@ -29,6 +29,7 @@ header {
 footer {
 	background: #111111;
 	border-top: 6px solid #DD4814;
+	border-bottom: none;
 	-webkit-border-radius: 12px 12px 0 0;
 	border-radius: 12px 12px 0 0;
 	font: 400 1em/1.7 Ubuntu,'lucida sans unicode','lucida grande','Trebuchet MS',verdana,arial,helvetica,helve,Sans;
@@ -42,12 +43,14 @@ footer {
 }
 
 .top {
+	border-bottom: none;
 	border-top: 6px solid #eee;
 	border-top-left-radius: 12px;
 	border-top-right-radius: 12px;
 }
 
 .bottom {
+	border-top: none;
 	border-bottom: 6px solid #eee;
 	border-bottom-left-radius: 12px;
 	border-bottom-right-radius: 12px;

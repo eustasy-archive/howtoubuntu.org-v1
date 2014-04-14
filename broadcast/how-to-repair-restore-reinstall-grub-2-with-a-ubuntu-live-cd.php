@@ -1,18 +1,26 @@
 <?php
 
-	$TextTitle = 'How to Repair, Restore, or Reinstall Grub 2 with a Ubuntu Live CD or USB';
-	$WebTitle = 'How to Repair, Restore, or Reinstall Grub 2 with a Ubuntu Live CD or USB';
-	$Canonical = 'how-to-repair-restore-reinstall-grub-2-with-a-ubuntu-live-cd';
-	$PostType = 'Post';
-	$FeaturedImage = '';
-	$Description = 'Grub 2 typically gets overridden when you install Windows or another Operating System. To make Ubuntu control the boot process, you need Reinstall (Repair/Restore) Grub using a Ubuntu Live CD.';
+	$Title_HTML = 'How to Repair, Restore, or Reinstall Grub 2 with a Ubuntu Live CD or USB';
+	$Title_Plain = $Title_HTML;
+
+	$Description_HTML = 'Grub 2 typically gets overridden when you install Windows or another Operating System. To make Ubuntu control the boot process, you need Reinstall (Repair/Restore) Grub using a Ubuntu Live CD.';
+	$Description_Plain = $Description_HTML;
+
 	$Keywords = 'repair restore reinstall install grub 2 burn boot live cd dvd usb';
 
-	require '../request.php';
+	$Featured_Image = '';
 
-if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
+	$Canonical = 'how-to-repair-restore-reinstall-grub-2-with-a-ubuntu-live-cd';
 
-	require '../header.php'; ?>
+	$Post_Type = 'Blog Post';
+	$Post_Category = 'Boot';
+
+	require_once __DIR__.'/../request.php';
+
+if ($Request['path'] === $Place['path'].$Canonical) {
+
+	require '../header.php';
+	?>
 
 	<div class="section group">
 		<div class="col span_1_of_6"><br></div>

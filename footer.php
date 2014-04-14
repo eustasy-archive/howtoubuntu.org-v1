@@ -4,7 +4,18 @@
 	<div class="content bottom"></div>
 
 	<div class="section group content last">
-		<div class="col span_1_of_3">
+		<div class="col span_5_of_11">
+			<h3>Trending</h3>
+			<?php
+				$Trending = Trending(basename(__FILE__));
+				foreach ($Trending as $Trending_Canonical => $Trending_Count) {
+					if (substr($Trending_Canonical, -1) == '/') require $Trending_Canonical.'index.php';
+					else require $Trending_Canonical.'.php';
+					echo '
+				<p class="textleft"><a href="'.$Sitewide_Root.$Trending_Canonical.'">'.$Title_HTML.' <span class="floatright">'.number_format($Trending_Count).'</span></a></p>';
+				}
+			?>
+			<hr>
 			<h3>Social</h3>
 			<div class="networks">
 				<div class="network google">
@@ -44,22 +55,13 @@
 			<div id="fb-root"></div>
 			<script type="text/javascript">(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)) return;js=d.createElement(s);js.id=id;js.src='http://connect.facebook.net/en_GB/all.js#xfbml=1&appId=211598199034258';fjs.parentNode.insertBefore(js,fjs);}(document,'script','facebook-jssdk'));</script>
 		</div>
-		<div class="col span_1_of_3">
-			<h3>Trending</h3>
-			<!-- TODO Trending -->
-			<p><a href="#">This is a trending article.</a></p>
-			<p><a href="#">This is a another trending article.</a></p>
-			<p><a href="#">This is a another trending article.</a></p>
-			<p><a href="#">This is a another trending article.</a></p>
-		</div>
-		<div class="col span_1_of_3">
-			<div class="ad-skyscraper">
-				<script src="//serve.adsi.st/javascript.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Rectangle&AdsistAdSize=Large"></script>
-				<noscript><iframe src="//serve.adsi.st/iframe.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Rectangle&AdsistAdSize=Large"></iframe></noscript>
-				<script src="//serve.adsi.st/javascript.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Rectangle&AdsistAdSize=Large"></script>
-				<noscript><iframe src="//serve.adsi.st/iframe.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Rectangle&AdsistAdSize=Large"></iframe></noscript>
-				<p class="about-ads">Advertisement <a href="http://eustasy.org/advertisements">Why are there ads?</a></p>
-			</div>
+		<div class="col span_1_of_11"><br></div>
+		<div class="col span_5_of_11 textcenter">
+			<script src="//serve.adsi.st/javascript.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Rectangle&AdsistAdSize=Large"></script>
+			<noscript><iframe src="//serve.adsi.st/iframe.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Rectangle&AdsistAdSize=Large"></iframe></noscript>
+			<script src="//serve.adsi.st/javascript.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Rectangle&AdsistAdSize=Large"></script>
+			<noscript><iframe src="//serve.adsi.st/iframe.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Rectangle&AdsistAdSize=Large"></iframe></noscript>
+			<p class="about-ads">Advertisement <a href="http://eustasy.org/advertisements">Why are there ads?</a></p>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -73,10 +75,10 @@
 		<div class="col span_1_of_12"><br></div>
 
 		<div class="col span_3_of_12">
-			<p class="nomargin textcenter"><a rel="license" class="cc floatleft" href="http://eustasy.org/licenses#cc">c</a> Creative Commons</p>
-			<p class="nomargin textcenter"><a rel="license" class="cc floatleft" href="http://eustasy.org/licenses#by">b</a> Attribution</p>
-			<p class="nomargin textcenter"><a rel="license" class="cc floatleft" href="http://eustasy.org/licenses#nc">n</a> Non-Commercial</p>
-			<p class="nomargin textcenter"><a rel="license" class="cc floatleft" href="http://eustasy.org/licenses#sa">a</a> Share-Alike</p>
+			<p class="nomargin textcenter"><a rel="license"  href="http://eustasy.org/licenses#cc">Creative Commons</a></p>
+			<p class="nomargin textcenter"><a rel="license"  href="http://eustasy.org/licenses#by">Attribution</a></p>
+			<p class="nomargin textcenter"><a rel="license"  href="http://eustasy.org/licenses#nc">Non-Commercial</a></p>
+			<p class="nomargin textcenter"><a rel="license"  href="http://eustasy.org/licenses#sa">Share-Alike</a></p>
 		</div>
 
 		<div class="col span_1_of_12"><br></div>

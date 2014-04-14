@@ -1,39 +1,85 @@
 <?php
 
-	$TextTitle = 'Ubuntu Tutorials and How to\'s';
-	$WebTitle = 'Ubuntu Tutorials and How to\'s';
-	$Canonical = '';
-	$PostType = 'Blog';
-	$FeaturedImage = '';
-	$Description = '';
+	$Title_HTML = 'Ubuntu Tutorials and How to\'s';
+	$Title_Plain = $Title_HTML;
+
+	$Description_HTML = 'Ubuntu Tutorials and How to\'s';
+	$Description_Plain = $Description_HTML;
+
 	$Keywords = '';
 
-	require '../request.php';
+	$Featured_Image = '';
 
-if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
+	$Canonical = '';
 
-	require '../header.php'; ?>
+	$Post_Type = 'Blog Index';
+	$Post_Category = '';
+
+	require_once __DIR__.'/../request.php';
+
+if ($Request['path'] === $Place['path'].$Canonical) {
+
+	require '../header.php';
+	?>
 
 		<h2>Latest Tutorials</h2>
 		<div class="section group">
 			<?php
-				$loop = 0;
-				$items = glob('*.php', GLOB_NOSORT);
-				array_multisort(array_map('filemtime', $items), SORT_NUMERIC, SORT_DESC, $items);
-				foreach($items as $entry) {
-					if(!in_array($entry, $pages)) {
-						require $entry;
-						if($PostType=='Post') {
-							echo '
+				// Make an empty array
+				$Posts_Return = array();
+
+				// Set Looper to 0
+				$Looper = 0;
+
+				// List all the files
+				$Posts_Return = glob('*.php', GLOB_NOSORT);
+
+				// FORITEM
+				foreach ($Posts_Return as $Key => $Item) {
+
+					// IFCALLER
+					if ($Item == basename(__FILE__)) unset($Posts_Return[$Key]);
+					else {
+
+						$Post_Type = 'INVALID';
+
+						// Require it
+						require $Item;
+
+						// IFPOST If it is a post (and hence has a time)
+						if ($Post_Type == 'Blog Post') {
+
+							// IFCHECKCATEGORY If no category or category matches
+							if ($Post_Category && ($Post_Category === 'Video')) {
+
+								unset($Posts_Return[$Key]);
+
+							} // IFCHECKCATEGORY
+
+						} else unset($Posts_Return[$Key]);
+						// IFPOST
+
+					} // IFCALLER
+
+				} // FORITEM
+
+				array_multisort(array_map('filemtime', $Posts_Return), SORT_NUMERIC, SORT_DESC, $Posts_Return);
+				$Posts_Return = array_slice($Posts_Return, 0, 3, true);
+
+				// FOREACH: For each Item
+				foreach ($Posts_Return as $Item) {
+
+					// Require it
+					require $Item;
+
+					echo '
 			<div class="col span_1_of_3">
-				<h3><a href="'.$Sitewide_Root.$Canonical.'">' . $TextTitle . '</a></h3>
-				<p>' . $Description . '</p>
+				<h3><a href="'.$Sitewide_Root.$Canonical.'">'.$Title_HTML.'</a></h3>
+				<p>'.$Description_HTML.'</p>
 			</div>';
-							$loop = $loop + 1;
-							if ($loop==3) break;
-						}
-					}
-				}
+
+				} // FOREACH
+
 			?>
 		</div>
 		<h5 class="textright"><a href="all">All Tutorials &raquo;</a></h5>
@@ -70,7 +116,7 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 					foreach($items as $entry) {
 						if($i==3) break;
 						require $entry;
-						echo '<h3><a href="'.$Request['scheme'].'://'.$Request['host'].'/'.$Canonical.'">' . $TextTitle . '</a></h3>';
+						echo '<h3><a href="'.$Request['scheme'].'://'.$Request['host'].'/'.$Canonical.'">' . $Title_HTML . '</a></h3>';
 						$i++;
 					}
 				?>
@@ -82,8 +128,8 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 					array_multisort(array_map('filemtime', $items), SORT_NUMERIC, SORT_DESC, $items);
 					foreach($items as $entry) {
 						require $entry;
-						echo '<h3><a href="'.$Request['scheme'].'://'.$Request['host'].'/'.$Canonical.'">' . $TextTitle . '</a></h3>';
-						echo $Video;
+						echo '<h3><a href="'.$Request['scheme'].'://'.$Request['host'].'/'.$Canonical.'">' . $Title_HTML . '</a></h3>';
+						echo $Description_HTML;
 						break;
 					}
 				?>

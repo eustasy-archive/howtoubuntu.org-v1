@@ -1,16 +1,23 @@
 <?php
 
-	$TextTitle = 'About Ubuntu 13.10 Saucy Salamander';
-	$WebTitle = 'About Ubuntu 13.10 Saucy Salamander';
-	$Canonical = 'about-ubuntu-13-10-saucy-salamander';
-	$PostType = 'Post';
-	$FeaturedImage = '';
-	$Description = 'Ubuntu 13.10 was released on the 17th of October 2013. This newer version of Ubuntu replaces 13.04 as the latest release, and is available alongside the LTS release, Ubuntu 12.04 Precise Pangolin.';
+	$Title_HTML = 'About Ubuntu 13.10 Saucy Salamander';
+	$Title_Plain = $Title_HTML;
+
+	$Description_HTML = 'Ubuntu 13.10 was released on the 17th of October 2013. This newer version of Ubuntu replaces 13.04 as the latest release, and is available alongside the LTS release, Ubuntu 12.04 Precise Pangolin.';
+	$Description_Plain = $Description_HTML;
+
 	$Keywords = 'about ubuntu 13.10 saucy salamander';
 
-	require '../request.php';
+	$Featured_Image = '';
 
-if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
+	$Canonical = 'about-ubuntu-13-10-saucy-salamander';
+
+	$Post_Type = 'Blog Post';
+	$Post_Category = 'About Ubuntu';
+
+	require_once __DIR__.'/../request.php';
+
+if ($Request['path'] === $Place['path'].$Canonical) {
 
 	require '../header.php'; ?>
 

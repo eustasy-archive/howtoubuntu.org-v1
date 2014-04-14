@@ -1,18 +1,26 @@
 <?php
 
-	$TextTitle = 'Things to do after installing Ubuntu 12.04 Precise Pangolin';
-	$WebTitle = 'Things to do after installing Ubuntu 12.04 Precise Pangolin';
+	$Title_HTML = 'Things to do after installing Ubuntu 12.04 Precise Pangolin';
+	$Title_Plain = $Title_HTML;
+
+	$Description_HTML = 'After Installing Ubuntu 12.04 Precise Pangolin, there are a wealth of things that need to be dealt with, including Hardware Drivers, DVD, Audio and Video Codecs, Archiving formats, generally useful stuff.';
+	$Description_Plain = $Description_HTML;
+
+	$Keywords = 'things after installing 12.04 12 04 precise pangolin';
+
+	$Featured_Image = '';
+
 	$Canonical = 'things-to-do-after-installing-ubuntu-12-04-precise-pangolin';
-	$PostType = 'Post';
-	$FeaturedImage = '';
-	$Description = 'After Installing Ubuntu 12.04 Precise Pangolin, there are a wealth of things that need to be dealt with, including Hardware Drivers, DVD, Audio and Video Codecs, Archiving formats, generally useful stuff.';
-	$Keywords = '';
 
-	require '../request.php';
+	$Post_Type = 'Blog Post';
+	$Post_Category = 'Afterwards';
 
-if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
+	require_once __DIR__.'/../request.php';
 
-	require '../header.php'; ?>
+if ($Request['path'] === $Place['path'].$Canonical) {
+
+	require '../header.php';
+	?>
 
 	<h2>Things to do after installing Ubuntu 12.04 Precise Pangolin</h2>
 

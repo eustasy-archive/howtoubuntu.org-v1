@@ -1,18 +1,26 @@
 <?php
 
-	$TextTitle = 'How to Install or Upgrade to the latest version of Gimp';
-	$WebTitle = 'How to Install or Upgrade to the latest version of Gimp in Ubuntu';
-	$Canonical = 'how-to-install-or-upgrade-to-the-latest-version-of-gimp-in-ubuntu';
-	$PostType = 'Post';
-	$FeaturedImage = '';
-	$Description = 'Gimp is one of the most popular image editing programs that doesn\'t cost big money. This free programme is frequently tooted as an alternative for Adobe Photoshop. Unfortunately, the Ubuntu sources don\'t tend to stock the most recent version.';
+	$Title_HTML = 'How to Install or Upgrade to the latest version of Gimp in Ubuntu';
+	$Title_Plain = 'How to Install or Upgrade to the latest version of Gimp';
+
+	$Description_HTML = 'Gimp is one of the most popular image editing programs that doesn\'t cost big money. This free programme is frequently tooted as an alternative for Adobe Photoshop. Unfortunately, the Ubuntu sources don\'t tend to stock the most recent version.';
+	$Description_Plain = $Description_HTML;
+
 	$Keywords = 'install update upgrade gimp';
 
-	require '../request.php';
+	$Featured_Image = '';
 
-if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
+	$Canonical = 'how-to-install-or-upgrade-to-the-latest-version-of-gimp-in-ubuntu';
 
-	require '../header.php'; ?>
+	$Post_Type = 'Blog Post';
+	$Post_Category = 'Applications';
+
+	require_once __DIR__.'/../request.php';
+
+if ($Request['path'] === $Place['path'].$Canonical) {
+
+	require '../header.php';
+	?>
 
 	<h2>How to Install or Upgrade to the latest version of Gimp in Ubuntu</h2>
 	<br>

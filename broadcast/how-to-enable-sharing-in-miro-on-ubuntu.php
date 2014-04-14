@@ -1,18 +1,25 @@
 <?php
 
-	$TextTitle = 'How to Enable Sharing in Miro on Ubuntu';
-	$WebTitle = 'How to Enable Sharing in Miro on Ubuntu';
-	$Canonical = 'how-to-enable-sharing-in-miro-on-ubuntu';
-	$PostType = 'Post';
-	$FeaturedImage = '';
-	$Description = 'If you have just installed Miro in Ubuntu, you may be wondering why trying to enable sharing results in an error message about the Avahi mDNSResponder Compatibility Library.';
+	$Title_HTML = 'How to Enable Sharing in Miro on Ubuntu';
+	$Title_Plain = $Title_HTML;
+
+	$Description_HTML = 'If you have just installed Miro in Ubuntu, you may be wondering why trying to enable sharing results in an error message about the Avahi mDNSResponder Compatibility Library.';
+	$Description_Plain = $Description_HTML;
+
 	$Keywords = 'enable sharing miro avahi mdnsresponder compatibility library apt libavahi compat libdnssd1 libavahi-compat-libdnssd1 apt:libavahi-compat-libdnssd1';
 
-	require '../request.php';
+	$Featured_Image = '';
 
-if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
+	$Canonical = 'how-to-enable-sharing-in-miro-on-ubuntu';
 
-	require '../header.php'; ?>
+	$Post_Type = 'Blog Post';
+	$Post_Category = '';
+
+	require_once __DIR__.'/../request.php';
+
+if ($Request['path'] === $Place['path'].$Canonical) {
+	require '../header.php';
+	?>
 
 	<h2>How to Enable Sharing in Miro</h2>
 	<p>If you have just installed Miro in Ubuntu, you may be wondering why trying to enable sharing results in an error message about the Avahi mDNSResponder Compatibility Library. There are two ways to do this. The first column you just click the button and click install, and the second one requires the execution of a command in the terminal, but may well be faster.</p>
@@ -32,4 +39,6 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 	</div>
 	<h3>Congratulations, you have just Enabled Sharing in Miro on Ubuntu!</h3>
 
-<?php require '../footer.php'; } ?>
+	<?php
+	require '../footer.php';
+}

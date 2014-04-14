@@ -1,18 +1,26 @@
 <?php
 
-	$TextTitle = 'How to Remove the Rhythmbox Sound Indicator';
-	$WebTitle = 'How to Remove the Rhythmbox Sound Indicator in Ubuntu';
-	$Canonical = 'how-to-remove-the-rhythmbox-sound-indicator-in-ubuntu';
-	$PostType = 'Post';
-	$FeaturedImage = '';
-	$Description = 'While some may find it useful to have music players listed in the sound indicator menu with individual controls, installers of multiple software may want to blacklist some media players from appearing there. It can be done with this simple command, or edited in dconf Editor.';
+	$Title_HTML = 'How to Remove the Rhythmbox Sound Indicator';
+	$Title_Plain = 'How to Remove the Rhythmbox Sound Indicator in Ubuntu';
+
+	$Description_HTML = 'While some may find it useful to have music players listed in the sound indicator menu with individual controls, installers of multiple software may want to blacklist some media players from appearing there. It can be done with this simple command, or edited in dconf Editor.';
+	$Description_Plain = $Description_HTML;
+
 	$Keywords = 'remove rythmbox disable hide sound indicator blacklist';
 
-	require '../request.php';
+	$Featured_Image = '';
 
-if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
+	$Canonical = 'how-to-remove-the-rhythmbox-sound-indicator-in-ubuntu';
 
-	require '../header.php'; ?>
+	$Post_Type = 'Blog Post';
+	$Post_Category = 'Media';
+
+	require_once __DIR__.'/../request.php';
+
+if ($Request['path'] === $Place['path'].$Canonical) {
+
+	require '../header.php';
+	?>
 
 	<div class="section group">
 		<div class="col span_1_of_6"><br></div>

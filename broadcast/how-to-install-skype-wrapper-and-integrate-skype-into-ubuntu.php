@@ -1,18 +1,26 @@
 <?php
 
-	$TextTitle = 'How to Install Skype Wrapper and Integrate Skype';
-	$WebTitle = 'How to Install Skype Wrapper and Integrate Skype into Ubuntu';
-	$Canonical = 'how-to-install-skype-wrapper-and-integrate-skype-into-ubuntu';
-	$PostType = 'Post';
-	$FeaturedImage = '';
-	$Description = 'If you\'ve used Skype then you may have come across some of the patchy integration that is now Microsoft\'s problem. While they take their time fixing that, there is, in typical Linux fashion, a home-grown alternative. Skype Wrapper gives you tighter integration into Ubuntu and Unity via a convenient python app.';
+	$Title_HTML = 'How to Install Skype Wrapper and Integrate Skype into Ubuntu';
+	$Title_Plain = 'How to Install Skype Wrapper and Integrate Skype';
+
+	$Description_HTML = 'If you\'ve used Skype then you may have come across some of the patchy integration that is now Microsoft\'s problem. While they take their time fixing that, there is, in typical Linux fashion, a home-grown alternative. Skype Wrapper gives you tighter integration into Ubuntu and Unity via a convenient python app.';
+	$Description_Plain = $Description_HTML;
+
 	$Keywords = 'install skype-wrapper skype wrapper integrate unity';
 
-	require '../request.php';
+	$Featured_Image = '';
 
-if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
+	$Canonical = 'how-to-install-skype-wrapper-and-integrate-skype-into-ubuntu';
 
-	require '../header.php'; ?>
+	$Post_Type = 'Blog Post';
+	$Post_Category = 'Applications';
+
+	require_once __DIR__.'/../request.php';
+
+if ($Request['path'] === $Place['path'].$Canonical) {
+
+	require '../header.php';
+	?>
 
 	<h2>How to Install Skype Wrapper and Integrate Skype into Ubuntu</h2>
 

@@ -1,18 +1,26 @@
 <?php
 
-	$TextTitle = 'How to Play a DVD in Ubuntu';
-	$WebTitle = 'How to Play a DVD in Ubuntu';
-	$Canonical = 'how-to-play-a-dvd-in-ubuntu';
-	$PostType = 'Post';
-	$FeaturedImage = '';
-	$Description = 'Ubuntu, by default, does not include the necessary libraries or codecs to decode DVDs. As such, it will not play commercial videos off of them. Here we detail the variety of ways to Play a DVD in Ubuntu.';
+	$Title_HTML = 'How to Play a DVD in Ubuntu';
+	$Title_Plain = $Title_HTML;
+
+	$Description_HTML = 'Ubuntu, by default, does not include the necessary libraries or codecs to decode DVDs. As such, it will not play commercial videos off of them. Here we detail the variety of ways to Play a DVD in Ubuntu.';
+	$Description_Plain = $Description_HTML;
+
 	$Keywords = 'play dvd codec';
 
-	require '../request.php';
+	$Featured_Image = '';
 
-if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
+	$Canonical = 'how-to-play-a-dvd-in-ubuntu';
 
-	require '../header.php'; ?>
+	$Post_Type = 'Blog Post';
+	$Post_Category = 'Media';
+
+	require_once __DIR__.'/../request.php';
+
+if ($Request['path'] === $Place['path'].$Canonical) {
+
+	require '../header.php';
+	?>
 
 	<div class="section group">
 		<div class="col span_1_of_6"><br></div>

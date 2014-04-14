@@ -1,16 +1,23 @@
 <?php
 
-	$TextTitle = 'About';
-	$WebTitle = 'About';
-	$Canonical = 'about';
-	$PostType = 'Page';
-	$FeaturedImage = '';
-	$Description = 'How to Ubuntu aim to provide reliable, precise, tested tutorials on anything and everything Ubuntu.';
+	$Title_HTML = 'About';
+	$Title_Plain = $Title_HTML;
+
+	$Description_HTML = 'How to Ubuntu aim to provide reliable, precise, tested tutorials on anything and everything Ubuntu.';
+	$Description_Plain = $Description_HTML;
+
 	$Keywords = 'about';
 
-	require '../request.php';
+	$Featured_Image = '';
 
-if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
+	$Canonical = 'about';
+
+	$Post_Type = 'Page';
+	$Post_Category = '';
+
+	require_once __DIR__.'/../request.php';
+
+if ($Request['path'] === $Place['path'].$Canonical) {
 
 	require '../header.php'; ?>
 

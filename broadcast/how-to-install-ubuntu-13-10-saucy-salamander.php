@@ -1,16 +1,23 @@
 <?php
 
-	$TextTitle = 'Install Ubuntu 13.10 Saucy Salamander';
-	$WebTitle = 'How to Install Ubuntu 13.10 Saucy Salamander';
-	$Canonical = 'how-to-install-ubuntu-13-10-saucy-salamander';
-	$PostType = 'Post';
-	$FeaturedImage = '';
-	$Description = 'Ubuntu 13.10 Saucy Salamander came out on 17th of October 2013. Future releases will reoccur every 6 months (you can upgrade as easily as updating, it just takes a little longer) in April and October. Ubuntu 13.10 is the first version to have only 9 months of support, with previous releases offering 18 months as a minimum. This comes after the upgrade to five years of support of the last LTS release, Ubuntu 12.04.';
+	$Title_HTML = 'Install Ubuntu 13.10 Saucy Salamander';
+	$Title_Plain = 'How to Install Ubuntu 13.10 Saucy Salamander';
+
+	$Description_HTML = 'Ubuntu 13.10 Saucy Salamander came out on 17th of October 2013. Future releases will reoccur every 6 months (you can upgrade as easily as updating, it just takes a little longer) in April and October. Ubuntu 13.10 is the first version to have only 9 months of support, with previous releases offering 18 months as a minimum. This comes after the upgrade to five years of support of the last LTS release, Ubuntu 12.04.';
+	$Description_Plain = $Description_HTML;
+
 	$Keywords = 'install ubuntu 13.10 13 10 1310 saucy salamander linux';
 
-	require '../request.php';
+	$Featured_Image = '';
 
-if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
+	$Canonical = 'how-to-install-ubuntu-13-10-saucy-salamander';
+
+	$Post_Type = 'Blog Post';
+	$Post_Category = 'Release';
+
+	require_once __DIR__.'/../request.php';
+
+if ($Request['path'] === $Place['path'].$Canonical) {
 
 	require '../header.php';
 	?>

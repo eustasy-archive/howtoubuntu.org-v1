@@ -1,18 +1,26 @@
 <?php
 
-	$TextTitle = 'How to make your Dual Boot better with Burg';
-	$WebTitle = 'How to make your Dual Boot better with Burg';
-	$Canonical = 'how-to-make-your-dual-boot-better-with-burg';
-	$PostType = 'Post';
-	$FeaturedImage = '';
-	$Description = 'Burg gives you the ability to use custom themes for selecting your bootloader, both with and without text. It also opens up the possibility of customizing and developing your own themes.';
+	$Title_HTML = 'How to make your Dual Boot better with Burg';
+	$Title_Plain = $Title_HTML;
+
+	$Description_HTML = 'Burg gives you the ability to use custom themes for selecting your bootloader, both with and without text. It also opens up the possibility of customizing and developing your own themes.';
+	$Description_Plain = $Description_HTML;
+
 	$Keywords = 'install burg boot dual';
 
-	require '../request.php';
+	$Featured_Image = '';
 
-if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
+	$Canonical = 'how-to-make-your-dual-boot-better-with-burg';
 
-	require '../header.php'; ?>
+	$Post_Type = 'Blog Post';
+	$Post_Category = 'Boot';
+
+	require_once __DIR__.'/../request.php';
+
+if ($Request['path'] === $Place['path'].$Canonical) {
+
+	require '../header.php';
+	?>
 
 	<div class="section group">
 		<div class="col span_1_of_6"><br></div>

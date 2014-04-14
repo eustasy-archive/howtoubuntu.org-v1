@@ -1,16 +1,23 @@
 <?php
 
-	$TextTitle = 'How to Install a 32bit program in 64bit Ubuntu';
-	$WebTitle = 'How to Install a 32bit program in 64bit Ubuntu';
-	$Canonical = 'how-to-install-a-32bit-program-in-64bit-ubuntu';
-	$PostType = 'Post';
-	$FeaturedImage = '';
-	$Description = 'With Ubuntu 12.04 and 13.10 both recommending 64bit for most users (at last), you may find that some software doesn\'t have a 64bit counterpart.';
+	$Title_HTML = 'How to Install a 32bit program in 64bit Ubuntu';
+	$Title_Plain = $Title_HTML;
+
+	$Description_HTML = 'With Ubuntu 12.04 and 13.10 both recommending 64bit for most users (at last), you may find that some software doesn\'t have a 64bit counterpart.';
+	$Description_Plain = $Description_HTML;
+
 	$Keywords = 'install 32bit 64bit 32 64 bit program ubuntu';
 
-	require '../request.php';
+	$Featured_Image = '';
 
-if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
+	$Canonical = 'how-to-install-a-32bit-program-in-64bit-ubuntu';
+
+	$Post_Type = 'Blog Post';
+	$Post_Category = '';
+
+	require_once __DIR__.'/../request.php';
+
+if ($Request['path'] === $Place['path'].$Canonical) {
 
 	require '../header.php'; ?>
 

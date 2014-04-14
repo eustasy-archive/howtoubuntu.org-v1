@@ -1,16 +1,23 @@
 <?php
 
-	$TextTitle = 'How to Install and Update avast! Antivirus in Ubuntu';
-	$WebTitle = 'How to Install and Update avast! Antivirus in Ubuntu';
-	$Canonical = 'how-to-install-and-update-avast-antivirus-in-ubuntu';
-	$PostType = 'Post';
-	$FeaturedImage = '';
-	$Description = 'Ubuntu doesn\'t tend to get viruses, but if you work with Windows, you can scan your machine using avast! Antivirus, once you\'ve fixed the update issue.';
+	$Title_HTML = 'How to Install and Update avast! Antivirus in Ubuntu';
+	$Title_Plain = $Title_HTML;
+
+	$Description_HTML = 'Ubuntu doesn\'t tend to get viruses, but if you work with Windows, you can scan your machine using avast! Antivirus, once you\'ve fixed the update issue.';
+	$Description_Plain = $Description_HTML;
+
 	$Keywords = 'install update avast antivirus';
 
-	require '../request.php';
+	$Featured_Image = '';
 
-if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
+	$Canonical = 'how-to-install-and-update-avast-antivirus-in-ubuntu';
+
+	$Post_Type = 'Blog Post';
+	$Post_Category = '';
+
+	require_once __DIR__.'/../request.php';
+
+if ($Request['path'] === $Place['path'].$Canonical) {
 
 	require '../header.php'; ?>
 

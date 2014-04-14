@@ -1,16 +1,23 @@
 <?php
 
-	$TextTitle = 'How to get more free disk space in Ubuntu';
-	$WebTitle = 'How to get more free disk space in Ubuntu';
-	$Canonical = 'how-to-get-more-free-disk-space-in-ubuntu';
-	$PostType = 'Post';
-	$FeaturedImage = '';
-	$Description = 'Over time, any Operating System can become cluttered as programs are added and removed. In Ubuntu, the downloaded packages are cached for a certain time, as well as tmp (temporary) files, such as browser caches, which can take up valuable Gigabytes of space.';
+	$Title_HTML = 'How to get more free disk space in Ubuntu';
+	$Title_Plain = $Title_HTML;
+
+	$Description_HTML = 'Over time, any Operating System can become cluttered as programs are added and removed. In Ubuntu, the downloaded packages are cached for a certain time, as well as tmp (temporary) files, such as browser caches, which can take up valuable Gigabytes of space.';
+	$Description_Plain = $Description_HTML;
+
 	$Keywords = 'get more free space disk hard drive';
 
-	require '../request.php';
+	$Featured_Image = '';
 
-if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
+	$Canonical = 'how-to-get-more-free-disk-space-in-ubuntu';
+
+	$Post_Type = 'Blog Post';
+	$Post_Category = '';
+
+	require_once __DIR__.'/../request.php';
+
+if ($Request['path'] === $Place['path'].$Canonical) {
 
 	require '../header.php'; ?>
 

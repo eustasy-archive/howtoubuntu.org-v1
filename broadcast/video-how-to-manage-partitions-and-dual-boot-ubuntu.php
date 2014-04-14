@@ -1,19 +1,24 @@
 <?php
 
-	$TextTitle = 'Video: How to Manage Partitions and Dual Boot Ubuntu';
-	$WebTitle = 'Video: How to Manage Partitions and Dual Boot Ubuntu';
-	$Canonical = 'video-how-to-manage-partitions-and-dual-boot-ubuntu';
-	$PostType = 'Post';
-	$FeaturedImage = '';
-	$Description = 'The lovely NixiePixel has a video on Resizing and Dual Booting Ubuntu.';
-	$Video = '<p>The lovely <a target="_blank" href="http://www.youtube.com/nixiedoeslinux">NixiePixel</a> has a video on Resizing and Dual Booting Ubuntu.</p><h3 class="textcenter"><a class="download fancybox-media" href="http://www.youtube.com/embed/eSMMs4cfMqY?autohide=1&showinfo=0">Play Video</a></h3>';
+	$Title_HTML = 'Video: How to Manage Partitions and Dual Boot Ubuntu';
+	$Title_Plain = $Title_HTML;
+
+	$Description_HTML = '<p>The lovely <a target="_blank" href="http://www.youtube.com/nixiedoeslinux">NixiePixel</a> has a video on Resizing and Dual Booting Ubuntu.</p><h3 class="textcenter"><a class="download fancybox-media" href="http://www.youtube.com/embed/eSMMs4cfMqY?autohide=1&showinfo=0">Play Video</a></h3>';
+	$Description_Plain = 'The lovely NixiePixel has a video on Resizing and Dual Booting Ubuntu.';
+
 	$Keywords = 'manage partitions dual boot video';
 
-	require '../request.php';
+	$Featured_Image = '';
 
-if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
+	$Canonical = 'video-how-to-manage-partitions-and-dual-boot-ubuntu';
 
-	require '../header.php'; ?>
+	$Post_Type = 'Blog Post';
+	$Post_Category = 'Video';
+
+if ($Request['path'] === $Place['path'].$Canonical) {
+
+	require '../header.php';
+	?>
 
 	<div class="section group">
 		<div class="col span_1_of_5"><br></div>
@@ -27,4 +32,6 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 		<div class="col span_1_of_5"><br></div>
 	</div>
 
-<?php require '../footer.php'; } ?>
+	<?php
+	require '../footer.php';
+}

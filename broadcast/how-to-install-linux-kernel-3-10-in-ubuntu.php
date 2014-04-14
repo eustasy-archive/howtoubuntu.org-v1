@@ -1,18 +1,25 @@
 <?php
 
-	$TextTitle = 'How to Install Linux Kernel 3.10';
-	$WebTitle = 'How to Install Linux Kernel 3.10 in Ubuntu';
-	$Canonical = 'how-to-install-linux-kernel-3-10-in-ubuntu';
-	$PostType = 'Post';
-	$FeaturedImage = '';
-	$Description = 'Linux Kernel 3.10 is the most recent LTS kernel release, with 18 releases to date. With a plethora of fixes for literally thousands of bugs, the latest updates stress stable network connectivity.';
+	$Title_HTML = 'How to Install Linux Kernel 3.10';
+	$Title_Plain = $Title_HTML;
+
+	$Description_HTML = 'Linux Kernel 3.10 is the most recent LTS kernel release, with 18 releases to date. With a plethora of fixes for literally thousands of bugs, the latest updates stress stable network connectivity.';
+	$Description_Plain = $Description_HTML;
+
 	$Keywords = 'install linux kernel headers 3 10 3.10';
 
-	require '../request.php';
+	$Featured_Image = '';
 
-if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
+	$Canonical = 'how-to-install-linux-kernel-3-10-in-ubuntu';
 
-	require '../header.php'; ?>
+	$Post_Type = 'Blog Post';
+	$Post_Category = 'Kernels';
+
+	require_once __DIR__.'/../request.php';
+
+if ($Request['path'] === $Place['path'].$Canonical) {
+	require '../header.php';
+	?>
 
 	<div class="section group">
 		<div class="col span_1_of_5"><br></div>

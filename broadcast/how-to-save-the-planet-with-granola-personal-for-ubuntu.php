@@ -1,18 +1,26 @@
 <?php
 
-	$TextTitle = 'How to Save the Planet with Granola Personal for Ubuntu';
-	$WebTitle = 'How to Save the Planet with Granola Personal for Ubuntu';
-	$Canonical = 'how-to-save-the-planet-with-granola-personal-for-ubuntu';
-	$PostType = 'Post';
-	$FeaturedImage = '';
-	$Description = 'Granola Personal is a small little app that cycles down your CPU in an intelligent manner to save computer time and money, but mainly energy and trees.';
+	$Title_HTML = 'How to Save the Planet with Granola Personal for Ubuntu';
+	$Title_Plain = $Title_HTML;
+
+	$Description_HTML = 'Granola Personal is a small little app that cycles down your CPU in an intelligent manner to save computer time and money, but mainly energy and trees.';
+	$Description_Plain = $Description_HTML;
+
 	$Keywords = 'granola personal free gui download install repository settings save planet energy saving computer time money trees green cycles down';
 
-	require '../request.php';
+	$Featured_Image = '';
 
-if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
+	$Canonical = 'how-to-save-the-planet-with-granola-personal-for-ubuntu';
 
-	require '../header.php'; ?>
+	$Post_Type = 'Blog Post';
+	$Post_Category = 'Green';
+
+	require_once __DIR__.'/../request.php';
+
+if ($Request['path'] === $Place['path'].$Canonical) {
+
+	require '../header.php';
+	?>
 
 	<h2>How to Save the Planet with Granola Personal</h2>
 

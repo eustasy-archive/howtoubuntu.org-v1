@@ -1,18 +1,25 @@
 <?php
 
-	$TextTitle = 'How to Install LAMP on Ubuntu';
-	$WebTitle = 'How to Install LAMP on Ubuntu';
-	$Canonical = 'how-to-install-lamp-on-ubuntu';
-	$PostType = 'Post';
-	$FeaturedImage = '';
-	$Description = 'The following tutorial presumes you understand what a LAMP Server is, how to work a website from the back end and how to install software using either the Software Centre or the Terminal. It also expect experience running other Basic Terminal Commands.';
+	$Title_HTML = 'How to Install LAMP on Ubuntu';
+	$Title_Plain = $Title_HTML;
+
+	$Description_HTML = 'The following tutorial presumes you understand what a LAMP Server is, how to work a website from the back end and how to install software using either the Software Centre or the Terminal. It also expect experience running other Basic Terminal Commands.';
+	$Description_Plain = $Description_HTML;
+
 	$Keywords = 'install lamp stack linux apache mysql php check restart server';
 
-	require '../request.php';
+	$Featured_Image = '';
 
-if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
+	$Canonical = 'how-to-install-lamp-on-ubuntu';
 
-	require '../header.php'; ?>
+	$Post_Type = 'Blog Post';
+	$Post_Category = '';
+
+	require_once __DIR__.'/../request.php';
+
+if ($Request['path'] === $Place['path'].$Canonical) {
+	require '../header.php';
+	?>
 
 	<div class="section group">
 		<div class="col span_5_of_11">
@@ -82,4 +89,6 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 	<br>
 	<h3>Congratulations, you have just Installed a Ubuntu LAMP Server!</h3>
 
-<?php require '../footer.php'; } ?>
+	<?php
+	require '../footer.php';
+}

@@ -1,18 +1,25 @@
 <?php
 
-	$TextTitle = 'How to find out how much RAM is installed in Ubuntu';
-	$WebTitle = 'How to find out how much RAM is installed in Ubuntu';
-	$Canonical = 'how-to-find-out-how-much-ram-is-installed-in-ubuntu';
-	$PostType = 'Post';
-	$FeaturedImage = '';
-	$Description = 'You may find yourself struggling to remember how much RAM you have at your disposal, or just wondering how much is being recognized by Ubuntu. This tutorial details ways to find out.';
+	$Title_HTML = 'How to find out how much RAM is installed in Ubuntu';
+	$Title_Plain = $Title_HTML;
+
+	$Description_HTML = 'You may find yourself struggling to remember how much RAM you have at your disposal, or just wondering how much is being recognized by Ubuntu. This tutorial details ways to find out.';
+	$Description_Plain = $Description_HTML;
+
 	$Keywords = 'find out much ram installed recognized';
 
-	require '../request.php';
+	$Featured_Image = '';
 
-if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
+	$Canonical = 'how-to-find-out-how-much-ram-is-installed-in-ubuntu';
 
-	require '../header.php'; ?>
+	$Post_Type = 'Blog Post';
+	$Post_Category = '';
+
+	require_once __DIR__.'/../request.php';
+
+if ($Request['path'] === $Place['path'].$Canonical) {
+	require '../header.php';
+	?>
 
 	<div class="section group">
 		<div class="col span_1_of_5"><br></div>
@@ -34,4 +41,6 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 		</div>
 	</div>
 
-<?php require '../footer.php'; } ?>
+	<?php
+	require '../footer.php';
+}

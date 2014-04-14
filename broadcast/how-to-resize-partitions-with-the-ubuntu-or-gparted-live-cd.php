@@ -1,18 +1,26 @@
 <?php
 
-	$TextTitle = 'How to Resize Partitions with the Ubuntu or GParted Live CD';
-	$WebTitle = 'How to Resize Partitions with the Ubuntu or GParted Live CD';
-	$Canonical = 'how-to-resize-partitions-with-the-ubuntu-or-gparted-live-cd';
-	$PostType = 'Post';
-	$FeaturedImage = '';
-	$Description = 'Having installed Ubuntu, you may find yourself wanting to shrink or get rid of your Windows partition completely. This tutorial will show you how do do either of those things, with a variety or filesystems, including NTFS, and EXT4. The instructions do not vary based on filesystem format.';
+	$Title_HTML = 'How to Resize Partitions with the Ubuntu or GParted Live CD';
+	$Title_Plain = $Title_HTML;
+
+	$Description_HTML = 'Having installed Ubuntu, you may find yourself wanting to shrink or get rid of your Windows partition completely. This tutorial will show you how do do either of those things, with a variety or filesystems, including NTFS, and EXT4. The instructions do not vary based on filesystem format.';
+	$Description_Plain = $Description_HTML;
+
 	$Keywords = 'resize partitions live cd dvd usb gparted';
 
-	require '../request.php';
+	$Featured_Image = '';
 
-if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
+	$Canonical = 'how-to-resize-partitions-with-the-ubuntu-or-gparted-live-cd';
 
-	require '../header.php'; ?>
+	$Post_Type = 'Blog Post';
+	$Post_Category = 'Boot';
+
+	require_once __DIR__.'/../request.php';
+
+if ($Request['path'] === $Place['path'].$Canonical) {
+
+	require '../header.php';
+	?>
 
 	<h2>How to Resize Partitions with the Ubuntu or GParted Live CD</h2>
 

@@ -1,18 +1,26 @@
 <?php
 
-	$TextTitle = 'How to tell if you\'re using 32bit or 64bit Ubuntu';
-	$WebTitle = 'How to tell if you\'re using 32bit or 64bit Ubuntu';
-	$Canonical = 'how-to-tell-if-youre-using-32bit-or-64bit-ubuntu';
-	$PostType = 'Post';
-	$FeaturedImage = '';
-	$Description = 'Sometimes you may be asked if you want to download  i386 or amd64. These stand for 32bit and 64bit respectively, and no longer have any relation to your CPU manufacturer (Intel or AMD). This is a simple guide to determining your architecture in a few simple clicks.';
+	$Title_HTML = 'How to tell if you\'re using 32bit or 64bit Ubuntu';
+	$Title_Plain = $Title_HTML;
+
+	$Description_HTML = 'Sometimes you may be asked if you want to download  i386 or amd64. These stand for 32bit and 64bit respectively, and no longer have any relation to your CPU manufacturer (Intel or AMD). This is a simple guide to determining your architecture in a few simple clicks.';
+	$Description_Plain = $Description_HTML;
+
 	$Keywords = 'tell find out 32bit 64bit 32 64 bit architecture amd amd64 i intel i386 i586 i686';
 
-	require '../request.php';
+	$Featured_Image = '';
 
-if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
+	$Canonical = 'how-to-tell-if-youre-using-32bit-or-64bit-ubuntu';
 
-	require '../header.php'; ?>
+	$Post_Type = 'Blog Post';
+	$Post_Category = 'Supporting';
+
+	require_once __DIR__.'/../request.php';
+
+if ($Request['path'] === $Place['path'].$Canonical) {
+
+	require '../header.php';
+	?>
 
 	<h2>How to tell if you're using 32bit or 64bit Ubuntu</h2>
 

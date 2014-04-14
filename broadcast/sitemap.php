@@ -1,42 +1,67 @@
 <?php
 
-	$TextTitle = 'Sitemap';
-	$WebTitle = 'Sitemap';
+	$Title_HTML = 'Sitemap';
+	$Title_Plain = $Title_HTML;
+
+	$Description_HTML = 'Root Sitemap.';
+	$Description_Plain = $Description_HTML;
+
+	$Keywords = 'sitemap';
+
+	$Featured_Image = '';
+
 	$Canonical = 'sitemap';
-	$PostType = 'Sitemap';
-	$FeaturedImage = '';
-	$Description = '';
-	$Keywords = '';
 
-	require_once '../request.php';
+	$Post_Type = 'Sitemap';
+	$Post_Category = '';
 
-if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
+	require_once __DIR__.'/../request.php';
 
+if ($Request['path'] === $Place['path'].$Canonical) {
+
+	// Send the right header for a Sitemap
 	header('Content-Type: application/xml');
-	echo '<?xml version="1.0" encoding="utf-8"?>';
 
-	echo '
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'; // An Sitemap to boot.
+	// Set the encoding and doctype
+	echo '<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">';
 
-	$loop = 0;
-	$items = glob('*.php', GLOB_NOSORT);
-	array_multisort(array_map('filemtime', $items), SORT_NUMERIC, SORT_DESC, $items);
-	foreach($items as $entry) {
-		if($entry!='sitemap.php') {
-			require $entry;
-			if($PostType=='Post'||$PostType=='Page'||$PostType=='Blog'||$PostType=='Forum') {
-				$PostLink = $Request['scheme'].'://'.$Request['host'].'/'.$Canonical;
+	// List all the files
+	$Items = globRecursive('*.php');
+
+	// Order them by time
+	array_multisort(array_map('filemtime', $Items), SORT_NUMERIC, SORT_DESC, $Items);
+
+	// FOREACH: For each Item
+	foreach ($Items as $Item) {
+
+		// IFNOTTHIS: So long as it isn't this file
+		if ($Item != basename(__FILE__)) {
+
+			// Require it
+			require $Item;
+
+			// IFRECOGNISE If the Post_Type is Recognized
+			if (in_array($Post_Type, $Post_Types)) {
+
+				// Echo out the Item
 				echo '
-		<url>
-			<loc>'.$PostLink.'</loc>
-			<lastmod>'.date('Y-m-d', filemtime($entry)).'</lastmod>
-			<priority>0.9</priority>
-			<changefreq>weekly</changefreq>
-		</url>';
-			}
-		}
-	}
+	<url>
+		<loc>'.$Sitewide_Root.$Canonical.'</loc>
+		<lastmod>'.date('Y-m-d', filemtime($Item)).'</lastmod>
+		<priority>1</priority>
+		<changefreq>daily</changefreq>
+	</url>';
 
+			} // IFRECOGNISE
+
+			$Post_Type = 'INVALID';
+
+		} // IFNOTTHIS
+
+	} // FOREACH
+
+	// Fin
 	echo '
 </urlset>';
 

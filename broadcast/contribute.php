@@ -1,16 +1,23 @@
 <?php
 
-	$TextTitle = 'Contribute';
-	$WebTitle = 'Contribute';
-	$Canonical = 'contribute';
-	$PostType = 'Page';
-	$FeaturedImage = '';
-	$Description = '';
+	$Title_HTML = 'Contribute';
+	$Title_Plain = $Title_HTML;
+
+	$Description_HTML = 'Contribute to How to Ubuntu.';
+	$Description_Plain = $Description_HTML;
+
 	$Keywords = 'contribute';
 
-	require '../request.php';
+	$Featured_Image = '';
 
-if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
+	$Canonical = 'contribute';
+
+	$Post_Type = 'Page';
+	$Post_Category = '';
+
+	require_once __DIR__.'/../request.php';
+
+if ($Request['path'] === $Place['path'].$Canonical) {
 
 	require '../header.php'; ?>
 

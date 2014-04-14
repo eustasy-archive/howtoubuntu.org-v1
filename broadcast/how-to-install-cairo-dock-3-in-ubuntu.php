@@ -1,16 +1,23 @@
 <?php
 
-	$TextTitle = 'How to Install Cairo Dock 3 in Ubuntu';
-	$WebTitle = 'How to Install Cairo Dock 3 in Ubuntu';
-	$Canonical = 'how-to-install-cairo-dock-3-in-ubuntu';
-	$PostType = 'Post';
-	$FeaturedImage = '';
-	$Description = 'Cairo Dock is an OS X like approach to alternative desktop environment. This tutorial will teach you how to install the latest version.';
+	$Title_HTML = 'How to Install Cairo Dock 3 in Ubuntu';
+	$Title_Plain = $Title_HTML;
+
+	$Description_HTML = 'Cairo Dock is an OS X like approach to alternative desktop environment. This tutorial will teach you how to install the latest version.';
+	$Description_Plain = $Description_HTML;
+
 	$Keywords = 'install cairo dock 3';
 
-	require '../request.php';
+	$Featured_Image = '';
 
-if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
+	$Canonical = 'how-to-install-cairo-dock-3-in-ubuntu';
+
+	$Post_Type = 'Blog Post';
+	$Post_Category = '';
+
+	require_once __DIR__.'/../request.php';
+
+if ($Request['path'] === $Place['path'].$Canonical) {
 
 	require '../header.php'; ?>
 
@@ -40,4 +47,6 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 	<p>Once you've installed Cairo, you may switch, with or without Unity/Gnome, and back again when you login, using the Gear icon to the right of your name.</p>
 	<h3>Congratulations, you've just installed Cairo Dock 3.0 in Ubuntu!</h3>
 
-<?php require '../footer.php'; } ?>
+	<?php
+	require '../footer.php';
+}

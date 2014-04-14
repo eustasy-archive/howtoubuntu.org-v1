@@ -1,16 +1,23 @@
 <?php
 
-	$TextTitle = 'Countdown';
-	$WebTitle = 'Countdown';
+	$Title_HTML = 'Countdown';
+	$Title_Plain = $Title_HTML;
+
+	$Description_HTML = 'Countdown to the next Ubuntu release.';
+	$Description_Plain = $Description_HTML;
+
+	$Keywords = 'countdown release';
+
+	$Featured_Image = '';
+
 	$Canonical = 'countdown';
-	$PostType = 'Page';
-	$FeaturedImage = '';
-	$Description = '';
-	$Keywords = 'countdown';
 
-	require '../request.php';
+	$Post_Type = 'Page';
+	$Post_Category = '';
 
-if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
+	require_once __DIR__.'/../request.php';
+
+if ($Request['path'] === $Place['path'].$Canonical) {
 
 	require '../header.php'; ?>
 

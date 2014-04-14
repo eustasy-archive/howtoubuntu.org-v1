@@ -1,16 +1,23 @@
 <?php
 
-	$TextTitle = 'About Ubuntu 12.04 Precise Pangolin';
-	$WebTitle = 'About Ubuntu 12.04 Precise Pangolin';
-	$Canonical = 'about-ubuntu-12-04-precise-pangolin';
-	$PostType = 'Post';
-	$FeaturedImage = '';
-	$Description = 'Ubuntu 12.04 was released on the 26th of April 2012, which just so happened to be a Thursday. From there on in, Ubuntu 12.04 Precise Pangolin provided millions of users all over the world with a free, stable, secure operating system.';
+	$Title_HTML = 'About Ubuntu 12.04 Precise Pangolin';
+	$Title_Plain = $Title_HTML;
+
+	$Description_HTML = 'Ubuntu 12.04 was released on the 26th of April 2012, which just so happened to be a Thursday. From there on in, Ubuntu 12.04 Precise Pangolin provided millions of users all over the world with a free, stable, secure operating system.';
+	$Description_Plain = $Description_HTML;
+
 	$Keywords = 'about ubuntu 12.04 precise pangolin';
 
-	require '../request.php';
+	$Featured_Image = '';
 
-if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
+	$Canonical = 'about-ubuntu-12-04-precise-pangolin';
+
+	$Post_Type = 'Blog Post';
+	$Post_Category = 'About Ubuntu';
+
+	require_once __DIR__.'/../request.php';
+
+if ($Request['path'] === $Place['path'].$Canonical) {
 
 	require '../header.php'; ?>
 
