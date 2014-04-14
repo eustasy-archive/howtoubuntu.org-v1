@@ -4,7 +4,7 @@
 	<div class="content bottom"></div>
 
 	<div class="section group content last">
-		<div class="col span_5_of_11">
+		<div class="col span_6_of_11">
 			<h3>Trending</h3>
 			<?php
 				$Trending = Trending(basename(__FILE__), 'Blog Post', 5	);
@@ -56,7 +56,7 @@
 			<script type="text/javascript">(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)) return;js=d.createElement(s);js.id=id;js.src='http://connect.facebook.net/en_GB/all.js#xfbml=1&appId=211598199034258';fjs.parentNode.insertBefore(js,fjs);}(document,'script','facebook-jssdk'));</script>
 		</div>
 		<div class="col span_1_of_11"><br></div>
-		<div class="col span_5_of_11 textcenter">
+		<div class="col span_4_of_11 textcenter">
 			<script src="//serve.adsi.st/javascript.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Rectangle&AdsistAdSize=Large"></script>
 			<noscript><iframe src="//serve.adsi.st/iframe.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Rectangle&AdsistAdSize=Large"></iframe></noscript>
 			<script src="//serve.adsi.st/javascript.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Rectangle&AdsistAdSize=Large"></script>
