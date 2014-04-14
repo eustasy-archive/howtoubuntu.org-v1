@@ -3,11 +3,8 @@ How to Ubuntu
 
 Ubuntu Tutorials and How to's
 
-### TODO Before Stable
-- Review Simplet default JavaScript
-
 ### Roadmap
-- [Things to do after installing Ubuntu 13.10 Saucy Salamander](http://b.howtoubuntu.org/things-to-do-after-installing-ubuntu-13-10-saucy-salamander) is to be written in a similar style to its predecessor.
+- [Things to do after installing Ubuntu 13.10 Saucy Salamander](http://b.howtoubuntu.org/things-to-do-after-installing-ubuntu-13-10-saucy-salamander) needs checking.
 - Add About, How to Install and Things to do After for 14.04
 - Add Kernel Control Article.
 - Attain YouTube Partnership(s).
