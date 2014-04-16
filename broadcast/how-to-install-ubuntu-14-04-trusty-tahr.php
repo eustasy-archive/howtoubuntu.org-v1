@@ -60,11 +60,10 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 			</div>
 			<br>
 			<h3 id="download">Downloading</h3>
-			<p>You can <a href="http://www.ubuntu.com/download/desktop">Download Ubuntu 14.04</a> directly. The file size is just under a Gigabyte and may take anything from a few minutes to a few hours, depending primarily on your connection speed. Downloads will be faster after the first day of release (as less people download).</p>
+			<p>You can <a href="http://www.ubuntu.com/download/desktop">Download Ubuntu 14.04</a> from Ubuntu.com. The file size is just under a Gigabyte and may take anything from a few minutes to a few hours, depending primarily on your connection speed. Downloads will be faster after the first day of release (as less people download).</p>
 			<h4 id="architecture">32 or 64 Bit</h4>
-			<p>A good general rule of thumb is if your computer has 4GB of RAM or more, go for 64bit. Less, go for 32bit.</p>
-			<p>You might need to know how to find out how much ram you have, if you don't already know, in <a href="how-to-find-out-how-much-ram-is-installed-in-ubuntu" target="_blank">Ubuntu</a>, <a href="http://windows.microsoft.com/en-GB/windows7/Find-out-how-much-RAM-your-computer-has" target="_blank">Windows</a>, or <a href="http://support.apple.com/kb/HT2353?viewlocale=en_US" target="_blank">OS X</a>. You might want to take a look at the <a title="Pros and Cons of 32 and 64bit systems." href="how-to-decide-if-you-should-use-32bit-or-64bit-ubuntu#what" target="_blank">pros and cons</a>.</p>
-			<p>Basically, 64bit is faster.</p>
+			<p>A good general rule of thumb is if your computer has 4 GB of RAM or more, go for 64bit. Any less, and you should use 32bit. You might need to know how to find out how much ram you have, if you don't already know, in <a href="how-to-find-out-how-much-ram-is-installed-in-ubuntu" target="_blank">Ubuntu</a>, <a href="http://windows.microsoft.com/en-GB/windows7/Find-out-how-much-RAM-your-computer-has" target="_blank">Windows</a>, or <a href="http://support.apple.com/kb/HT2353?viewlocale=en_US" target="_blank">OS X</a>. You might want to take a look at the <a title="Pros and Cons of 32 and 64bit systems." href="how-to-decide-if-you-should-use-32bit-or-64bit-ubuntu#what" target="_blank">pros and cons</a>. Basically, 64bit is faster.</p>
+			<h4><a class="download" href="http://www.ubuntu.com/download/desktop">Download Ubuntu</a></h4>
 			<br>
 			<h3 id="media">DVD or USB</h3>
 			<p>To install Ubuntu, you must first put the installation image onto some form of media. Your choices are DVD or USB (the image has grown too large for most CDs). Most computers can boot from both, unless they lack a disc drive, in which case you can skip the next paragraph, as you'll be using a USB then.</p>
@@ -197,7 +196,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 		<div class="col span_5_of_11">
 			<h4>7. Set a Username and Password</h4>
 			<p>Now you get to enter your name, the name you want your computer to be (not really important), your username (again, you won't see this much, but it can't have capitals or spaces, best leave as it is made from your real name), a password (if you want, then confirm it, and keep it strong), whether or not to log in automatically, and whether or not to encrypt your home folder (which is where documents, music, and video folder can be found, among others).</p>
-			<p>I would not recommend encrypting your home folder, as this usually complicates things for you as much as any potential trespassers. It can lead to complications with keyrings, forgotten passwords, and bad data recovery. Only use if it is company policy.</p>
+			<p>I would not recommend encrypting your home folder, as this usually complicates things for you as much as any potential trespassers. It can lead to complications with keyrings, forgotten passwords, and bad data recovery. Only use if it is a company policy, or you thoroughly understand what you are doing. Also, only set your password to nothing if you are unlikely to ever want one, otherwise yet more compilations with keyrings and automatic unlocking-on-login can arise.</p>
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_5_of_11">

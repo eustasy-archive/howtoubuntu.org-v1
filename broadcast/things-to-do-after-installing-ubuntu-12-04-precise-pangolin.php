@@ -32,7 +32,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 				<p><a href="#partners">2. Enable Partner Repositories</a></p>
 				<p><a href="#getdeb">3. Install GetDeb and PlayDeb</a></p>
 				<p><a href="#ppas">4. Add Personal Package Archives</a></p>
-				<p><a href="#check">5, Check for Updates</a></p>
+				<p><a href="#check">5. Check for Updates</a></p>
 				<p><a href="#upgrade">6. Upgrade Package</a></p>
 				<p><a href="#dist-upgrade">7. Major Upgrades</a></p>
 				<p><a href="#disable-guest">8. Disable Guest</a></p>

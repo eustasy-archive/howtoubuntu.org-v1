@@ -1,18 +1,18 @@
 <?php
 
-	$Title_HTML = 'Things to do after installing Ubuntu 13.10 Saucy Salamander';
+	$Title_HTML = 'Things to do after installing Ubuntu 14.04 Trusty Tahr';
 	$Title_Plain = $Title_HTML;
 
-	$Description_HTML = 'After Installing Ubuntu 13.10 Saucy Salamander, there are a wealth of things that need to be dealt with, including Hardware Drivers, DVD, Audio and Video Codecs, Archiving formats, generally useful stuff.';
+	$Description_HTML = 'After Installing Ubuntu 14.04 Trusty Tahr, there are a wealth of things that need to be dealt with, including Hardware Drivers, DVD, Audio and Video Codecs, Archiving formats, generally useful stuff.';
 	$Description_Plain = $Description_HTML;
 
-	$Keywords = 'things after installing 13.10 13 10 saucy salamander';
+	$Keywords = 'things after installing 14.04 14 04 trusty tahr';
 
 	$Featured_Image = '';
 
-	$Canonical = 'things-to-do-after-installing-ubuntu-13-10-saucy-salamander';
+	$Canonical = 'things-to-do-after-installing-ubuntu-14-04-trusty-tahr';
 
-	$Post_Type = 'Blog Post';
+	$Post_Type = 'Pending';
 	$Post_Category = 'Afterwards';
 
 	require_once __DIR__.'/../request.php';
@@ -22,14 +22,14 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 	require '../header.php';
 	?>
 
-	<h2>Things to do after installing Ubuntu 13.10 Saucy Salamander</h2>
+	<h2>Things to do after installing Ubuntu 14.04 Trusty Tahr</h2>
 
 	<div class="section group">
 		<div class="col span_4_of_11">
 			<div class="contents box">
 				<h3 id="contents">Contents</h3>
-				<p><a href="#partners">1. Enable Partner Repositories</a></p>
-				<p><a href="#drivers">2. Install Additional Drivers</a></p>
+				<p><a href="#drivers">1. Install Additional Drivers</a></p>
+				<p><a href="#partners">2. Enable Partner Repositories</a></p>
 				<p><a href="#getdeb">3. Install GetDeb and PlayDeb</a></p>
 				<p><a href="#ppas">4. Add Personal Package Archives</a></p>
 				<p><a href="#check">5. Check for Updates</a></p>
@@ -39,15 +39,11 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 				<p><a href="#install-essentials">9. Install Essentials</a></p>
 				<p><a href="#chrome">10. Install Google Chrome</a></p>
 				<p><a href="#clean">11. Clean Up</a></p>
-				<!--
-				Privacy
-				Scopes
-				-->
 			</div>
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_6_of_11">
-			<p>After <a href="http://howtoubuntu.org/how-to-install-13-10-saucy-salamander">Installing Ubuntu 13.10 Saucy Salamander</a>, there are a wealth of things that need to be dealt with, including Hardware Drivers, DVD, Audio and Video Codecs, Archiving formats, generally useful stuff.</p>
+			<p>After <a href="http://howtoubuntu.org/how-to-install-ubuntu-14-04-trusty-tahr">Installing Ubuntu 14.04 Trusty Tahr</a>, there are a wealth of things that need to be dealt with, including Hardware Drivers, DVD, Audio and Video Codecs, Archiving formats, generally useful stuff.</p>
 			<p><em>These instructions presume you are proficient with PPAs, .Debs, and other terminal commands, Ubuntu Tweak, and require a full set of video, audio, and archive codecs, as well as Skype, Flash, and a truck-load of wallpapers.</em></p>
 			<br>
 			<div class="warning">
@@ -60,34 +56,43 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 	<br>
 	<div class="section group">
 		<div class="col span_4_of_11">
-			<h4 id="partners">1. Enable Partner Repositories</h4>
-			<p>The partner repositories are another source of software, but for those with restrictive licenses that mean the general public cannot simply share them, such as Flash and Skype. These are official repo's that are already added but disabled in Ubuntu. This command enables them.</p>
+			<a class="fancybox" href="assets/images/things-to-do-after-installing-ubuntu-14-04-trusty-tahr/1-additional-drivers.png"><img class="round" src="assets/images/things-to-do-after-installing-ubuntu-14-04-trusty-tahr/1-additional-drivers.png"></a>
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_6_of_11">
-			<a class="fancybox" href="assets/images/things-to-do-after-installing-ubuntu-13-10-saucy-salamander/1-enable-partners-repositories.png"><img class="round" src="assets/images/things-to-do-after-installing-ubuntu-13-10-saucy-salamander/1-enable-partners-repositories.png"></a>
-		</div>
-	</div>
-	<br>
-	<div class="section group">
-		<div class="col span_4_of_11">
-			<h4 id="drivers">2. Install Additional Drivers</h4>
+			<h4 id="drivers">1. Install Additional Drivers</h4>
 			<p>If the Additional Drivers dialogue has not opened, and does not appear as an icon in the system tray, you may not require any Additional Drivers. However, if you wish to check, you can simply search for and open Additional Drivers. It will automatically check for the latest drivers for your system as it opens. This may take a few seconds.</p>
 			<p>Once the Additional Drivers program has finished searching for new drivers, it will open a dialogue similar to the one to the left (above on mobiles). Here you can see the selection of drivers, if any, available to you. Grey icons indicate that the driver is not in use, and green indicates that it is in use, or "activated".</p>
 			<p>To learn which driver you should be activating, if any at all, you should do some research into the component it applies to. Some basic details are provided: testing, license, and a short description, but much more information can usually be found online. Specifically, drivers for mid-to-high -end Graphics Cards are frequently complained about when they offer sub-standard performance, because the people in possession of them frequently car about such things.</p>
 			<p>Ultimately, the decision is yours, but most drivers tested by Ubuntu Developers should work without a hitch.</p>
 		</div>
+	</div>
+	<br>
+	<div class="section group">
+		<div class="col span_4_of_11">
+			<h4 id="partners">2. Enable Partner Repositories</h4>
+			<p>The partner repositories are another source of software, but for those with restrictive licenses that mean the general public cannot simply share them, such as Flash and Skype. These are official repo's that are already added but disabled in Ubuntu. This command enables them.</p>
+		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_6_of_11">
-			<a class="fancybox" href="assets/images/things-to-do-after-installing-ubuntu-13-10-saucy-salamander/2-additional-drivers.png"><img class="round" src="assets/images/things-to-do-after-installing-ubuntu-13-10-saucy-salamander/2-additional-drivers.png"></a>
+			<textarea class="left code resize">sudo sed -i "/^# deb .*partner/ s/^# //" /etc/apt/sources.list
+
+if [[ $(lsb_release -si) = "elementary OS" ]]
+then
+	echo "elementary OS Luna, Modifying to be Trusty" &&
+	sudo sed -i 's/luna/trusty/g' /etc/apt/sources.list &&
+	sudo rm -f /etc/apt/sources.list.bck
+fi</textarea>
 		</div>
 	</div>
 	<br>
 	<div class="section group">
 		<div class="col span_4_of_11">
 			<h4 id="getdeb">3. Download and Install GetDeb and PlayDeb</h4>
-			<p class="strong">Both <a href="http://www.getdeb.net/updates/Ubuntu/13.10#how_to_install">GetDeb</a> and <a href="http://www.playdeb.net/updates/Ubuntu/13.10#how_to_install">PlayDeb</a> are repositories, sources of updates for actual software you have or will have installed. They are useful for getting more up-to-date versions than those that ship in the official Ubuntu repositories, which programmers can find difficult to update as they encounter red tape. They may also contain less popular software which is not listed in the official repo's.</p>
+			<p class="strong">Both <a href="http://www.getdeb.net/updates/Ubuntu/14.04#how_to_install">GetDeb</a> and <a href="http://www.playdeb.net/updates/Ubuntu/14.04#how_to_install">PlayDeb</a> are repositories, sources of updates for actual software you have or will have installed. They are useful for getting more up-to-date versions than those that ship in the official Ubuntu repositories, which programmers can find difficult to update as they encounter red tape. They may also contain less popular software which is not listed in the official repo's.</p>
 			<p>While this may look like an awful lot of code for something that should be relatively simple, you should know that while GetDeb and PlayDeb <em>are</em> repositories, they're not launchpad hosted, and hence a little more difficult to add.</p>
+			<p>A large part of this script is also adding support for elementary OS Luna, which, while based upon Ubuntu 14.04 Trusty Tahr, is detected as Luna by GetDeb. Since GetDeb doesn't support Luna, we have to pretend to be running Trusty.</p>
+			<p>If you really want to shorten it down, you can remove everything from <span class="inline-code">if</span> to <span class="inline-code">fi &&</span>. This won't have much affect on Ubuntu, only a very slight speed increase, but will break support for elementary OS.</p>
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_6_of_11">
@@ -99,6 +104,15 @@ sudo dpkg -i getdeb-repository_0.1-1~getdeb1_all.deb &&
 
 echo "Installing PlayDeb" &&
 sudo dpkg -i playdeb_0.3-1~getdeb1_all.deb &&
+
+if [[ $(lsb_release -si) = "elementary OS" ]]
+then
+	echo "elementary OS Luna, Modifying to be Trusty" &&
+	sudo sed -i 's/luna/trusty/g' /etc/apt/sources.list.d/getdeb.list &&
+	sudo rm -f /etc/apt/sources.list.d/getdeb.list.bck &&
+	sudo sed -i 's/luna/trusty/g' /etc/apt/sources.list.d/playdeb.list &&
+	sudo rm -f /etc/apt/sources.list.d/playdeb.list.bck
+fi &&
 
 echo "Deleting Downloads" &&
 rm -f getdeb-repository_0.1-1~getdeb1_all.deb &&
@@ -130,6 +144,15 @@ rm -f playdeb_0.3-1~getdeb1_all.deb</textarea>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_6_of_11">
 			<input type="text" class="code" value="sudo add-apt-repository -y ppa:videolan/stable-daily">
+		</div>
+	</div>
+	<div class="section group">
+		<div class="col span_4_of_11">
+			<p>The default music player is <a href="http://projects.gnome.org/rhythmbox/">Rhythmbox</a>, and is usually at least a few version behind. This PPA is provided by the <a href="http://www.webupd8.org/">Webupd8 Team</a>.</p>
+		</div>
+		<div class="col span_1_of_11"><br></div>
+		<div class="col span_6_of_11">
+			<input type="text" class="code" value="sudo add-apt-repository -y ppa:webupd8team/rhythmbox">
 		</div>
 	</div>
 	<div class="section group">
@@ -249,7 +272,7 @@ wget -O - http://download.videolan.org/pub/debian/videolan-apt.asc|sudo apt-key 
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_6_of_11">
-			<textarea class="left code resize">sudo apt-get install synaptic ubuntu-tweak vlc gimp gimp-data gimp-plugin-registry gimp-data-extras y-ppa-manager bleachbit openjdk-7-jre oracle-java7-installer flashplugin-installer unace unrar zip unzip p7zip-full p7zip-rar sharutils rar uudeview mpack arj cabextract file-roller libxine1-ffmpeg mencoder flac faac faad sox ffmpeg2theora libmpeg2-4 uudeview libmpeg3-1 mpeg3-utils mpegdemux liba52-dev mpeg2dec vorbis-tools id3v2 mpg321 mpg123 libflac++6 ffmpeg totem-mozilla icedax lame libmad0 libjpeg-progs libdvdcss2 libdvdread4 libdvdnav4 libavcodec-extra-53 libavformat-extra-53 libavutil-extra-51 libpostproc-extra-52 libswscale-extra-2 ubuntu-restricted-extras ubuntu-wallpapers*</textarea>
+			<textarea class="left code resize">sudo apt-get install synaptic ubuntu-tweak vlc gimp gimp-data gimp-plugin-registry gimp-data-extras y-ppa-manager firestarter bleachbit openjdk-7-jre oracle-java7-installer flashplugin-installer unace unrar zip unzip p7zip-full p7zip-rar sharutils rar uudeview mpack lha arj cabextract file-roller libxine1-ffmpeg mencoder flac faac faad sox ffmpeg2theora libmpeg2-4 uudeview libmpeg3-1 mpeg3-utils mpegdemux liba52-dev mpeg2dec vorbis-tools id3v2 mpg321 mpg123 libflac++6 ffmpeg totem-mozilla icedax lame libmad0 libjpeg-progs libdvdcss2 libdvdread4 libdvdnav4 libavcodec-extra-53 libavformat-extra-53 libavutil-extra-51 libpostproc-extra-52 libswscale-extra-2 ubuntu-restricted-extras ubuntu-wallpapers*</textarea>
 		</div>
 	</div>
 	<br>
@@ -263,10 +286,11 @@ wget -O - http://download.videolan.org/pub/debian/videolan-apt.asc|sudo apt-key 
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_3_of_11">
+			<p><span class="inline-code">firestarter</span> is a Firewall management application. All ports are closed by default, which means you should never need to use.</p>
 			<p><span class="inline-code">bleachbit</span> is a powerful cleaning utility.</p>
 			<p><span class="inline-code">openjdk-7-jre</span> is an open-source Java emulator.</p><p><span class="inline-code">oracle-java7-installer</span> is the official Java installer.</p>
 			<p><span class="inline-code">flashplugin-installer</span> is the official Flash installer.</p>
-			<p><span class="inline-code">unace</span>, <span class="inline-code">unrar</span>, <span class="inline-code">zip</span>, <span class="inline-code">unzip</span>, <span class="inline-code">p7zip-full</span>, <span class="inline-code">p7zip-rar</span>, <span class="inline-code">sharutils</span>, <span class="inline-code">rar</span>, <span class="inline-code">uudeview</span>, <span class="inline-code">mpack</span>, <span class="inline-code">arj</span>, <span class="inline-code">cabextract</span>, and <span class="inline-code">file-roller</span> are there to extract and compress files in various archive formats.</p>
+			<p><span class="inline-code">unace</span>, <span class="inline-code">unrar</span>, <span class="inline-code">zip</span>, <span class="inline-code">unzip</span>, <span class="inline-code">p7zip-full</span>, <span class="inline-code">p7zip-rar</span>, <span class="inline-code">sharutils</span>, <span class="inline-code">rar</span>, <span class="inline-code">uudeview</span>, <span class="inline-code">mpack</span>, <span class="inline-code">lha</span>, <span class="inline-code">arj</span>, <span class="inline-code">cabextract</span>, and <span class="inline-code">file-roller</span> are there to extract and compress files in various archive formats.</p>
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_3_of_11">
@@ -321,11 +345,9 @@ sudo apt-get -y clean</textarea>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_5_of_11">
 			<h4 id="further reading">Further Reading</h4>
-			<p><a href="http://howtoubuntu.org/about-ubuntu-13-10-saucy-salamander" target="_blank">About Ubuntu 13.10 Saucy Salamander</a><br>
-			<a href="http://howtoubuntu.org/how-to-install-ubuntu-13-10-saucy-salamander">How to Install Ubuntu 13.10 Saucy Salamander</a><br>
+			<p><a href="http://howtoubuntu.org/about-ubuntu-14-04-trusty-tahr" target="_blank">About Ubuntu 14.04 Trusty Tahr</a><br>
+			<a href="http://howtoubuntu.org/how-to-install-ubuntu-14-04-trusty-tahr">How to Install Ubuntu 14.04 Trusty Tahr</a><br>
 			<a href="http://howtoubuntu.org/how-to-make-your-dual-boot-better-with-burg" target="_blank">How to make your Dual Boot better with Burg</a></p>
 		</div>
 	</div>
-	<?php
-	require '../footer.php';
-}
+<?php require '../footer.php'; }
