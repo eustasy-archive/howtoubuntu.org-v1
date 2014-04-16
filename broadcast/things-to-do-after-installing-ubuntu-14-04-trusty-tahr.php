@@ -42,6 +42,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 				<!--
 				Privacy
 				Scopes
+				Locally Integrated Menus
 				-->
 			</div>
 		</div>

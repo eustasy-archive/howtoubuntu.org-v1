@@ -3,7 +3,7 @@
 	$Title_HTML = 'Install Ubuntu 14.04 Trusty Tahr';
 	$Title_Plain = 'How to Install Ubuntu 14.04 Trusty Tahr';
 
-	$Description_HTML = 'Ubuntu 14.04 Trusty Tahr came out on April the 17th of 2014.'; // TODO Expand
+	$Description_HTML = 'Ubuntu 14.04 Trusty Tahr came out on April the 17th of 2014. It featured the long awaited locally integrated menus, and window compositing improvements. It also, finally, includes a lock screen that somewhat resembles the login screen.';
 	$Description_Plain = $Description_HTML;
 
 	$Keywords = 'install ubuntu 14.04 14 04 1404 trusty tahr linux';
@@ -39,7 +39,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 	<div class="section group">
 		<div class="col span_1_of_6"><br></div>
 		<div class="col span_4_of_6">
-			<p>Ubuntu 14.04 Trusty Tahr came out on April the 17th of 2014.</p><!-- TODO -->
+			<p>Ubuntu 14.04 Trusty Tahr came out on April the 17th of 2014. It featured the long awaited locally integrated menus, and window compositing improvements. It also, finally, includes a lock screen that somewhat resembles the login screen.</p>
 			<div class="warning">
 				<h3 id="warnings">Warnings</h3><p>When choosing how to install, some options will <strong>completely erase</strong> your drive before doing so. Please read carefully the description of your options below <em>before</em> choosing an install method. If you are comfortable managing partitions, we recommend doing so manually.</p>
 			</div>
