@@ -157,6 +157,12 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 		<h4>If you have not done so already, backup your data.</h4>
 	</div>
 	<br>
+	<div class="ad banner large">
+		<script src="//serve.adsi.st/javascript.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Banner&AdsistAdSize=Large"></script>
+		<noscript><iframe src="//serve.adsi.st/iframe.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Banner&AdsistAdSize=Large"></iframe></noscript>
+		<p class="about-ads">Advertisement <a href="http://eustasy.org/advertisements">Why are there ads?</a></p>
+	</div>
+	<br>
 	<div class="section group">
 		<div class="col span_5_of_11 floatright">
 			<h4>4. Confirm your Choice</h4>

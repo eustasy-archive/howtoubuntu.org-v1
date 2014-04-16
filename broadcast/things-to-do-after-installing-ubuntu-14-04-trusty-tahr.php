@@ -175,6 +175,12 @@ wget -O - http://download.videolan.org/pub/debian/videolan-apt.asc|sudo apt-key 
 		</div>
 	</div>
 	<br>
+	<div class="ad banner large">
+		<script src="//serve.adsi.st/javascript.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Banner&AdsistAdSize=Large"></script>
+		<noscript><iframe src="//serve.adsi.st/iframe.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Banner&AdsistAdSize=Large"></iframe></noscript>
+		<p class="about-ads">Advertisement <a href="http://eustasy.org/advertisements">Why are there ads?</a></p>
+	</div>
+	<br>
 	<div class="section group">
 		<div class="col span_4_of_11">
 			<h3 id="check">4. Check for Updates</h3>
