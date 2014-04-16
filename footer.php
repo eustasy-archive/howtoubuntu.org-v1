@@ -43,12 +43,12 @@
 					<div class="box">
 						<a class="type" target="_blank" href="https://www.youtube.com/HowtoUbuntuOrg"><span>YouTube</span></a>
 						<script type="text/javascript">document.write('<div class="g-ytsubscribe" data-channel="HowtoubuntuOrg" data-layout="default" data-count="default"></div>');</script>
-						<noscript><iframe scrolling="no" src="https://www.youtube.com/subscribe_embed?usegapi=1&bsv=o&channel=HowtoUbuntuOrg&origin=http%3A%2F%2Fhowtoubuntu.org&gsrc=3p&ic=1&jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en_GB.Rdkraw0TVFs.O%2Fm%3D__features__%2Fam%3DEQ%2Frt%3Dj%2Fd%3D1%2Frs%3DAItRSTMianVTDgGh090TyMLDabhESajIJQ#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh%2Conload&id=I2_1386506353008&parent=http%3A%2F%2Fhowtoubuntu.org&pfname=&rpctoken=36299024" data-gapiattached="true"></iframe></noscript>
+						<noscript><iframe scrolling="no" src="http://www.youtube.com/subscribe_embed?usegapi=1&bsv=o&channel=HowtoUbuntuOrg&origin=http%3A%2F%2Fhowtoubuntu.org&gsrc=3p&ic=1&jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en_GB.Rdkraw0TVFs.O%2Fm%3D__features__%2Fam%3DEQ%2Frt%3Dj%2Fd%3D1%2Frs%3DAItRSTMianVTDgGh090TyMLDabhESajIJQ#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh%2Conload&id=I2_1386506353008&parent=http%3A%2F%2Fhowtoubuntu.org&pfname=&rpctoken=36299024" data-gapiattached="true"></iframe></noscript>
 					</div>
 				</div>
 			</div>
 			<!-- Google+ and YouTube -->
-			<script type="text/javascript">(function(){var po=document.createElement('script');po.type='text/javascript';po.async=true;po.src='https://apis.google.com/js/platform.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(po,s);})();</script>
+			<script type="text/javascript">(function(){var po=document.createElement('script');po.type='text/javascript';po.async=true;po.src='http://apis.google.com/js/platform.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(po,s);})();</script>
 			<!-- Twitter -->
 			<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','twitter-wjs');</script>
 			<!-- Facebook -->
