@@ -3,7 +3,7 @@
 	$Title_HTML = 'About Ubuntu 14.04 Trusty Tahr';
 	$Title_Plain = $Title_HTML;
 
-	$Description_HTML = 'Ubuntu 14.04 was released on the 26th of April 2012, which just so happened to be a Thursday. From there on in, Ubuntu 14.04 Trusty Tahr provided millions of users all over the world with a free, stable, secure operating system.';
+	$Description_HTML = 'Ubuntu 14.04 was released on the 17th of April 2012, which just so happened to be a Thursday. From there on in, Ubuntu 14.04 Trusty Tahr provided millions of users all over the world with a free, stable, secure operating system.';
 	$Description_Plain = $Description_HTML;
 
 	$Keywords = 'about ubuntu 14.04 14 04 trusty tahr';

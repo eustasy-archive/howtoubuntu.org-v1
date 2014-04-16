@@ -99,6 +99,7 @@ h3 {
 h4 {
 	font: 300 1.3em/1.25 Ubuntu,'lucida sans unicode','lucida grande','Trebuchet MS',verdana,arial,helvetica,helve,Sans;
 	color: #333333;
+	text-align: center;
 	margin: .5em .585em;
 }
 
@@ -162,22 +163,23 @@ footer p { padding: 5px; }
 
 /* $ Adverts */
 
-.ad-banner {
-	width: 728px;
+.ad { text-align: center; }
+.ad ins {
+    background: #f9f9f9;
+    border-radius: 3px;
+}
+
+.ad.banner.large {
+	width: 970px;
 	min-height: 111px;
 	margin: 3% auto !important;
 }
-.ad-skyscraper {
+.ad.skyscraper.large {
 	margin: 3% auto !important;
-	float: left;
-	width: 336px;
-	min-height: 581px;
-}
-.adsist.Rectangle.Medium {
 	width: 300px;
-	height: 250px;
-	margin: 0 auto;
+	min-height: 621px;
 }
+
 .about-ads {
 	margin: 0;
 	color: #AEA79F;
@@ -190,8 +192,7 @@ footer p { padding: 5px; }
 	float: right;
 }
 .about-ads a:hover { color: #DD4814; }
-@media only screen and ( max-width: 800px ){ .ad-banner { width: 320px; min-height: 71px; } }
-
+@media only screen and ( max-width: 1000px ){ .ad.banner.large { width: 320px; min-height: 71px; } }
 
 
 
@@ -204,6 +205,11 @@ footer p { padding: 5px; }
 
 .spanpage.latest {
 	background: #ddd url(../images/ubuntu-background-1310.jpg) no-repeat top center fixed;
+	background-size: cover;
+}
+
+.spanpage.trusty {
+	background: #ddd url(../images/ubuntu-background-1404.jpg) no-repeat top center fixed;
 	background-size: cover;
 }
 

@@ -56,11 +56,9 @@
 			<script type="text/javascript">(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)) return;js=d.createElement(s);js.id=id;js.src='http://connect.facebook.net/en_GB/all.js#xfbml=1&appId=211598199034258';fjs.parentNode.insertBefore(js,fjs);}(document,'script','facebook-jssdk'));</script>
 		</div>
 		<div class="col span_1_of_11"><br></div>
-		<div class="col span_4_of_11 textcenter">
-			<script src="//serve.adsi.st/javascript.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Rectangle&AdsistAdSize=Large"></script>
-			<noscript><iframe src="//serve.adsi.st/iframe.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Rectangle&AdsistAdSize=Large"></iframe></noscript>
-			<script src="//serve.adsi.st/javascript.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Rectangle&AdsistAdSize=Large"></script>
-			<noscript><iframe src="//serve.adsi.st/iframe.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Rectangle&AdsistAdSize=Large"></iframe></noscript>
+		<div class="col span_4_of_11 ad skyscraper large">
+			<script src="//serve.adsi.st/javascript.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Skyscraper&AdsistAdSize=Large"></script>
+			<noscript><iframe src="//serve.adsi.st/iframe.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Skyscraper&AdsistAdSize=Large"></iframe></noscript>
 			<p class="about-ads">Advertisement <a href="http://eustasy.org/advertisements">Why are there ads?</a></p>
 		</div>
 		<div class="clear"></div>
