@@ -208,6 +208,11 @@ footer p { padding: 5px; }
 	background-size: cover;
 }
 
+.spanpage.saucy {
+	background: #ddd url(../images/ubuntu-background-1310.jpg) no-repeat top center fixed;
+	background-size: cover;
+}
+
 .spanpage.trusty {
 	background: #ddd url(../images/ubuntu-background-1404.jpg) no-repeat top center fixed;
 	background-size: cover;

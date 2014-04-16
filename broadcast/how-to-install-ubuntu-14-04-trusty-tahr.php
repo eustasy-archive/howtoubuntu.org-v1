@@ -223,16 +223,16 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 		<div class="col span_5_of_11">
 			<h4>References</h4>
 			<p><a href="how-to-burn-an-iso-to-a-cd-or-dvd-in-ubuntu" target="_blank">How to Burn an ISO to a CD or DVD in Ubuntu</a><br>
-			<a href="how-to-make-your-dual-boot-better-with-burg" target="_blank">How to make your Dual Boot better with Burg</a><br>
 			<a href="how-to-decide-if-you-should-use-32bit-or-64bit-ubuntu" target="_blank">How to decide if you should use 32bit or 64bit Ubuntu</a><br>
 			<a href="how-to-find-out-how-much-ram-is-installed-in-ubuntu" target="_blank">How to find out how much RAM is installed in Ubuntu</a><br>
-			<a href="how-to-install-a-32bit-program-in-64bit-ubuntu" target="_blank">How to Install a 32bit program in 64bit Ubuntu</a></p>
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_5_of_11">
 			<h4>Further Reading</h4>
 			<p><a href="about-ubuntu-14-04-trusty-tahr" target="_blank">About Ubuntu 14.04 Trusty Tahr</a><br>
-			<a href="things-to-do-after-installing-ubuntu-14-04-trusty-tahr">Things to go after Installing Ubuntu 14.04 Trusty Tahr</a></p>
+			<a href="things-to-do-after-installing-ubuntu-14-04-trusty-tahr">Things to go after Installing Ubuntu 14.04 Trusty Tahr</a><br>
+			<a href="how-to-make-your-dual-boot-better-with-burg" target="_blank">How to make your Dual Boot better with Burg</a><br>
+			<a href="how-to-install-a-32bit-program-in-64bit-ubuntu" target="_blank">How to Install a 32bit program in 64bit Ubuntu</a></p>
 		</div>
 	</div>
 
