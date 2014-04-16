@@ -12,7 +12,7 @@
 
 	$Canonical = 'things-to-do-after-installing-ubuntu-14-04-trusty-tahr';
 
-	$Post_Type = 'Pending';
+	$Post_Type = 'Blog Post';
 	$Post_Category = 'Afterwards';
 
 	require_once __DIR__.'/../request.php';
