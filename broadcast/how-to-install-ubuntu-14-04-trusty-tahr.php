@@ -12,7 +12,7 @@
 
 	$Canonical = 'how-to-install-ubuntu-14-04-trusty-tahr';
 
-	$Post_Type = 'Pending';
+	$Post_Type = 'Blog Post';
 	$Post_Category = 'Release';
 
 	require_once __DIR__.'/../request.php';
