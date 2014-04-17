@@ -23,7 +23,18 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 	?>
 
 	<h2>Things to do after installing Ubuntu 12.04 Precise Pangolin</h2>
-
+	<br>
+	<div class="warning">
+		<div class="section group">
+			<div class="col span_1_of_5"><br></div>
+			<div class="col span_3_of_5">
+				<h3>Warning: Outdated Version</h3>
+				<p>This tutorial pertains to an outdated version of Ubuntu. While Ubuntu Precise is still supported, a later LTS version has been released. It is recommended that you consider <a href="about-ubuntu-14-04-trusty-tahr">using Ubuntu 14.04 Trusty Tahr</a> instead.</p>
+			</div>
+			<div class="col span_1_of_5"><br></div>
+		</div>
+	</div>
+	<br>
 	<div class="section group">
 		<div class="col span_4_of_11">
 			<div class="contents box">

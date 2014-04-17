@@ -26,7 +26,12 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 		<div class="col span_1_of_6"><br></div>
 		<div class="col span_4_of_6">
 			<h2>How to Install Ubuntu 13.10 Saucy Salamander</h2>
-
+			<br>
+			<div class="warning">
+				<h3>Warning: Outdated Version</h3>
+				<p>This tutorial pertains to an outdated version of Ubuntu. While Ubuntu Saucy is still supported, a later version has been released. It is recommended that you consider <a href="how-to-install-ubuntu-14-04-trusty-tahr">installing Ubuntu 14.04 Trusty Tahr</a> instead.</p>
+			</div>
+			<br>
 			<p>Ubuntu 13.10 Saucy Salamander came out on 17th of October 2013. Future releases will reoccur every 6 months (you can upgrade as easily as updating, it just takes a little longer) in April and October. Ubuntu 13.10 is the first version to have only 9 months of support, with previous releases offering 18 months as a minimum. This comes after the upgrade to five years of support of the last LTS release, Ubuntu 12.04.</p>
 			<br>
 			<div class="warning">

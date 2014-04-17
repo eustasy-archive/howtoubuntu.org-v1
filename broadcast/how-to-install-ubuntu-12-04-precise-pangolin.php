@@ -26,7 +26,12 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 		<div class="col span_1_of_6"><br></div>
 		<div class="col span_4_of_6">
 			<h2>How to Install Ubuntu 12.04 Precise Pangolin</h2>
-
+			<br>
+			<div class="warning">
+				<h3>Warning: Outdated Version</h3>
+				<p>This tutorial pertains to an outdated version of Ubuntu. While Ubuntu Precise is still supported, a later LTS version has been released. It is recommended that you consider <a href="how-to-install-ubuntu-14-04-trusty-tahr">installing Ubuntu 14.04 Trusty Tahr</a> instead.</p>
+			</div>
+			<br>
 			<p>Ubuntu 12.04 Precise Pangolin came out on April the 26th of 2012. It features an improved version of Unity, the new Heads-Up Display (HUD), and version support for the next five years. It is completely free to download and install and offers a fast, free, and secure alternative to Windows or OS X.</p>
 			<br>
 			<div class="warning">
