@@ -25,14 +25,14 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 </div>
 <div class="content spanpage trusty">
 	<div class="section group">
-		<div class="col span_1_of_6"><br></div>
-		<div class="col span_4_of_6">
+		<div class="col span_1_of_11"><br></div>
+		<div class="col span_9_of_11">
 			<div class="bubble">
 				<h2>Things to do after installing Ubuntu 14.04 Trusty Tahr</h2>
 			</div>
 		</div>
 
-		<div class="col span_1_of_6"><br></div>
+		<div class="col span_1_of_11"><br></div>
 	</div>
 </div>
 <div class="content">

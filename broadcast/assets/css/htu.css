@@ -76,8 +76,8 @@ h1 {
 	font: 300 3.3em/1 Ubuntu,'lucida sans unicode','lucida grande','Trebuchet MS',verdana,arial,helvetica,helve,Sans;
 	margin: .2em 0;
 }
-h1 a { color: #777; }
-h1 a:hover { color: #DD4814; }
+header h1 a { color: #777; }
+header h1 a:hover { color: #DD4814; }
 
 h2 {
 	font: 300 1.7em/1.4 Ubuntu,'lucida sans unicode','lucida grande','Trebuchet MS',verdana,arial,helvetica,helve,Sans;
@@ -193,26 +193,6 @@ footer p { padding: 5px; }
 }
 .about-ads a:hover { color: #DD4814; }
 @media only screen and ( max-width: 1000px ){ .ad.banner.large { width: 320px; min-height: 71px; } }
-
-
-
-
-.spanpage {
-	display: block;
-	position: relative;
-	padding: 2%;
-}
-
-.spanpage.saucy {
-	background: #ddd url(../images/ubuntu-background-1310.jpg) no-repeat top center fixed;
-	background-size: cover;
-}
-
-.spanpage.trusty,
-.spanpage.latest {
-	background: #ddd url(../images/ubuntu-background-1404.jpg) no-repeat top center fixed;
-	background-size: cover;
-}
 
 
 
@@ -511,6 +491,42 @@ button.no:hover, input[type='button'].no:hover, input[type='reset'].no:hover, in
 	margin: 7% 3%;
 	border: 1px solid #eee;
 }
+
+
+
+
+.spanpage {
+	display: block;
+	position: relative;
+	padding: 2%;
+}
+
+.spanpage.saucy {
+	background: #ddd url(../images/ubuntu-background-1310.jpg) no-repeat top center fixed;
+	background-size: cover;
+}
+
+.spanpage.trusty,
+.spanpage.latest {
+	background: #ddd url(../images/ubuntu-background-1404.jpg) no-repeat top center fixed;
+	background-size: cover;
+}
+
+
+
+.spanpage .bubble {
+    background: rgba(0,0,0,0.2);
+    border-color: rgba(0,0,0,0.2);
+}
+.spanpage .bubble h2,
+.spanpage .bubble h3,
+.spanpage .bubble h4 {
+    color: #fff;
+    border-color: rgba(0,0,0,0.2);
+}
+
+
+
 
 
 /* General Fixes */
