@@ -318,14 +318,18 @@ sudo apt-get -y clean</textarea>
 	-->
 	<div class="breaker"></div>
 	<div class="section group">
-		<div class="col span_1_of_5"><br></div>
-		<div class="col span_3_of_5">
-			<h4 id="further reading">Further Reading</h4>
-			<p class="textcenter"><a href="http://howtoubuntu.org/about-ubuntu-14-04-trusty-tahr" target="_blank">About Ubuntu 14.04 Trusty Tahr</a><br>
-			<a href="http://howtoubuntu.org/how-to-install-a-32bit-program-in-64bit-ubuntu" target="_blank">How to Install a 32bit program in 64bit Ubuntu</a><br>
-			<a href="http://howtoubuntu.org/how-to-make-your-dual-boot-better-with-burg" target="_blank">How to make your Dual Boot better with Burg</a></p>
+		<div class="col span_5_of_11">
+			<h4 id="further-reading">Further Reading</h4>
+			<p class="textcenter"><a href="http://howtoubuntu.org/about-ubuntu-14-04-trusty-tahr" target="_blank">About Ubuntu 14.04 Trusty Tahr</a></p>
+			<p class="textcenter"><a href="http://howtoubuntu.org/how-to-install-a-32bit-program-in-64bit-ubuntu" target="_blank">How to Install a 32bit program in 64bit Ubuntu</a></p>
+			<p class="textcenter"><a href="http://howtoubuntu.org/how-to-make-your-dual-boot-better-with-burg" target="_blank">How to make your Dual Boot better with Burg</a></p>
 		</div>
-		<div class="col span_1_of_5"><br></div>
+		<div class="col span_1_of_11"><br></div>
+		<div class="col span_5_of_11">
+			<h4 id="external-links">External Links</h4>
+			<p class="textcenter"><a href="http://www.omgubuntu.co.uk/2014/04/10-things-to-do-after-installing-ubuntu-14-04" class="external" target="_blank">10 Things to Do After Installing Ubuntu 14.04 LTS - OMG!Ubuntu</a></p>
+			<p class="textcenter"><a href="http://www.webupd8.org/2014/04/10-things-to-do-after-installing-ubuntu.html" class="external" target="_blank">10 Things To Do After Installing Ubuntu 14.04 Trusty Tahr To Get A Near Perfect Desktop ~ Web Upd8: Ubuntu / Linux blog</a></p>
+		</div>
 	</div>
 	<?php
 	require '../footer.php';
