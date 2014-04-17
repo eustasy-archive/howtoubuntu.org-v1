@@ -38,8 +38,8 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 				<p><a href="#drivers">8. Install Additional Drivers</a></p>
 				<p><a href="#chrome">9. Install Google Chrome</a></p>
 				<p><a href="#clean">10. Clean Up</a></p>
-				<p><a href="#disable-guest">11. Disable Guest</a></p>
 				<!--
+				<p><a href="#disable-guest">11. Disable Guest</a></p>
 				Privacy
 				Scopes
 				Locally Integrated Menus
@@ -145,15 +145,7 @@ rm -f playdeb_0.3-1~getdeb1_all.deb</textarea>
 			<input type="text" class="code" value="sudo add-apt-repository -y ppa:webupd8team/y-ppa-manager">
 		</div>
 	</div>
-	<div class="section group">
-		<div class="col span_4_of_11">
-			<p>This PPA is for the amazing(ly popular) <a href="http://ubuntu-tweak.com">Ubuntu Tweak</a>, which, as it's name suggests, is a tool for tweaking Ubuntu (and other distributions based upon it, to a certain extent).</p>
-		</div>
-		<div class="col span_1_of_11"><br></div>
-		<div class="col span_6_of_11">
-			<input type="text" class="code" value="sudo add-apt-repository -y ppa:tualatrix/ppa">
-		</div>
-	</div>
+	<!--
 	<div class="section group">
 		<div class="col span_4_of_11">
 			<p><a href="http://www.transmissionbt.com/">Transmission</a> is the default torrent client in Ubuntu, and as such should be kept shiny and new.</p>
@@ -163,6 +155,7 @@ rm -f playdeb_0.3-1~getdeb1_all.deb</textarea>
 			<input type="text" class="code" value="sudo add-apt-repository -y ppa:transmissionbt/ppa">
 		</div>
 	</div>
+	-->
 	<div class="section group">
 		<div class="col span_4_of_11">
 			<p><a href="http://www.videolan.org/developers/libdvdcss.html">LibDVDCSS</a> is a library required for reading some DVDs. Unfortunately, due to legal issues, it is not included by default. This repository is provided by Videolan, and requires a bit more code to add.</p>
@@ -221,28 +214,26 @@ wget -O - http://download.videolan.org/pub/debian/videolan-apt.asc|sudo apt-key 
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_6_of_11">
-			<textarea class="left code resize">sudo apt-get install synaptic ubuntu-tweak vlc gimp gimp-data gimp-plugin-registry gimp-data-extras y-ppa-manager bleachbit openjdk-7-jre oracle-java8-installer flashplugin-installer unace unrar zip unzip p7zip-full p7zip-rar sharutils rar uudeview mpack arj cabextract file-roller libxine1-ffmpeg mencoder flac faac faad sox ffmpeg2theora libmpeg2-4 uudeview libmpeg3-1 mpeg3-utils mpegdemux liba52-dev mpeg2dec vorbis-tools id3v2 mpg321 mpg123 libflac++6 ffmpeg totem-mozilla icedax lame libmad0 libjpeg-progs libdvdcss2 libdvdread4 libdvdnav4 libavcodec-extra-53 libavformat-extra-53 libavutil-extra-51 libpostproc-extra-52 libswscale-extra-2 ubuntu-restricted-extras ubuntu-wallpapers*</textarea>
+			<textarea class="left code resize">sudo apt-get install synaptic vlc gimp gimp-data gimp-plugin-registry gimp-data-extras y-ppa-manager bleachbit openjdk-7-jre oracle-java8-installer flashplugin-installer unace unrar zip unzip p7zip-full p7zip-rar sharutils rar uudeview mpack arj cabextract file-roller libxine1-ffmpeg mencoder flac faac faad sox ffmpeg2theora libmpeg2-4 uudeview libmpeg3-1 mpeg3-utils mpegdemux liba52-dev mpeg2dec vorbis-tools id3v2 mpg321 mpg123 libflac++6 totem-mozilla icedax lame libmad0 libjpeg-progs libdvdcss2 libdvdread4 libdvdnav4 libswscale-extra-2 ubuntu-restricted-extras ubuntu-wallpapers*</textarea>
 		</div>
 	</div>
 	<br>
 	<div class="section group">
-		<div class="col span_3_of_11">
+		<div class="col span_1_of_3">
 			<p><span class="inline-code">synaptic</span> is a package manager, which we use in many tutorials.</p>
-			<p><span class="inline-code">ubuntu-tweak</span> is far more than a settings manager, it has templates, scripts, workarounds and a file type manager, plus an amazing but simple cleaning utility.</p>
 			<p><span class="inline-code">vlc</span> is one of the most popular and powerful media players available.</p>
 			<p><span class="inline-code">gimp</span>, <span class="inline-code">gimp-data</span>, <span class="inline-code">gimp-plugin-registry</span>, and <span class="inline-code">gimp-data-extras</span> are all parts of a powerful photo editor, built to rival Adobe Photoshop.</p>
 			<p><span class="inline-code">y-ppa-manager</span> is there so you can manage PPAs without needing to use the Terminal.</p>
-		</div>
-		<div class="col span_1_of_11"><br></div>
-		<div class="col span_3_of_11">
 			<p><span class="inline-code">bleachbit</span> is a powerful cleaning utility.</p>
-			<p><span class="inline-code">openjdk-7-jre</span> is an open-source Java emulator.</p><p><span class="inline-code">oracle-java7-installer</span> is the official Java installer.</p>
+		</div>
+		<div class="col span_1_of_3">
+			<p><span class="inline-code">openjdk-7-jre</span> is an open-source Java emulator.</p>
+			<p><span class="inline-code">oracle-java8-installer</span> is the official Java installer.</p>
 			<p><span class="inline-code">flashplugin-installer</span> is the official Flash installer.</p>
 			<p><span class="inline-code">unace</span>, <span class="inline-code">unrar</span>, <span class="inline-code">zip</span>, <span class="inline-code">unzip</span>, <span class="inline-code">p7zip-full</span>, <span class="inline-code">p7zip-rar</span>, <span class="inline-code">sharutils</span>, <span class="inline-code">rar</span>, <span class="inline-code">uudeview</span>, <span class="inline-code">mpack</span>, <span class="inline-code">arj</span>, <span class="inline-code">cabextract</span>, and <span class="inline-code">file-roller</span> are there to extract and compress files in various archive formats.</p>
 		</div>
-		<div class="col span_1_of_11"><br></div>
-		<div class="col span_3_of_11">
-			<p><span class="inline-code">libxine1-ffmpeg</span>, <span class="inline-code">mencoder</span>, <span class="inline-code">flac</span>, <span class="inline-code">faac</span>, <span class="inline-code">faad</span>, <span class="inline-code">sox</span>, <span class="inline-code">ffmpeg2theora</span>, <span class="inline-code">libmpeg2-4</span>, <span class="inline-code">uudeview</span>, <span class="inline-code">libmpeg3-1</span>, <span class="inline-code">mpeg3-utils</span>, <span class="inline-code">mpegdemux</span>, <span class="inline-code">liba52-dev</span>, <span class="inline-code">mpeg2dec</span>, <span class="inline-code">vorbis-tools</span>, <span class="inline-code">id3v2</span>, <span class="inline-code">mpg321</span>, <span class="inline-code">mpg123</span>, <span class="inline-code">libflac++6</span>, <span class="inline-code">ffmpeg</span>, <span class="inline-code">totem-mozilla</span>, <span class="inline-code">icedax</span>, <span class="inline-code">lame</span>, <span class="inline-code">libmad0</span>, <span class="inline-code">libjpeg-progs</span>, <span class="inline-code">libdvdcss2</span>, <span class="inline-code">libdvdread4</span>, <span class="inline-code">libdvdnav4</span>, <span class="inline-code">libavcodec-extra-53</span>, <span class="inline-code">libavformat-extra-53</span>, <span class="inline-code">libavutil-extra-51</span>, <span class="inline-code">libpostproc-extra-52</span>, <span class="inline-code">libswscale-extra-2</span> and <span class="inline-code">ubuntu-restricted-extras</span> are <em>all</em> media codecs. They play videos, music, and DVDs.</p>
+		<div class="col span_1_of_3">
+			<p><span class="inline-code">libxine1-ffmpeg</span>, <span class="inline-code">mencoder</span>, <span class="inline-code">flac</span>, <span class="inline-code">faac</span>, <span class="inline-code">faad</span>, <span class="inline-code">sox</span>, <span class="inline-code">ffmpeg2theora</span>, <span class="inline-code">libmpeg2-4</span>, <span class="inline-code">uudeview</span>, <span class="inline-code">libmpeg3-1</span>, <span class="inline-code">mpeg3-utils</span>, <span class="inline-code">mpegdemux</span>, <span class="inline-code">liba52-dev</span>, <span class="inline-code">mpeg2dec</span>, <span class="inline-code">vorbis-tools</span>, <span class="inline-code">id3v2</span>, <span class="inline-code">mpg321</span>, <span class="inline-code">mpg123</span>, <span class="inline-code">libflac++6</span>, <span class="inline-code">totem-mozilla</span>, <span class="inline-code">icedax</span>, <span class="inline-code">lame</span>, <span class="inline-code">libmad0</span>, <span class="inline-code">libjpeg-progs</span>, <span class="inline-code">libdvdcss2</span>, <span class="inline-code">libdvdread4</span>, <span class="inline-code">libdvdnav4</span>, <span class="inline-code">libswscale-extra-2</span> and <span class="inline-code">ubuntu-restricted-extras</span> are <em>all</em> media codecs. They play videos, music, and DVDs.</p>
 			<p><span class="inline-code">ubuntu-wallpapers*</span> adds basically every wallpaper that has ever lived.</p>
 		</div>
 	</div>
@@ -299,6 +290,7 @@ sudo apt-get -y autoclean &&
 sudo apt-get -y clean</textarea>
 		</div>
 	</div>
+	<!-- TODO This doesn't work
 	<br>
 	<div class="section group">
 		<div class="col span_4_of_11">
@@ -310,6 +302,7 @@ sudo apt-get -y clean</textarea>
 			<input type="text" class="code" value="sudo /usr/lib/lightdm/lightdm-set-defaults -l false">
 		</div>
 	</div>
+	-->
 	<div class="breaker"></div>
 	<div class="section group">
 		<div class="col span_1_of_5"><br></div>
