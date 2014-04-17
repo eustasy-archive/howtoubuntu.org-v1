@@ -22,7 +22,20 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 	require '../header.php';
 	?>
 
-	<h2>Things to do after installing Ubuntu 14.04 Trusty Tahr</h2>
+</div>
+<div class="content spanpage trusty">
+	<div class="section group">
+		<div class="col span_1_of_6"><br></div>
+		<div class="col span_4_of_6">
+			<div class="bubble">
+				<h2>Things to do after installing Ubuntu 14.04 Trusty Tahr</h2>
+			</div>
+		</div>
+
+		<div class="col span_1_of_6"><br></div>
+	</div>
+</div>
+<div class="content">
 
 	<div class="section group">
 		<div class="col span_4_of_11">
