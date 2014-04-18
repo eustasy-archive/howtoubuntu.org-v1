@@ -47,7 +47,7 @@ cd $HOME/howtoubuntu-kernel-3-11 &&
 echo " " &&
 echo "Downloading File 1 of 3, 12 MB" &&
 echo " " &&
-wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.11.10.1-saucy/linux-headers-3.11.10-031110_3.11.10-031110.201311291453_all.deb &&
+wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.11.10.7-saucy/linux-headers-3.11.10-03111007_3.11.10-03111007.201404040635_all.deb &&
 echo " " &&
 if [ $(getconf LONG_BIT) = "64" ]
 then
@@ -55,20 +55,20 @@ then
 	echo " " &&
 	echo "Downloading File 2 of 3, 1 MB" &&
 	echo " " &&
-	wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.11.10.1-saucy/linux-headers-3.11.10-031110-generic_3.11.10-031110.201311291453_amd64.deb &&
+	wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.11.10.7-saucy/linux-headers-3.11.10-03111007_3.11.10-03111007.201404040635_amd64.deb &&
 	echo " " &&
 	echo "Downloading File 3 of 3, 46 MB" &&
-	wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.11.10.1-saucy/linux-image-3.11.10-031110-generic_3.11.10-031110.201311291453_amd64.deb
+	wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.11.10.7-saucy/linux-image-3.11.10-03111007_3.11.10-03111007.201404040635_amd64.deb
 else
 	echo "32bit Detected" &&
 	echo " " &&
 	echo "Downloading File 2 of 3, 1 MB" &&
 	echo " " &&
-	wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.11.10.1-saucy/linux-headers-3.11.10-031110-generic_3.11.10-031110.201311291453_i386.deb &&
+	wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.11.10.7-saucy/linux-headers-3.11.10-03111007_3.11.10-03111007.201404040635_i386.deb &&
 	echo " " &&
 	echo "Downloading File 3 of 3, 46 MB" &&
 	echo " " &&
-	wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.11.10.1-saucy/linux-image-3.11.10-031110-generic_3.11.10-031110.201311291453_i386.deb
+	wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.11.10.7-saucy/linux-image-3.11.10-03111007_3.11.10-03111007.201404040635_i386.deb
 fi &&
 echo " " &&
 echo "Installing Kernel" &&
