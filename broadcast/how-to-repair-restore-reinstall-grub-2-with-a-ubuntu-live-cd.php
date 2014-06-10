@@ -50,10 +50,10 @@ sudo mount --bind /sys /mnt/sys</textarea>
 			<input class="code" value="update-grub" />
 			<p>Now grub is back, all that is left is to exit the chrooted system and unmount everything.</p>
 			<textarea class="code resize">exit &&
-sudo umount /mnt/dev &&
-sudo umount /mnt/dev/pts &&
-sudo umount /mnt/proc &&
 sudo umount /mnt/sys &&
+sudo umount /mnt/proc &&
+sudo umount /mnt/dev/pts &&
+sudo umount /mnt/dev &&
 sudo umount /mnt</textarea>
 			<p>Shut down and turn your computer back on, and you will be met with the default Grub2 screen.</p>
 			<p>You may want to update grub or re-install burg however you like it.</p>
