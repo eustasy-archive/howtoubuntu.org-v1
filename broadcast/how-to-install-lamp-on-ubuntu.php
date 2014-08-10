@@ -83,7 +83,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 		<div class="col span_1_of_11"><br></div>
 			<h3 id="check-php">6. Check PHP</h3>
 			<p>You can check your PHP by executing any PHP file from within <span class="box">/var/www/</span>. Alternatively you can execute the  following command, which will make PHP run the code without the need for creating a file .</p>
-			<input type="text" class="code" value="php -r 'echo &quot;\n\nYour PHP installation is working fine.\n\n\n&quot;;''">
+			<input type="text" class="code" value="php -r 'echo &quot;\n\nYour PHP installation is working fine.\n\n\n&quot;;'">
 		</div>
 	</div>
 	<br>
