@@ -17,7 +17,7 @@ function Trending($Canonical, $Trend_Type = 'Blog Post', $Trend_Limit = 10, $Tre
 	// Build Query
 	if ($Trend_Strict) $Query = 'SELECT COUNT(DISTINCT `Member_ID`) AS `Count`,';
 	else $Query = 'SELECT COUNT(*) AS `Count`,';
-	$Query .= ' `Canonical` FROM `Views` WHERE `Post_Type`=\''.$Trend_Type.'\' AND `Time` > '.$Cutoff.' GROUP BY `Canonical` ORDER BY `Count` DESC LIMIT 0, '.$Trend_Limit;
+	$Query .= ' `Canonical` FROM `Views` WHERE `Time` > '.$Cutoff.' AND `Post_Type`=\''.$Trend_Type.'\' GROUP BY `Canonical` ORDER BY `Count` DESC LIMIT 0, '.$Trend_Limit;
 
 	// Run the Query
 	$Trending = mysqli_query($MySQL_Connection, $Query, MYSQLI_STORE_RESULT);
