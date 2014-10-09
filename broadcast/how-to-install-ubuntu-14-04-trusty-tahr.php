@@ -90,9 +90,13 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 		</div>
 	</div>
 	<br>
-	<div class="ad banner large">
-		<script src="//serve.adsi.st/javascript.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Banner&AdsistAdSize=Large"></script>
-		<noscript><iframe src="//serve.adsi.st/iframe.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Banner&AdsistAdSize=Large"></iframe></noscript>
+	<div class="ad banner billboard">
+		<!-- Banner Billboard -->
+		<ins class="adsbygoogle"
+			style="display: inline-block; width: 970px; height: 250px"
+			data-ad-client="ca-pub-9775669566179340"
+			data-ad-slot="9786999314"></ins>
+		<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 		<p class="about-ads">Advertisement <a href="http://eustasy.org/advertisements">Why are there ads?</a></p>
 	</div>
 	<br>

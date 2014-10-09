@@ -57,8 +57,12 @@
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_4_of_11 ad skyscraper large">
-			<script src="//serve.adsi.st/javascript.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Skyscraper&AdsistAdSize=Large"></script>
-			<noscript><iframe src="//serve.adsi.st/iframe.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Skyscraper&AdsistAdSize=Large"></iframe></noscript>
+			<!-- Skyscraper Large -->
+			<ins class="adsbygoogle"
+				style="display: inline-block; width: 300px; height: 600px"
+				data-ad-client="ca-pub-9775669566179340"
+				data-ad-slot="1969922112"></ins>
+			<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 			<p class="about-ads">Advertisement <a href="http://eustasy.org/advertisements">Why are there ads?</a></p>
 		</div>
 		<div class="clear"></div>
