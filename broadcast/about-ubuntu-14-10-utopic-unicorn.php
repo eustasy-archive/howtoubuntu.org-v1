@@ -27,7 +27,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 		<div class="col span_3_of_5">
 			<h2>About Ubuntu 14.10 Utopic Unicorn</h2>
 			<h3 class="textcenter"><a class="download" href="http://www.ubuntu.com/download/desktop">Download Ubuntu</a></h3>
-			<p class="nomargin after-download textcenter"><a title="Install Ubuntu 14.10 Utopic Unicorn" href="http://howtoubuntu.org/how-to-install-ubuntu-14-10-trusty-tahr">Install Ubuntu 14.10</a> &nbsp;&middot;&nbsp; <a title="After Installing Ubuntu 14.10 Utopic Unicorn" href="http://howtoubuntu.org/things-to-do-after-installing-ubuntu-14-10-trusty-tahr">After Installing Ubuntu 14.10</a></p>
+			<p class="nomargin after-download textcenter"><a title="Install Ubuntu 14.10 Utopic Unicorn" href="http://howtoubuntu.org/how-to-install-ubuntu-14-10-utopic-unicorn">Install Ubuntu 14.10</a> &nbsp;&middot;&nbsp; <a title="After Installing Ubuntu 14.10 Utopic Unicorn" href="http://howtoubuntu.org/things-to-do-after-installing-ubuntu-14-10-utopic-unicorn">After Installing Ubuntu 14.10</a></p>
 			<p>Ubuntu 14.10 <a title="Ubuntu 14.10 Utopic Unicorn Release Schedule" href="https://wiki.ubuntu.com/UtopicUnicorn/ReleaseSchedule">was released</a> on the 23rd of October 2014, which just so happened to be a Thursday. From there on in, Ubuntu 14.10 Utopic Unicorn provided millions of users all over the world with a free, stable, secure operating system.</p>
 		</div>
 		<div class="col span_1_of_5"><br></div>
