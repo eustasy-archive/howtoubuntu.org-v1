@@ -223,7 +223,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 		</div>
 		<div class="col span_1_of_11 floatright"><br></div>
 		<div class="col span_5_of_11">
-			<a href="assets/images/how-to-install-ubuntu-14-10-utopic-unicorn/8-Welcome-to-Ubuntu-14.10-utopic-unicorn.png" class="colorbox rounded" rel="install" title="Sit Back and Relax"><img src="assets/images/how-to-install-ubuntu-14-10-utopic-unicorn/8-Welcome-to-Ubuntu-14.10-utopic-unicorn.png" alt="Sit Back and Relax" title="Sit Back and Relax"></a>
+			<a href="assets/images/how-to-install-ubuntu-14-10-utopic-unicorn/8-Welcome-to-Ubuntu-14.10-Utopic-Unicorn.png" class="colorbox rounded" rel="install" title="Sit Back and Relax"><img src="assets/images/how-to-install-ubuntu-14-10-utopic-unicorn/8-Welcome-to-Ubuntu-14.10-Utopic-Unicorn.png" alt="Sit Back and Relax" title="Sit Back and Relax"></a>
 		</div>
 	</div>
 	<br>
