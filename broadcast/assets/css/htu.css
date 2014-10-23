@@ -507,6 +507,7 @@ button.no:hover, input[type='button'].no:hover, input[type='reset'].no:hover, in
 }
 
 .spanpage.trusty,
+.spanpage.utopic,
 .spanpage.latest {
 	background: #ddd url(../images/ubuntu-background-1404.jpg) no-repeat top center fixed;
 	background-size: cover;
