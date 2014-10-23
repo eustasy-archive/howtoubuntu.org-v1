@@ -30,7 +30,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 			<div class="col span_3_of_5">
 				<div class="bubble">
 					<h2>Ubuntu 14.04 Trusty Tahr LTS</h2>
-					<h4>17th April 2014 &nbsp;&middot;&nbsp; 5 Years of Support</h4>
+					<h4>17th of April 2014 &nbsp;&middot;&nbsp; 5 Years of Support</h4>
 					<h3><a href="about-ubuntu-14-04-trusty-tahr">About Ubuntu 14.04 Trusty Tahr</a></h3>
 					<h3><a href="how-to-install-ubuntu-14-04-trusty-tahr">How to Install Ubuntu 14.04</a></h3>
 					<h3><a href="things-to-do-after-installing-ubuntu-14-04-trusty-tahr">Things to do after Installing</a></h3>
@@ -42,71 +42,71 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 	</div>
 
 	<div class="content">
-
 		<h2>Latest Tutorials</h2>
-
 		<div class="section group">
 			<?php
 				// Make an empty array
 				$Posts_Return = array();
-
 				// Set Looper to 0
 				$Looper = 0;
-
 				// List all the files
 				$Posts_Return = glob('*.php', GLOB_NOSORT);
-
 				// FORITEM
 				foreach ($Posts_Return as $Key => $Item) {
-
 					// IFCALLER
 					if ($Item == basename(__FILE__)) unset($Posts_Return[$Key]);
 					else {
-
 						$Post_Type = 'INVALID';
-
 						// Require it
 						require $Item;
-
 						// IFPOST If it is a post (and hence has a time)
 						if ($Post_Type == 'Blog Post') {
-
 							// IFCHECKCATEGORY If no category or category matches
 							if ($Post_Category && ($Post_Category === 'Video')) {
-
 								unset($Posts_Return[$Key]);
-
 							} // IFCHECKCATEGORY
-
 						} else unset($Posts_Return[$Key]);
 						// IFPOST
-
 					} // IFCALLER
-
 				} // FORITEM
-
 				array_multisort(array_map('filemtime', $Posts_Return), SORT_NUMERIC, SORT_DESC, $Posts_Return);
 				$Posts_Return = array_slice($Posts_Return, 0, 3, true);
-
 				// FOREACH: For each Item
 				foreach ($Posts_Return as $Item) {
-
 					// Require it
 					require $Item;
-
 					echo '
 			<div class="col span_1_of_3">
 				<h3><a href="'.$Sitewide_Root.$Canonical.'">'.$Title_HTML.'</a></h3>
 				<p>'.$Description_HTML.'</p>
 			</div>';
-
 				} // FOREACH
-
 			?>
 		</div>
 		<h5 class="textright"><a href="all">All Tutorials &raquo;</a></h5>
+	</div>
 
+	<div class="content spanpage utopic">
 		<div class="section group">
+			<div class="col span_1_of_5"><br></div>
+			<div class="col span_3_of_5">
+				<div class="bubble">
+					<h2>Ubuntu 14.10 Utopic Unicorn</h2>
+					<h4>23rd of October 2014 &nbsp;&middot;&nbsp; 9 Months of Support</h4>
+					<h3><a href="about-ubuntu-14-10-utopic-unicorn">About Ubuntu 14.10 Utopic Unicorn</a></h3>
+					<h3><a href="how-to-install-ubuntu-14-10-utopic-unicorn">How to Install Ubuntu 14.10</a></h3>
+					<h3><a href="things-to-do-after-installing-ubuntu-14-10-utopic-unicorn">Things to do after Installing</a></h3>
+				</div>
+			</div>
+			<div class="col span_1_of_5"><br></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+	<div class="content">
+	
+		<div class="section group">
+		
 			<div class="col span_1_of_2">
 				<h2>Kernels</h2>
 				<?php
@@ -121,6 +121,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 					}
 				?>
 			</div>
+			
 			<div class="col span_1_of_2">
 				<h2>Latest Video</h2>
 				<?php
@@ -134,6 +135,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 					}
 				?>
 			</div>
+			
 		</div>
 
 	<?php
