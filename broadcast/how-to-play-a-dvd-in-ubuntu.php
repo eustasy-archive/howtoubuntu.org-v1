@@ -49,7 +49,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 			<input type="text" class="code" value="sudo apt-get install libdvdcss libdvdread4 libdvdnav4">
 			<p>*Note: To paste in the terminal, DO NOT use Ctrl+V. Use Ctrl+Shift+V.<br>
 			The same applies to copying and cutting.</p>
-			<p>You will be prompted for your password. When you provide it, no dots, stars, or other characters will appear in place of the letters. This is normal. Proceed and hit enter.</p>#
+			<p>You will be prompted for your password. When you provide it, no dots, stars, or other characters will appear in place of the letters. This is normal. Proceed and hit enter.</p>
 		</div>
 	</div>
 	<br>
