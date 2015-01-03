@@ -29,7 +29,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 	<div class="section group">
 		<div class="col span_1_of_2">
 			<h3 id="testing">The Testing of our Tutorials</h2>
-			<p>All our Tutorials are tested with all Versions listed on that Individual How To, across WBUI, Dual-Boot, Virtualbox and Clean Installs of Ubuntu. Individual packages may cause some interference to some Tutorials, but unfortunately we cannot test them all.</p>
+			<p>All our Tutorials are tested with all Versions listed on that Individual How To, across WUBI, Dual-Boot, Virtualbox and Clean Installs of Ubuntu. Individual packages may cause some interference to some Tutorials, but unfortunately we cannot test them all.</p>
 		</div>
 		<div class="col span_1_of_2">
 			<h3 id="easy">Ease of Use</h3>
