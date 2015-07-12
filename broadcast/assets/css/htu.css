@@ -698,7 +698,7 @@ table { width: 100%; }
 .twitter iframe,
 .youtube #___ytsubscribe_0,
 .youtube iframe {
-	position: absolute;
+	position: absolute !important;
 	left: 28px;
 	top: 28px;
 }
