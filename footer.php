@@ -57,12 +57,15 @@
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_4_of_11 ad skyscraper large">
-			<!-- Skyscraper Large -->
+			<!-- HTU Responsive -->
 			<ins class="adsbygoogle"
-				style="display: inline-block; width: 300px; height: 600px"
-				data-ad-client="ca-pub-9775669566179340"
-				data-ad-slot="1969922112"></ins>
-			<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+			     style="display:block"
+			     data-ad-client="ca-pub-8487243089350978"
+			     data-ad-slot="5917903427"
+			     data-ad-format="auto"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
 			<p class="about-ads">Advertisement <a href="http://eustasy.org/advertisements">Why are there ads?</a></p>
 		</div>
 		<div class="clear"></div>
