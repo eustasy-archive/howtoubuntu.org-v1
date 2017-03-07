@@ -1,5 +1,6 @@
-How to Ubuntu
-===============
+[![Bountysource](https://www.bountysource.com/badge/tracker?tracker_id=371440)](https://www.bountysource.com/teams/eustasy/issues?tracker_ids=371440)
+[![Build Status](https://travis-ci.org/eustasy/howtoubuntu.org.svg?branch=master)](https://travis-ci.org/eustasy/howtoubuntu.org)
+
 
 Ubuntu Tutorials and How to's
 
