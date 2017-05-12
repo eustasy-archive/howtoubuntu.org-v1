@@ -1,5 +1,7 @@
-[![Bountysource](https://www.bountysource.com/badge/tracker?tracker_id=371440)](https://www.bountysource.com/teams/eustasy/issues?tracker_ids=371440)
 [![Build Status](https://travis-ci.org/eustasy/howtoubuntu.org.svg?branch=master)](https://travis-ci.org/eustasy/howtoubuntu.org)
+[![Codacy Badge](https://api.codacy.com/project/badge/17a405e43e78405c900869b7f9359dfc)](https://www.codacy.com/app/lewisgoddard/howtoubuntu.org)
+[![Code Climate](https://codeclimate.com/github/eustasy/howtoubuntu.org/badges/gpa.svg)](https://codeclimate.com/github/eustasy/howtoubuntu.org)
+[![Bountysource](https://www.bountysource.com/badge/tracker?tracker_id=371440)](https://www.bountysource.com/teams/eustasy/issues?tracker_ids=371440)
 
 
 Ubuntu Tutorials and How to's
