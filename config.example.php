@@ -11,9 +11,6 @@
 	$Sitewide_Root = 'http://howtoubuntu.org/';
 	// Allow or disallow Signups
 	$Sitewide_Signups = false;
-	// Enable or Disable Browning Mail
-	// Requires Setup in libs
-	$Browning = false;
 	// Strip .php Extensions
 	// IMPORTANT: Requires additional server-side setup.
 	$PHP_Strip = true;
