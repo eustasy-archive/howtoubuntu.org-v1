@@ -51,9 +51,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 				<p><a href="#drivers">8. Install Additional Drivers</a></p>
 				<p><a href="#chrome">9. Install Google Chrome</a></p>
 				<p><a href="#clean">10. Clean Up</a></p>
-				<!--
 				<p><a href="#disable-guest">11. Disable Guest</a></p>
-				-->
 			</div>
 		</div>
 		<div class="col span_1_of_11"><br></div>
@@ -304,8 +302,6 @@ sudo apt -y autoclean &&
 sudo apt -y clean</textarea>
 		</div>
 	</div>
-	<!-- TODO This doesn't work
-	<br>
 	<div class="section group">
 		<div class="col span_4_of_11">
 			<h4 id="disable-guest">11. Disable Guest</h4>
@@ -313,10 +309,9 @@ sudo apt -y clean</textarea>
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_6_of_11">
-			<input type="text" class="code" value="sudo /usr/lib/lightdm/lightdm-set-defaults -l false">
+			<input type="text" class="code" value="sudo sh -c 'printf &quot;[Seat:*]\nallow-guest=false\n&quot; >/etc/lightdm/lightdm.conf.d/50-no-guest.conf'">
 		</div>
 	</div>
-	-->
 	<div class="breaker"></div>
 	<div class="section group">
 		<div class="col span_5_of_11">
