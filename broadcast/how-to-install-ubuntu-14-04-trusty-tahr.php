@@ -1,16 +1,16 @@
 <?php
 
-	$Title_HTML = 'Install Ubuntu 14.04 Trusty Tahr';
-	$Title_Plain = 'How to Install Ubuntu 14.04 Trusty Tahr';
+	$Title_HTML = 'Install Ubuntu 18.04 Bionic Beaver';
+	$Title_Plain = 'How to Install Ubuntu 18.04 Bionic Beaver';
 
-	$Description_HTML = 'Ubuntu 14.04 Trusty Tahr came out on April the 17th of 2014. It featured the long awaited locally integrated menus, and window compositing improvements. It also, finally, includes a lock screen that somewhat resembles the login screen.';
+	$Description_HTML = 'Ubuntu 18.04 Bionic Beaver came out on April the 26th of 2018.';
 	$Description_Plain = $Description_HTML;
 
-	$Keywords = 'install ubuntu 14.04 14 04 1404 trusty tahr linux';
+	$Keywords = 'install ubuntu 18.04 18 04 1804 bionic beaver linux';
 
 	$Featured_Image = '';
 
-	$Canonical = 'how-to-install-ubuntu-14-04-trusty-tahr';
+	$Canonical = 'how-to-install-ubuntu-18-04-bionic-beaver';
 
 	$Post_Type = 'Blog Post';
 	$Post_Category = 'Release';
@@ -23,12 +23,12 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 	?>
 
 </div>
-<div class="content spanpage trusty">
+<div class="content spanpage bionic">
 	<div class="section group">
 		<div class="col span_1_of_6"><br></div>
 		<div class="col span_4_of_6">
 			<div class="bubble">
-				<h2>How to Install Ubuntu 14.04 Trusty Tahr</h2>
+				<h2>How to Install Ubuntu 18.04 Bionic Beaver</h2>
 			</div>
 		</div>
 
@@ -39,13 +39,13 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 	<div class="section group">
 		<div class="col span_1_of_6"><br></div>
 		<div class="col span_4_of_6">
-			<p>Ubuntu 14.04 Trusty Tahr came out on April the 17th of 2014. It featured the long awaited locally integrated menus, and window compositing improvements. It also, finally, includes a lock screen that somewhat resembles the login screen.</p>
+			<p>Ubuntu 18.04 Bionic Beaver came out on April the 26th of 2018. <!-- TODO Also description --></p>
 			<div class="warning">
 				<h3 id="warnings">Warnings</h3><p>When choosing how to install, some options will <strong>completely erase</strong> your drive before doing so. Please read carefully the description of your options below <em>before</em> choosing an install method. If you are comfortable managing partitions, we recommend doing so manually.</p>
 			</div>
 			<br>
 			<div class="contents box">
-				<h3 id="contents">How to Install Ubuntu 14.04 Trusty Tahr</h3>
+				<h3 id="contents">How to Install Ubuntu 18.04 Bionic Beaver</h3>
 				<div class="section group">
 					<div class="col span_1_of_2">
 						<p><a href="#warnings">Warnings</a></p>
@@ -60,10 +60,10 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 			</div>
 			<br>
 			<h3 id="download">Downloading</h3>
-			<p>You can <a href="http://www.ubuntu.com/download/desktop">Download Ubuntu 14.04</a> from Ubuntu.com. The file size is just under a Gigabyte and may take anything from a few minutes to a few hours, depending primarily on your connection speed. Downloads will be faster after the first day of release (as less people download).</p>
+			<p>You can <a href="https://www.ubuntu.com/download/desktop">Download Ubuntu 18.04</a> from Ubuntu.com. The file size is just under a Gigabyte and may take anything from a few minutes to a few hours, depending primarily on your connection speed. Downloads will be faster after the first day of release (as less people download).</p>
 			<h4 id="architecture">32 or 64 Bit</h4>
-			<p>A good general rule of thumb is if your computer has 4 GB of RAM or more, go for 64bit. Any less, and you should use 32bit. You might need to know how to find out how much ram you have, if you don't already know, in <a href="how-to-find-out-how-much-ram-is-installed-in-ubuntu" target="_blank">Ubuntu</a>, <a href="http://windows.microsoft.com/en-GB/windows7/Find-out-how-much-RAM-your-computer-has" target="_blank">Windows</a>, or <a href="http://support.apple.com/kb/HT2353?viewlocale=en_US" target="_blank">OS X</a>. You might want to take a look at the <a title="Pros and Cons of 32 and 64bit systems." href="how-to-decide-if-you-should-use-32bit-or-64bit-ubuntu#what" target="_blank">pros and cons</a>. Basically, 64bit is faster.</p>
-			<h4><a class="download" href="http://www.ubuntu.com/download/desktop">Download Ubuntu</a></h4>
+			<p>A good general rule of thumb is if your computer has 4 GB of RAM or more, go for 64bit. Any less, and you should use 32bit. You might need to know how to find out how much ram you have, if you don't already know, in <a href="how-to-find-out-how-much-ram-is-installed-in-ubuntu" target="_blank">Ubuntu</a>, <a href="https://windows.microsoft.com/en-GB/windows7/Find-out-how-much-RAM-your-computer-has" target="_blank">Windows</a>, or <a href="http://support.apple.com/kb/HT2353?viewlocale=en_US" target="_blank">mac OS</a>. You might want to take a look at the <a title="Pros and Cons of 32 and 64bit systems." href="how-to-decide-if-you-should-use-32bit-or-64bit-ubuntu#what" target="_blank">pros and cons</a>. Basically, 64bit is faster.</p>
+			<h4><a class="download" href="https://www.ubuntu.com/download/desktop">Download Ubuntu</a></h4>
 			<br>
 			<h3 id="media">DVD or USB</h3>
 			<p>To install Ubuntu, you must first put the installation image onto some form of media. Your choices are DVD or USB (the image has grown too large for most CDs). Most computers can boot from both, unless they lack a disc drive, in which case you can skip the next paragraph, as you'll be using a USB then.</p>
@@ -75,18 +75,18 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 	<div class="section group">
 		<div class="col span_1_of_3">
 			<h4>Windows</h4>
-			<p><a href="http://www.ubuntu.com/download/desktop/burn-a-dvd-on-windows">How to burn a DVD on Windows</a><br>
-			<a href="http://www.ubuntu.com/download/help/create-a-usb-stick-on-windows">How to create a bootable USB stick on Windows</a><br>
+			<p><a href="https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows">How to burn a DVD on Windows</a><br>
+			<a href="https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows">How to create a bootable USB stick on Windows</a><br>
 		</div>
 		<div class="col span_1_of_3">
 			<h4>OS X</h4>
-			<p><a href="http://www.ubuntu.com/download/help/burn-a-dvd-on-mac-osx">How to burn a DVD on OS X</a><br>
-			<a href="http://www.ubuntu.com/download/help/create-a-usb-stick-on-mac-osx">How to create a bootable USB stick on OS X</a></p>
+			<p><a href="https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-macos">How to burn a DVD on OS X</a><br>
+			<a href="https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-macos">How to create a bootable USB stick on OS X</a></p>
 		</div>
 		<div class="col span_1_of_3">
 			<h4>Ubuntu</h4>
-			<p><a href="how-to-burn-an-iso-to-a-cd-or-dvd-in-ubuntu">How to burn a DVD on Ubuntu</a><br>
-			<a href="http://www.ubuntu.com/download/help/create-a-usb-stick-on-ubuntu">How to create a bootable USB stick on Ubuntu</a></p>
+			<p><a href="https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-ubuntu">How to burn a DVD on Ubuntu</a><br>
+			<a href="https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-ubuntu">How to create a bootable USB stick on Ubuntu</a></p>
 		</div>
 	</div>
 	<br>
@@ -95,7 +95,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 		<ins class="adsbygoogle"
 			style="display: inline-block; width: 970px; height: 250px"
 			data-ad-client="ca-pub-9775669566179340"
-			data-ad-slot="9786999314"></ins>
+			data-ad-slot="9786999318"></ins>
 		<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 		<p class="about-ads">Advertisement <a href="http://eustasy.org/advertisements">Why are there ads?</a></p>
 	</div>
@@ -103,7 +103,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 	<div class="section group">
 		<div class="col span_1_of_6"><br></div>
 		<div class="col span_4_of_6">
-			<h3 id="install">Install Ubuntu 14.04 Trusty Tahr</h3>
+			<h3 id="install">Install Ubuntu 18.04 Bionic Beaver</h3>
 			<p>Once you've put the image you downloaded onto a DVD or USB, you will need to shut down your computer. This may be a good time to print this page, or just read through and make notes, if you're planning to install on this computer.</p>
 			<p>Once fully shutdown, Turn your computer back on, tapping the <span class="box">Setup</span> key to select a boot device when your screen shows the name of the manufacturer. This key is usually a Function key (<span class="box">F1</span> to <span class="box">F12</span>), or something like <span class="box">ESC</span>. It will be shown on the BIOS, the screen displaying the manufacturers logo, usually along the bottom labeled <span class="box">Setup</span> or <span class="box">Boot Settings</span>. You can then use the arrow keys, finally hitting enter, to select either USB or Disc Drive.</p> <!-- TODO Fastboot, EUFI -->
 		</div>
@@ -117,7 +117,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_5_of_11">
-			<a href="assets/images/how-to-install-ubuntu-14-04-trusty-tahr/1-Welcome.png" class="colorbox rounded" rel="install" title="Click Install"><img src="assets/images/how-to-install-ubuntu-14-04-trusty-tahr/1-Welcome.png" alt="Click Install" title="Click Install"></a>
+			<a href="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/1-Welcome.png" class="colorbox rounded" rel="install" title="Click Install"><img src="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/1-Welcome.png" alt="Click Install" title="Click Install"></a>
 		</div>
 	</div>
 	<br>
@@ -129,7 +129,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 		</div>
 		<div class="col span_1_of_11 floatright"><br></div>
 		<div class="col span_5_of_11">
-			<a href="assets/images/how-to-install-ubuntu-14-04-trusty-tahr/2-Check.png" class="colorbox rounded" rel="install" title="Check both Boxes"><img src="assets/images/how-to-install-ubuntu-14-04-trusty-tahr/2-Check.png" alt="Check both Boxes" title="Check both Boxes"></a>
+			<a href="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/2-Check.png" class="colorbox rounded" rel="install" title="Check both Boxes"><img src="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/2-Check.png" alt="Check both Boxes" title="Check both Boxes"></a>
 		</div>
 	</div>
 	<br>
@@ -142,7 +142,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_5_of_11">
-			<a href="assets/images/how-to-install-ubuntu-14-04-trusty-tahr/3-Choose.png" class="colorbox rounded" rel="install" title="Choose How to Install"><img src="assets/images/how-to-install-ubuntu-14-04-trusty-tahr/3-Choose.png" alt="Choose How to Install" title="Choose How to Install"></a>
+			<a href="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/3-Choose.png" class="colorbox rounded" rel="install" title="Choose How to Install"><img src="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/3-Choose.png" alt="Choose How to Install" title="Choose How to Install"></a>
 		</div>
 	</div>
 	<br>
@@ -161,12 +161,12 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 		<h4>If you have not done so already, backup your data.</h4>
 	</div>
 	<br>
+	<!-- TODO Banner Ad Large
 	<div class="ad banner large">
-		<script src="//serve.adsi.st/javascript.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Banner&AdsistAdSize=Large"></script>
-		<noscript><iframe src="//serve.adsi.st/iframe.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Banner&AdsistAdSize=Large"></iframe></noscript>
 		<p class="about-ads">Advertisement <a href="http://eustasy.org/advertisements">Why are there ads?</a></p>
 	</div>
 	<br>
+	-->
 	<div class="section group">
 		<div class="col span_5_of_11 floatright">
 			<h4>4. Confirm your Choice</h4>
@@ -176,7 +176,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 		</div>
 		<div class="col span_1_of_11 floatright"><br></div>
 		<div class="col span_5_of_11">
-			<a href="assets/images/how-to-install-ubuntu-14-04-trusty-tahr/4-Confirm.png" class="colorbox rounded" rel="install" title="Confirm your Choice"><img src="assets/images/how-to-install-ubuntu-14-04-trusty-tahr/4-Confirm.png" alt="Confirm your Choice" title="Confirm your Choice"></a>
+			<a href="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/4-Confirm.png" class="colorbox rounded" rel="install" title="Confirm your Choice"><img src="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/4-Confirm.png" alt="Confirm your Choice" title="Confirm your Choice"></a>
 		</div>
 	</div>
 	<br>
@@ -187,7 +187,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_5_of_11">
-			<a href="assets/images/how-to-install-ubuntu-14-04-trusty-tahr/5-Where.png" class="colorbox rounded" rel="install" title="Choose your Location"><img src="assets/images/how-to-install-ubuntu-14-04-trusty-tahr/5-Where.png" alt="Choose your Location" title="Choose your Location"></a>
+			<a href="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/5-Where.png" class="colorbox rounded" rel="install" title="Choose your Location"><img src="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/5-Where.png" alt="Choose your Location" title="Choose your Location"></a>
 		</div>
 	</div>
 	<br>
@@ -198,7 +198,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 		</div>
 		<div class="col span_1_of_11 floatright"><br></div>
 		<div class="col span_5_of_11">
-			<a href="assets/images/how-to-install-ubuntu-14-04-trusty-tahr/6-How.png" class="colorbox rounded" rel="install" title="Choose your Keyboard Layout"><img src="assets/images/how-to-install-ubuntu-14-04-trusty-tahr/6-How.png" alt="Choose your Keyboard Layout" title="Choose your Keyboard Layout"></a>
+			<a href="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/6-How.png" class="colorbox rounded" rel="install" title="Choose your Keyboard Layout"><img src="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/6-How.png" alt="Choose your Keyboard Layout" title="Choose your Keyboard Layout"></a>
 		</div>
 	</div>
 	<br>
@@ -210,24 +210,24 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_5_of_11">
-			<a href="assets/images/how-to-install-ubuntu-14-04-trusty-tahr/7-Who.png" class="colorbox rounded" rel="install" title="Set a Username and Password"><img src="assets/images/how-to-install-ubuntu-14-04-trusty-tahr/7-Who.png" alt="Set a Username and Password" title="Set a Username and Password"></a>
+			<a href="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/7-Who.png" class="colorbox rounded" rel="install" title="Set a Username and Password"><img src="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/7-Who.png" alt="Set a Username and Password" title="Set a Username and Password"></a>
 		</div>
 	</div>
 	<br>
 	<div class="section group">
 		<div class="col span_5_of_11 floatright">
 			<h4>8. Sit Back and Relax</h4>
-			<p>Sit back and enjoy a little slideshow about Ubuntu, all the free, full-version software you've got, and just how great it is to have installed Ubuntu 14.04 Trusty Tahr LTS.</p>
+			<p>Sit back and enjoy a little slideshow about Ubuntu, all the free, full-version software you've got, and just how great it is to have installed Ubuntu 18.04 Bionic Beaver LTS.</p>
 			<p>You can rest easy in the knowledge that your computer is faster, safer, and simpler to use, now it's running a free open-source system.</p>
 			<p>Check out <a href="http://askubuntu.com/">askubuntu.com</a> if you need any further help.</p>
 		</div>
 		<div class="col span_1_of_11 floatright"><br></div>
 		<div class="col span_5_of_11">
-			<a href="assets/images/how-to-install-ubuntu-14-04-trusty-tahr/8-Welcome-to-Ubuntu-14.04-Trusty-Tahr-LTS.png" class="colorbox rounded" rel="install" title="Sit Back and Relax"><img src="assets/images/how-to-install-ubuntu-14-04-trusty-tahr/8-Welcome-to-Ubuntu-14.04-Trusty-Tahr-LTS.png" alt="Sit Back and Relax" title="Sit Back and Relax"></a>
+			<a href="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/8-Welcome-to-Ubuntu-18.04-Bionic-Beaver-LTS.png" class="colorbox rounded" rel="install" title="Sit Back and Relax"><img src="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/8-Welcome-to-Ubuntu-18.04-Bionic-Beaver-LTS.png" alt="Sit Back and Relax" title="Sit Back and Relax"></a>
 		</div>
 	</div>
 	<br>
-	<h3>Welcome to Ubuntu 14.04 Trusty Tahr LTS!</h3>
+	<h3>Welcome to Ubuntu 18.04 Bionic Beaver LTS!</h3>
 	<div class="section group">
 		<div class="col span_5_of_11">
 			<h4>References</h4>
@@ -238,8 +238,8 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_5_of_11">
 			<h4>Further Reading</h4>
-			<p><a href="about-ubuntu-14-04-trusty-tahr" target="_blank">About Ubuntu 14.04 Trusty Tahr</a><br>
-			<a href="things-to-do-after-installing-ubuntu-14-04-trusty-tahr">Things to go after Installing Ubuntu 14.04 Trusty Tahr</a><br>
+			<p><a href="about-ubuntu-18-04-bionic-beaver" target="_blank">About Ubuntu 18.04 Bionic Beaver</a><br>
+			<a href="things-to-do-after-installing-ubuntu-18-04-bionic-beaver">Things to go after Installing Ubuntu 18.04 Bionic Beaver</a><br>
 			<a href="how-to-make-your-dual-boot-better-with-burg" target="_blank">How to make your Dual Boot better with Burg</a><br>
 			<a href="how-to-install-a-32bit-program-in-64bit-ubuntu" target="_blank">How to Install a 32bit program in 64bit Ubuntu</a></p>
 		</div>

@@ -24,16 +24,16 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 
 	</div>
 
-	<div class="content spanpage trusty">
+	<div class="content spanpage bionic">
 		<div class="section group">
 			<div class="col span_1_of_5"><br></div>
 			<div class="col span_3_of_5">
 				<div class="bubble">
-					<h2>Ubuntu 14.04 Trusty Tahr LTS</h2>
-					<h4>17th of April 2014 &nbsp;&middot;&nbsp; 5 Years of Support</h4>
-					<h3><a href="about-ubuntu-14-04-trusty-tahr">About Ubuntu 14.04 Trusty Tahr</a></h3>
-					<h3><a href="how-to-install-ubuntu-14-04-trusty-tahr">How to Install Ubuntu 14.04</a></h3>
-					<h3><a href="things-to-do-after-installing-ubuntu-14-04-trusty-tahr">Things to do after Installing</a></h3>
+					<h2>Ubuntu 18.04 Bionic Beaver LTS</h2>
+					<h4>26th of April 2018 &nbsp;&middot;&nbsp; 5 Years of Support</h4>
+					<h3><a href="about-ubuntu-18-04-bionic-beaver">About Ubuntu 18.04 Bionic Beaver</a></h3>
+					<h3><a href="how-to-install-ubuntu-18-04-bionic-beaver">How to Install Ubuntu 18.04</a></h3>
+					<h3><a href="things-to-do-after-installing-ubuntu-18-04-bionic-beaver">Things to do after Installing</a></h3>
 				</div>
 			</div>
 			<div class="col span_1_of_5"><br></div>
@@ -86,27 +86,29 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 		<h5 class="textright"><a href="all">All Tutorials &raquo;</a></h5>
 	</div>
 
+<!--
 	<div class="content spanpage utopic">
 		<div class="section group">
 			<div class="col span_1_of_5"><br></div>
 			<div class="col span_3_of_5">
 				<div class="bubble">
-					<h2>Ubuntu 14.10 Utopic Unicorn</h2>
-					<h4>23rd of October 2014 &nbsp;&middot;&nbsp; 9 Months of Support</h4>
-					<h3><a href="about-ubuntu-14-10-utopic-unicorn">About Ubuntu 14.10 Utopic Unicorn</a></h3>
-					<h3><a href="how-to-install-ubuntu-14-10-utopic-unicorn">How to Install Ubuntu 14.10</a></h3>
-					<h3><a href="things-to-do-after-installing-ubuntu-14-10-utopic-unicorn">Things to do after Installing</a></h3>
+					<h2>Ubuntu 18.10 Utopic Unicorn</h2>
+					<h4>23rd of October 2018 &nbsp;&middot;&nbsp; 9 Months of Support</h4>
+					<h3><a href="about-ubuntu-18-10-utopic-unicorn">About Ubuntu 18.10 Utopic Unicorn</a></h3>
+					<h3><a href="how-to-install-ubuntu-18-10-utopic-unicorn">How to Install Ubuntu 18.10</a></h3>
+					<h3><a href="things-to-do-after-installing-ubuntu-18-10-utopic-unicorn">Things to do after Installing</a></h3>
 				</div>
 			</div>
 			<div class="col span_1_of_5"><br></div>
 		</div>
 		<div class="clear"></div>
 	</div>
-	
+-->
+
 	<div class="content">
-	
+
 		<div class="section group">
-		
+
 			<div class="col span_1_of_2">
 				<h2>Kernels</h2>
 				<?php
@@ -121,7 +123,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 					}
 				?>
 			</div>
-			
+
 			<div class="col span_1_of_2">
 				<h2>Latest Video</h2>
 				<?php
@@ -135,7 +137,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 					}
 				?>
 			</div>
-			
+
 		</div>
 
 	<?php
