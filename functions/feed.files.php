@@ -40,14 +40,12 @@ function Feed_Files() {
 	if ($Member_Auth) $Query .= ' (`Status`=\'Public\' OR `Status`=\'Private\')';
 	else $Query .= ' `Status`=\'Public\'';
 	$Query .= ' ORDER BY `Created` DESC';
-	// TODO Feed Pagination
 
 	$Query = mysqli_query($MySQL_Connection, $Query, MYSQLI_STORE_RESULT);
 	if (!$Query) exit('Invalid Query (Responses): '.mysqli_error($MySQL_Connection));
 
 	while($Fetch = mysqli_fetch_assoc($Query)) {
 		$Post = strip_tags(Parsedown::instance()->parse(html_entity_decode($Fetch['Post'], ENT_QUOTES, 'UTF-8')));
-		// TODO Link should go to right page, after Feed Pagination
 		$Link = $Sitewide_Root.urldecode($Fetch['Canonical']);
 		echo '
 		<item>

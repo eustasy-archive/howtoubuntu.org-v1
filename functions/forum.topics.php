@@ -111,7 +111,7 @@ function Forum_Topics() {
 				if ($Topics_Status == 'Public' || $Topics_Status == 'Locked' || $Topics_Status == 'Private' && $Member_Auth) {
 
 					$Topics_Slug = $Topics_Fetch['Slug'];
-					$Topics_Modified = $Topics_Fetch['Modified']; // TODO Use $Topics_Modified and Cookies to label Unread/Read
+					$Topics_Modified = $Topics_Fetch['Modified'];
 					$Topics_Title = html_entity_decode($Topics_Fetch['Title'], ENT_QUOTES, 'UTF-8');
 
 					echo '
@@ -139,8 +139,6 @@ function Forum_Topics() {
 			// Paginate if necessary
 			if ($Pagination['Page Max'] > 1) {
 				echo '<div class="breaker"></div>';
-				// TODO Why do these arrays need to be passed?
-				// Global doesn't seem to allow them
 				Pagination_Links($Pagination, $PreserveQueryStrings);
 			}
 

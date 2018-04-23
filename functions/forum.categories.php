@@ -61,11 +61,6 @@ function Forum_Categories() {
 
 		while($Category_Fetch = mysqli_fetch_assoc($Categories)) {
 			$Category_Status = $Category_Fetch['Status'];
-			// TODO Unread/Read, Most Recent
-			// Both will probably require changing the topics modified time for every reply.
-			// Another option is a new field called something more descriptive like `Last Activity`
-			// This should not change the modified time.
-
 			if ($Category_Status == 'Public' || ( $Category_Status == 'Private' && $Member_Auth ) ) {
 				echo '
 				<a href="?category='.$Category_Fetch['Slug'].'" class="section group category topic';
@@ -88,8 +83,6 @@ function Forum_Categories() {
 		// Paginate if necessary
 		if ($Pagination['Page Max'] > 1) {
 			echo '<div class="breaker"></div>';
-			// TODO Why do these arrays need to be passed?
-			// Global doesn't seem to allow them
 			Pagination_Links($Pagination, $PreserveQueryStrings);
 			echo '<div class="breaker"></div>';
 		}

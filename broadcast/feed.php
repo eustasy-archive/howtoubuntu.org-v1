@@ -28,7 +28,6 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 	array_multisort(array_map('filemtime', $Items), SORT_NUMERIC, SORT_DESC, $Items);
 
 	// FOREACH: For each Item
-	// TODO Feed Pagination
 	foreach ($Items as $Item) {
 
 		// IFNOTTHIS: So long as it isn't this file

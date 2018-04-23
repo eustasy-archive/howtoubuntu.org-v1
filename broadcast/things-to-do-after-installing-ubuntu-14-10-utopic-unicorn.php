@@ -305,7 +305,6 @@ sudo apt-get -y autoclean &&
 sudo apt-get -y clean</textarea>
 		</div>
 	</div>
-	<!-- TODO This doesn't work
 	<br>
 	<div class="section group">
 		<div class="col span_4_of_11">
@@ -314,10 +313,9 @@ sudo apt-get -y clean</textarea>
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_6_of_11">
-			<input type="text" class="code" value="sudo /usr/lib/lightdm/lightdm-set-defaults -l false">
+			<input type="text" class="code" value="sudo sh -c 'printf &quot;[Seat:*]\nallow-guest=false\n&quot; >/etc/lightdm/lightdm.conf.d/50-no-guest.conf'">
 		</div>
 	</div>
-	-->
 	<div class="breaker"></div>
 	<div class="section group">
 		<div class="col span_3_of_11"><br></div>
