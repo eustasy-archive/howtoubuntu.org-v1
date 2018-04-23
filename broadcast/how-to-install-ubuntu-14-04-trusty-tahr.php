@@ -161,12 +161,18 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 		<h4>If you have not done so already, backup your data.</h4>
 	</div>
 	<br>
-	<!-- TODO Banner Ad Large
 	<div class="ad banner large">
+		<!-- HTU Responsive -->
+		<ins class="adsbygoogle"
+			 style="display:block"
+			 data-ad-client="ca-pub-8487243089350978"
+			 data-ad-slot="5917903427"
+			 data-ad-format="auto"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
 		<p class="about-ads">Advertisement <a href="http://eustasy.org/advertisements">Why are there ads?</a></p>
 	</div>
-	<br>
-	-->
 	<div class="section group">
 		<div class="col span_5_of_11 floatright">
 			<h4>4. Confirm your Choice</h4>
