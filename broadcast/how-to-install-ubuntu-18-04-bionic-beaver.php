@@ -94,7 +94,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 			data-ad-client="ca-pub-9775669566179340"
 			data-ad-slot="9786999318"></ins>
 		<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-		<p class="about-ads">Advertisement <a href="http://eustasy.org/advertisements">Why are there ads?</a></p>
+		<p class="about-ads">Advertisement <a href="https://eustasy.org/advertisements">Why are there ads?</a></p>
 	</div>
 	<br>
 	<div class="section group">
@@ -108,38 +108,49 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 	</div>
 	<div class="section group">
 		<div class="col span_5_of_11">
-			<h4>1. Click Install</h4>
+			<h4>1. Click Continue</h4>
 			<p>Once Ubuntu has booted, you will be presented with a screen that looks like this.</p>
-			<p>Click <span class="box">Install Ubuntu</span> to install. You can open the installer again later if you choose to try it out, but remember it will be far slower running from a Disc/USB than had you installed it, and nothing you do will actually be saved.</p>
+			<p>Click <span class="box">Continue</span> to begin the installer. You can open the installer again later if you choose to try it out, but remember it will be far slower running from a Disc/USB than had you installed it, and nothing you do will actually be saved.</p>
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_5_of_11">
-			<a href="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/1-Welcome.png" class="colorbox rounded" rel="install" title="Click Install"><img src="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/1-Welcome.png" alt="Click Install" title="Click Install"></a>
+			<a href="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/1-Welcome.png" class="colorbox rounded" rel="install" title="Click Continue"><img src="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/1-Welcome.png" alt="Click Install" title="Click Continue"></a>
 		</div>
 	</div>
 	<br>
 	<div class="section group">
 		<div class="col span_5_of_11 floatright">
-			<h4>2. Check both Boxes</h4>
-			<p>We recommend checking both boxes, but if you don't want to install all updates while installing, or don't want to play MP3 files (music), then you can leave the relevant box(es) unchecked.</p>
-			<p>If you don't have at least 4.5GB of available drive space, then you can't continue. If you're not plugged in, then plug in before continuing. If you're not connected to the internet, then you'll be prompted to connect when you click continue. You can do it now using the icon to the left of the sound menu to connect. Mine shows two arrows, as I'm plugged in, disconnected it looks different, and a little change again if using WiFi. You can continue without connecting, but you won't be able to get updates, or any language packs you may require.</p>
+			<h4>2. Choose your Keyboard Layout</h4>
+			<p>This is probably the most technical step in the installation, made a lot simpler by the <span class="box">Detect Keyboard Layout</span>. Just click that and follow the instructions on screen.</p>
 		</div>
 		<div class="col span_1_of_11 floatright"><br></div>
 		<div class="col span_5_of_11">
-			<a href="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/2-Check.png" class="colorbox rounded" rel="install" title="Check both Boxes"><img src="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/2-Check.png" alt="Check both Boxes" title="Check both Boxes"></a>
+			<a href="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/2-KeyboardLayout.png" class="colorbox rounded" rel="install" title="Choose your Keyboard Layout"><img src="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/2-KeyboardLayout.png" alt="Choose your Keyboard Layout" title="Choose your Keyboard Layout"></a>
+		</div>
+	</div>
+	<br>
+	<div class="section group">
+		<div class="col span_5_of_11 floatright">
+			<h4>3. Check both Boxes</h4>
+			<p>We recommend checking both boxes, but if you don't want to install all updates while installing, or don't want to play MP3 files (music), then you can leave the relevant box(es) unchecked.</p>
+			<p>If you don't have at least 8 GB of available drive space, then try the minimal installation option. If you're not plugged in, then plug in before continuing. If you're not connected to the internet, then you'll be prompted to connect when you click continue. You can do it now using the icon to the left of the sound menu to connect. Mine shows two arrows, as I'm plugged in, disconnected it looks different, and a little change again if using WiFi. You can continue without connecting, but you won't be able to get updates, or any language packs you may require.</p>
+		</div>
+		<div class="col span_1_of_11 floatright"><br></div>
+		<div class="col span_5_of_11">
+			<a href="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/3-UpdatesAndOtherSoftware.png" class="colorbox rounded" rel="install" title="Check both Boxes"><img src="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/3-UpdatesAndOtherSoftware.png" alt="Check both Boxes" title="Check both Boxes"></a>
 		</div>
 	</div>
 	<br>
 	<div class="section group">
 		<div class="col span_5_of_11">
-			<h4>3. Choose How to Install</h4>
+			<h4>4. Choose How to Install</h4>
 			<p>Yours will probably look a little different to mine here. My hard drive doesn't have anything on it yet, so i can choose either to use the whole disk, or specify partitions manually (surprisingly easy stuff). Yours may have a slightly different first option, and one or two extra.</p>
 			<p>It may say <span class="box">Delete Windows and Install Ubuntu</span> and <span class="box">Shrink Windows and Install Ubuntu Alongside</span>.</p>
 			<p>Choosing to install alongside will mean you are presented with a menu with the option to choose which operating system with the arrow keys and enter every time you turn on your computer.</p>
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_5_of_11">
-			<a href="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/3-Choose.png" class="colorbox rounded" rel="install" title="Choose How to Install"><img src="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/3-Choose.png" alt="Choose How to Install" title="Choose How to Install"></a>
+			<a href="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/4-InstallationType.png" class="colorbox rounded" rel="install" title="Choose How to Install"><img src="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/4-InstallationType.png" alt="Choose How to Install" title="Choose How to Install"></a>
 		</div>
 	</div>
 	<br>
@@ -168,40 +179,40 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 		<script>
 		(adsbygoogle = window.adsbygoogle || []).push({});
 		</script>
-		<p class="about-ads">Advertisement <a href="http://eustasy.org/advertisements">Why are there ads?</a></p>
+		<p class="about-ads">Advertisement <a href="https://eustasy.org/advertisements">Why are there ads?</a></p>
 	</div>
 	<div class="section group">
 		<div class="col span_5_of_11 floatright">
-			<h4>4. Confirm your Choice</h4>
+			<h4>5. Choose a Security Key</h4>
+			<p>If you have opted for an encrypted installation, you will be asked to choose a security key. This is not a password for your user account, but a password to turn on the entire computer using Ubuntu.</p>
+		</div>
+		<div class="col span_1_of_11 floatright"><br></div>
+		<div class="col span_5_of_11">
+			<a href="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/5-ChooseASecurityKey.png" class="colorbox rounded" rel="install" title="Choose a Security Key"><img src="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/5-ChooseASecurityKey.png" alt="Choose a Security Key" title="Choose a Security Key"></a>
+		</div>
+	</div>
+	<br>
+	<div class="section group">
+		<div class="col span_5_of_11 floatright">
+			<h4>6. Confirm your Choice</h4>
 			<p>After clicking continue, you may be presented with a confirmation screen, much like this, to confirm your choices.</p>
-			<p>Click <span class="box">Install Now</span> to begin installing.</p>
+			<p>Click <span class="box">Continue</span> to begin installing.</p>
 			<p>You'll be asked a few more questions in a second about where you are, what your name is, and how you want your computer set up. These are for time settings, user names, and home folders.</p>
 		</div>
 		<div class="col span_1_of_11 floatright"><br></div>
 		<div class="col span_5_of_11">
-			<a href="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/4-Confirm.png" class="colorbox rounded" rel="install" title="Confirm your Choice"><img src="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/4-Confirm.png" alt="Confirm your Choice" title="Confirm your Choice"></a>
+			<a href="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/6-WriteChangesToDisk.png" class="colorbox rounded" rel="install" title="Confirm your Choice"><img src="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/6-WriteChangesToDisk.png" alt="Confirm your Choice" title="Confirm your Choice"></a>
 		</div>
 	</div>
 	<br>
 	<div class="section group">
 		<div class="col span_5_of_11">
-			<h4>5. Choose your Location</h4>
+			<h4>7. Choose your Location</h4>
 			<p>Now you get to choose your location by dropping a pin on this nifty looking map. This is to select your timezone and apply any regional adjustments.</p>
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_5_of_11">
-			<a href="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/5-Where.png" class="colorbox rounded" rel="install" title="Choose your Location"><img src="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/5-Where.png" alt="Choose your Location" title="Choose your Location"></a>
-		</div>
-	</div>
-	<br>
-	<div class="section group">
-		<div class="col span_5_of_11 floatright">
-			<h4>6. Choose your Keyboard Layout</h4>
-			<p>This is probably the most technical step in the installation, made a lot simpler by the <span class="box">Detect Keyboard Layout</span>. Just click that and follow the instructions on screen.</p>
-		</div>
-		<div class="col span_1_of_11 floatright"><br></div>
-		<div class="col span_5_of_11">
-			<a href="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/6-How.png" class="colorbox rounded" rel="install" title="Choose your Keyboard Layout"><img src="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/6-How.png" alt="Choose your Keyboard Layout" title="Choose your Keyboard Layout"></a>
+			<a href="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/7-WhereAreYou.png" class="colorbox rounded" rel="install" title="Choose your Location"><img src="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/7-WhereAreYou.png" alt="Choose your Location" title="Choose your Location"></a>
 		</div>
 	</div>
 	<br>
@@ -213,22 +224,23 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_5_of_11">
-			<a href="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/7-Who.png" class="colorbox rounded" rel="install" title="Set a Username and Password"><img src="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/7-Who.png" alt="Set a Username and Password" title="Set a Username and Password"></a>
+			<a href="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/8-WhoAreYou.png" class="colorbox rounded" rel="install" title="Set a Username and Password"><img src="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/8-WhoAreYou.png" alt="Set a Username and Password" title="Set a Username and Password"></a>
 		</div>
 	</div>
 	<br>
 	<div class="section group">
 		<div class="col span_5_of_11 floatright">
-			<h4>8. Sit Back and Relax</h4>
+			<h4>9. Sit Back and Relax</h4>
 			<p>Sit back and enjoy a little slideshow about Ubuntu, all the free, full-version software you've got, and just how great it is to have installed Ubuntu 18.04 Bionic Beaver LTS.</p>
 			<p>You can rest easy in the knowledge that your computer is faster, safer, and simpler to use, now it's running a free open-source system.</p>
-			<p>Check out <a href="http://askubuntu.com/">askubuntu.com</a> if you need any further help.</p>
+			<p>Check out <a href="https://askubuntu.com/">askubuntu.com</a> if you need any further help.</p>
 		</div>
 		<div class="col span_1_of_11 floatright"><br></div>
 		<div class="col span_5_of_11">
-			<a href="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/8-Welcome-to-Ubuntu-18.04-Bionic-Beaver-LTS.png" class="colorbox rounded" rel="install" title="Sit Back and Relax"><img src="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/8-Welcome-to-Ubuntu-18.04-Bionic-Beaver-LTS.png" alt="Sit Back and Relax" title="Sit Back and Relax"></a>
+			<a href="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/9-WelcomeToUbuntu.png" class="colorbox rounded" rel="install" title="Sit Back and Relax"><img src="assets/images/how-to-install-ubuntu-18-04-bionic-beaver/9-WelcomeToUbuntu.png" alt="Sit Back and Relax" title="Sit Back and Relax"></a>
 		</div>
 	</div>
+	<!-- TODO Add items about RestartNow, UnlockDisk, Password, and Desktop -->
 	<br>
 	<h3>Welcome to Ubuntu 18.04 Bionic Beaver LTS!</h3>
 	<div class="section group">

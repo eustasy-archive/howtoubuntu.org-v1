@@ -183,7 +183,7 @@ wget -O - http://download.videolan.org/pub/debian/videolan-apt.asc|sudo apt-key 
 			data-ad-client="ca-pub-9775669566179340"
 			data-ad-slot="9786999314"></ins>
 		<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-		<p class="about-ads">Advertisement <a href="http://eustasy.org/advertisements">Why are there ads?</a></p>
+		<p class="about-ads">Advertisement <a href="https://eustasy.org/advertisements">Why are there ads?</a></p>
 	</div>
 	<br>
 	<div class="section group">

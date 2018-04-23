@@ -66,7 +66,7 @@
 			<script>
 			(adsbygoogle = window.adsbygoogle || []).push({});
 			</script>
-			<p class="about-ads">Advertisement <a href="http://eustasy.org/advertisements">Why are there ads?</a></p>
+			<p class="about-ads">Advertisement <a href="https://eustasy.org/advertisements">Why are there ads?</a></p>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -74,16 +74,16 @@
 	<footer class="group">
 
 		<div class="col span_2_of_12">
-			<a href="http://eustasy.org/" title="eustasy organisation"><img src="http://eustasy.org/images/eustasy-dark.png" class="eustasy"></a>
+			<a href="https://eustasy.org/" title="eustasy organisation"><img src="https://eustasy.org/images/eustasy-dark.png" class="eustasy"></a>
 		</div>
 
 		<div class="col span_1_of_12"><br></div>
 
 		<div class="col span_3_of_12">
-			<p class="nomargin textcenter"><a rel="license"  href="http://eustasy.org/licenses#cc">Creative Commons</a></p>
-			<p class="nomargin textcenter"><a rel="license"  href="http://eustasy.org/licenses#by">Attribution</a></p>
-			<p class="nomargin textcenter"><a rel="license"  href="http://eustasy.org/licenses#nc">Non-Commercial</a></p>
-			<p class="nomargin textcenter"><a rel="license"  href="http://eustasy.org/licenses#sa">Share-Alike</a></p>
+			<p class="nomargin textcenter"><a rel="license"  href="https://eustasy.org/licenses#cc">Creative Commons</a></p>
+			<p class="nomargin textcenter"><a rel="license"  href="https://eustasy.org/licenses#by">Attribution</a></p>
+			<p class="nomargin textcenter"><a rel="license"  href="https://eustasy.org/licenses#nc">Non-Commercial</a></p>
+			<p class="nomargin textcenter"><a rel="license"  href="https://eustasy.org/licenses#sa">Share-Alike</a></p>
 		</div>
 
 		<div class="col span_1_of_12"><br></div>
@@ -97,11 +97,11 @@
 		<div class="col span_1_of_12"><br></div>
 
 		<div class="col span_2_of_12">
-			<p class="nomargin"><a href="http://eustasy.org/legal/website-disclaimer" title="Website Disclaimer">disclaimer</a></p>
-			<p class="nomargin"><a href="http://eustasy.org/legal/copyright-notice" title="Copyright Notice">copyright</a></p>
-			<p class="nomargin"><a href="http://eustasy.org/legal/cookie-policy" title="Cookie Policy">cookies</a></p>
-			<p class="nomargin"><a href="http://eustasy.org/legal/privacy-policy" title="Privacy Policy">privacy</a></p>
-			<p class="nomargin"><a href="http://eustasy.org/legal/terms-of-service" title="Terms Of Service">terms</a></p>
+			<p class="nomargin"><a href="https://eustasy.org/legal/website-disclaimer" title="Website Disclaimer">disclaimer</a></p>
+			<p class="nomargin"><a href="https://eustasy.org/legal/copyright-notice" title="Copyright Notice">copyright</a></p>
+			<p class="nomargin"><a href="https://eustasy.org/legal/cookie-policy" title="Cookie Policy">cookies</a></p>
+			<p class="nomargin"><a href="https://eustasy.org/legal/privacy-policy" title="Privacy Policy">privacy</a></p>
+			<p class="nomargin"><a href="https://eustasy.org/legal/terms-of-service" title="Terms Of Service">terms</a></p>
 		</div>
 
 		<div class="clear"></div>

@@ -111,5 +111,5 @@
 			<script>
 			(adsbygoogle = window.adsbygoogle || []).push({});
 			</script>
-			<p class="about-ads">Advertisement <a href="http://eustasy.org/advertisements">Why are there ads?</a></p>
+			<p class="about-ads">Advertisement <a href="https://eustasy.org/advertisements">Why are there ads?</a></p>
 		</div>
