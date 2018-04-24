@@ -31,7 +31,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 
 		<div class="col span_1_of_2">
 			<h3>Fix Problems</h3>
-			<p>If you have experience in working with Ubuntu, professionally or not, and especially if you have previously worked with a Virtual Environment Solution like VirtualBox, you may be able to help<!-- TODO eustasy Votes --> by <a href="https://github.com/eustasy/howtoubuntu.org/issues">fixing filed issues</a>. Alternatively, individuals with experience improving websites may be able to assist in <a href="https://github.com/eustasy/howtoubuntu.org">developing How to Ubuntu</a> further.</p>
+			<p>If you have experience in working with Ubuntu, professionally or not, and especially if you have previously worked with a Virtual Environment Solution like VirtualBox, you may be able to help by <a href="https://github.com/eustasy/howtoubuntu.org/issues">fixing filed issues</a>. Alternatively, individuals with experience improving websites may be able to assist in <a href="https://github.com/eustasy/howtoubuntu.org">developing How to Ubuntu</a> further.</p>
 		</div>
 	</div>
 

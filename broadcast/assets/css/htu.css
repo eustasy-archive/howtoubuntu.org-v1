@@ -506,10 +506,14 @@ button.no:hover, input[type='button'].no:hover, input[type='reset'].no:hover, in
 	background-size: cover;
 }
 
-.spanpage.trusty,
-.spanpage.utopic,
-.spanpage.latest {
+.spanpage.trusty {
 	background: #ddd url(../images/ubuntu-background-1404.jpg) no-repeat top center fixed;
+	background-size: cover;
+}
+
+.spanpage.bionic,
+.spanpage.latest {
+	background: #ddd url(../images/ubuntu-background-1804.jpg) no-repeat top center fixed;
 	background-size: cover;
 }
 

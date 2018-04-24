@@ -76,7 +76,7 @@
 
 	<header class="group">
 		<div class="col span_1_of_2">
-			<h1><a href="<?php echo $Sitewide_Root.'">'.$Sitewide_Title; ?></a></h1>
+			<h1><a href="<?php echo $Sitewide_Root; ?>"><?php echo $Sitewide_Title; ?></a></h1>
 		</div>
 		<div class="col span_1_of_2 search">
 			<script>
@@ -111,5 +111,5 @@
 			<script>
 			(adsbygoogle = window.adsbygoogle || []).push({});
 			</script>
-			<p class="about-ads">Advertisement <a href="http://eustasy.org/advertisements">Why are there ads?</a></p>
+			<p class="about-ads">Advertisement <a href="https://eustasy.org/advertisements">Why are there ads?</a></p>
 		</div>

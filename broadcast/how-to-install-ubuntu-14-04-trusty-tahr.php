@@ -97,7 +97,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 			data-ad-client="ca-pub-9775669566179340"
 			data-ad-slot="9786999314"></ins>
 		<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-		<p class="about-ads">Advertisement <a href="http://eustasy.org/advertisements">Why are there ads?</a></p>
+		<p class="about-ads">Advertisement <a href="https://eustasy.org/advertisements">Why are there ads?</a></p>
 	</div>
 	<br>
 	<div class="section group">
@@ -105,7 +105,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 		<div class="col span_4_of_6">
 			<h3 id="install">Install Ubuntu 14.04 Trusty Tahr</h3>
 			<p>Once you've put the image you downloaded onto a DVD or USB, you will need to shut down your computer. This may be a good time to print this page, or just read through and make notes, if you're planning to install on this computer.</p>
-			<p>Once fully shutdown, Turn your computer back on, tapping the <span class="box">Setup</span> key to select a boot device when your screen shows the name of the manufacturer. This key is usually a Function key (<span class="box">F1</span> to <span class="box">F12</span>), or something like <span class="box">ESC</span>. It will be shown on the BIOS, the screen displaying the manufacturers logo, usually along the bottom labeled <span class="box">Setup</span> or <span class="box">Boot Settings</span>. You can then use the arrow keys, finally hitting enter, to select either USB or Disc Drive.</p> <!-- TODO Fastboot, EUFI -->
+			<p>Once fully shutdown, Turn your computer back on, tapping the <span class="box">Setup</span> key to select a boot device when your screen shows the name of the manufacturer. This key is usually a Function key (<span class="box">F1</span> to <span class="box">F12</span>), or something like <span class="box">ESC</span>. It will be shown on the BIOS, the screen displaying the manufacturers logo, usually along the bottom labeled <span class="box">Setup</span> or <span class="box">Boot Settings</span>. You can then use the arrow keys, finally hitting enter, to select either USB or Disc Drive.</p>
 		</div>
 		<div class="col span_1_of_6"><br></div>
 	</div>
@@ -162,11 +162,17 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 	</div>
 	<br>
 	<div class="ad banner large">
-		<script src="//serve.adsi.st/javascript.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Banner&AdsistAdSize=Large"></script>
-		<noscript><iframe src="//serve.adsi.st/iframe.php?AdsistMemberID=lewisgoddard&AdsistAdClass=Banner&AdsistAdSize=Large"></iframe></noscript>
-		<p class="about-ads">Advertisement <a href="http://eustasy.org/advertisements">Why are there ads?</a></p>
+		<!-- HTU Responsive -->
+		<ins class="adsbygoogle"
+		     style="display:block"
+		     data-ad-client="ca-pub-8487243089350978"
+		     data-ad-slot="5917903427"
+		     data-ad-format="auto"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+		<p class="about-ads">Advertisement <a href="https://eustasy.org/advertisements">Why are there ads?</a></p>
 	</div>
-	<br>
 	<div class="section group">
 		<div class="col span_5_of_11 floatright">
 			<h4>4. Confirm your Choice</h4>

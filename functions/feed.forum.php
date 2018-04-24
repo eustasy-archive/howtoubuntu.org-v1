@@ -18,7 +18,6 @@ function Feed_Forum() {
 		// Send the beginning of the RSS Feed
 		Feed_Header($Canonical.'?feed&topic='.$Topic);
 
-		// TODO Feed Pagination
 		$Query = 'SELECT `Canonical`, `Post`, `Created` FROM `Responses` WHERE `Canonical`=\''.$Topic.'\' AND';
 		if ($Member_Auth) $Query .= ' (`Status`=\'Public\' OR `Status`=\'Private\')';
 		else $Query .= ' `Status`=\'Public\'';
@@ -29,7 +28,6 @@ function Feed_Forum() {
 
 		while($Fetch = mysqli_fetch_assoc($Query)) {
 			$Post = strip_tags(Parsedown::instance()->parse(html_entity_decode($Fetch['Post'], ENT_QUOTES, 'UTF-8')));
-			// TODO Link should go to right page, after Feed Pagination
 			$Link = $Sitewide_Root.$Canonical.'?topic='.$Fetch['Canonical'];
 			echo '
 			<item>
@@ -49,7 +47,6 @@ function Feed_Forum() {
 		if ($Category) Feed_Header($Canonical.'?feed&category='.$Category);
 		else Feed_Header($Canonical.'?feed');
 
-		// TODO Feed Pagination
 		$Query = 'SELECT `Slug`, `Title`, `Created` FROM `Topics` WHERE';
 		if ($Category) $Query .= ' `Category`=\''.$Category.'\' AND';
 		if ($Member_Auth) $Query .= ' (`Status`=\'Public\' OR `Status`=\'Private\')';
