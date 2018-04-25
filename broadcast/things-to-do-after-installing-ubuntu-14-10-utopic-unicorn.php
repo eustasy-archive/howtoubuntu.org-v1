@@ -61,7 +61,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_6_of_11">
-			<p>After <a href="http://howtoubuntu.org/how-to-install-14-10-utopic-unicorn">Installing Ubuntu 14.10 Utopic Unicorn</a>, there are a wealth of things that need to be dealt with, including Hardware Drivers, DVD, Audio and Video Codecs, Archiving formats, generally useful stuff.</p>
+			<p>After <a href="https://howtoubuntu.org/how-to-install-14-10-utopic-unicorn">Installing Ubuntu 14.10 Utopic Unicorn</a>, there are a wealth of things that need to be dealt with, including Hardware Drivers, DVD, Audio and Video Codecs, Archiving formats, generally useful stuff.</p>
 			<p><em>These instructions presume you are proficient with PPAs, .Debs, and other terminal commands, Ubuntu Tweak, and require a full set of video, audio, and archive codecs, as well as Skype, Flash, and a truck-load of wallpapers.</em></p>
 			<br>
 			<div class="warning">
@@ -321,9 +321,9 @@ sudo apt-get -y clean</textarea>
 		<div class="col span_3_of_11"><br></div>
 		<div class="col span_5_of_11">
 			<h4 id="further-reading">Further Reading</h4>
-			<p class="textcenter"><a href="http://howtoubuntu.org/about-ubuntu-14-10-utopic-unicorn" target="_blank">About Ubuntu 14.10 Utopic Unicorn</a></p>
-			<p class="textcenter"><a href="http://howtoubuntu.org/how-to-install-a-32bit-program-in-64bit-ubuntu" target="_blank">How to Install a 32bit program in 64bit Ubuntu</a></p>
-			<p class="textcenter"><a href="http://howtoubuntu.org/how-to-make-your-dual-boot-better-with-burg" target="_blank">How to make your Dual Boot better with Burg</a></p>
+			<p class="textcenter"><a href="https://howtoubuntu.org/about-ubuntu-14-10-utopic-unicorn" target="_blank">About Ubuntu 14.10 Utopic Unicorn</a></p>
+			<p class="textcenter"><a href="https://howtoubuntu.org/how-to-install-a-32bit-program-in-64bit-ubuntu" target="_blank">How to Install a 32bit program in 64bit Ubuntu</a></p>
+			<p class="textcenter"><a href="https://howtoubuntu.org/how-to-make-your-dual-boot-better-with-burg" target="_blank">How to make your Dual Boot better with Burg</a></p>
 		</div>
 		<div class="col span_3_of_11"><br></div>
 		<!--

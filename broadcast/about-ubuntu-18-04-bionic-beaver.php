@@ -27,7 +27,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 		<div class="col span_3_of_5">
 			<h2>About Ubuntu 18.04 Bionic Beaver</h2>
 			<h3 class="textcenter"><a class="download" href="https://www.ubuntu.com/download/desktop">Download Ubuntu</a></h3>
-			<p class="nomargin after-download textcenter"><a title="Install Ubuntu 18.04 Bionic Beaver" href="http://howtoubuntu.org/how-to-install-ubuntu-18-04-bionic-beaver">Install Ubuntu 18.04</a> &nbsp;&middot;&nbsp; <a title="After Installing Ubuntu 18.04 Bionic Beaver" href="http://howtoubuntu.org/things-to-do-after-installing-ubuntu-18-04-bionic-beaver">After Installing Ubuntu 18.04</a></p>
+			<p class="nomargin after-download textcenter"><a title="Install Ubuntu 18.04 Bionic Beaver" href="https://howtoubuntu.org/how-to-install-ubuntu-18-04-bionic-beaver">Install Ubuntu 18.04</a> &nbsp;&middot;&nbsp; <a title="After Installing Ubuntu 18.04 Bionic Beaver" href="https://howtoubuntu.org/things-to-do-after-installing-ubuntu-18-04-bionic-beaver">After Installing Ubuntu 18.04</a></p>
 			<p>Ubuntu 18.04 <a title="Ubuntu 18.04 Bionic Beaver Release Schedule" href="https://wiki.ubuntu.com/BionicBeaver/ReleaseSchedule">was released</a> on the 26th of April 2018, which just so happened to be a Thursday. From there on in, Ubuntu 18.04 Bionic Beaver provided millions of users all over the world with a free, stable, secure operating system.</p>
 		</div>
 		<div class="col span_1_of_5"><br></div>

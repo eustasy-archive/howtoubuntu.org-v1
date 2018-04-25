@@ -8,7 +8,7 @@
 	// This is the Base URL of your Site
 	// Do include a trailing slash
 	// Do include a http:// or https://
-	$Sitewide_Root = 'http://howtoubuntu.org/';
+	$Sitewide_Root = 'https://howtoubuntu.org/';
 	// Allow or disallow Signups
 	$Sitewide_Signups = false;
 	// Strip .php Extensions

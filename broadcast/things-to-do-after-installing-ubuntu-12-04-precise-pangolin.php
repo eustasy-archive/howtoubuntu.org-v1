@@ -54,7 +54,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_6_of_11">
-			<p>After <a href="http://howtoubuntu.org/how-to-install-ubuntu-12-04-precise-pangolin">Installing Ubuntu 12.04 Precise Pangolin</a>, there are a wealth of things that need to be dealt with, including Hardware Drivers, DVD, Audio and Video Codecs, Archiving formats, generally useful stuff.</p>
+			<p>After <a href="https://howtoubuntu.org/how-to-install-ubuntu-12-04-precise-pangolin">Installing Ubuntu 12.04 Precise Pangolin</a>, there are a wealth of things that need to be dealt with, including Hardware Drivers, DVD, Audio and Video Codecs, Archiving formats, generally useful stuff.</p>
 			<p><em>These instructions presume you are proficient with PPAs, .Debs, and other terminal commands, Ubuntu Tweak, and require a full set of video, audio, and archive codecs, as well as Skype, Flash, and a truck-load of wallpapers.</em></p>
 			<br>
 			<div class="warning">
@@ -348,17 +348,17 @@ sudo apt-get -y clean</textarea>
 	<div class="section group">
 		<div class="col span_5_of_11">
 			<h4 id="references">References</h4>
-			<p><a href="http://howtoubuntu.org/how-to-burn-an-iso-to-a-cd-or-dvd-in-ubuntu" target="_blank">How to Burn an ISO to a CD or DVD in Ubuntu</a><br>
-			<a href="http://howtoubuntu.org/how-to-decide-if-you-should-use-32bit-or-64bit-ubuntu" target="_blank">How to decide if you should use 32bit or 64bit Ubuntu</a><br>
-			<a href="http://howtoubuntu.org/how-to-find-out-how-much-ram-is-installed-in-ubuntu" target="_blank">How to find out how much RAM is installed in Ubuntu</a><br>
-			<a href="http://howtoubuntu.org/how-to-install-a-32bit-program-in-64bit-ubuntu" target="_blank">How to Install a 32bit program in 64bit Ubuntu</a></p>
+			<p><a href="https://howtoubuntu.org/how-to-burn-an-iso-to-a-cd-or-dvd-in-ubuntu" target="_blank">How to Burn an ISO to a CD or DVD in Ubuntu</a><br>
+			<a href="https://howtoubuntu.org/how-to-decide-if-you-should-use-32bit-or-64bit-ubuntu" target="_blank">How to decide if you should use 32bit or 64bit Ubuntu</a><br>
+			<a href="https://howtoubuntu.org/how-to-find-out-how-much-ram-is-installed-in-ubuntu" target="_blank">How to find out how much RAM is installed in Ubuntu</a><br>
+			<a href="https://howtoubuntu.org/how-to-install-a-32bit-program-in-64bit-ubuntu" target="_blank">How to Install a 32bit program in 64bit Ubuntu</a></p>
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_5_of_11">
 			<h4 id="further reading">Further Reading</h4>
-			<p><a href="http://howtoubuntu.org/about-ubuntu-12-04-precise-pangolin" target="_blank">About Ubuntu 12.04 Precise Pangolin</a><br>
-			<a href="http://howtoubuntu.org/how-to-install-ubuntu-12-04-precise-pangolin">How to Install Ubuntu 12.04 Precise Pangolin</a><br>
-			<a href="http://howtoubuntu.org/how-to-make-your-dual-boot-better-with-burg" target="_blank">How to make your Dual Boot better with Burg</a></p>
+			<p><a href="https://howtoubuntu.org/about-ubuntu-12-04-precise-pangolin" target="_blank">About Ubuntu 12.04 Precise Pangolin</a><br>
+			<a href="https://howtoubuntu.org/how-to-install-ubuntu-12-04-precise-pangolin">How to Install Ubuntu 12.04 Precise Pangolin</a><br>
+			<a href="https://howtoubuntu.org/how-to-make-your-dual-boot-better-with-burg" target="_blank">How to make your Dual Boot better with Burg</a></p>
 		</div>
 	</div>
 <?php require '../footer.php'; }

@@ -26,7 +26,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 		<div class="col span_3_of_5">
 			<h2>About Ubuntu 13.10 Saucy Salamander</h2>
 			<h3 class="textcenter"><a class="download" href="http://www.ubuntu.com/download/desktop">Download Ubuntu</a></h3>
-			<!--<p class="nomargin after-download textcenter"><a title="Install Ubuntu 12.04 Precise Pangolin" href="http://howtoubuntu.org/how-to-install-ubuntu-13-10-saucy-salamander">Install Ubuntu 13.10</a> &nbsp;&middot;&nbsp; <a title="After Installing Ubuntu 12.04 Precise Pangolin" href="http://howtoubuntu.org/things-to-do-after-installing-ubuntu-13-10-saucy-salamander">After Installing Ubuntu 13.10</a></p>-->
+			<!--<p class="nomargin after-download textcenter"><a title="Install Ubuntu 12.04 Precise Pangolin" href="https://howtoubuntu.org/how-to-install-ubuntu-13-10-saucy-salamander">Install Ubuntu 13.10</a> &nbsp;&middot;&nbsp; <a title="After Installing Ubuntu 12.04 Precise Pangolin" href="https://howtoubuntu.org/things-to-do-after-installing-ubuntu-13-10-saucy-salamander">After Installing Ubuntu 13.10</a></p>-->
 			<p>Ubuntu 13.10 <a title="Ubuntu 13.10 Saucy Salamander Release Schedule" href="https://wiki.ubuntu.com/SaucySalamander/ReleaseSchedule#line-25">was released</a> on the 17th of October 2013. This newer version of Ubuntu replaces 13.04 as the latest release, and is available alongside the LTS release, Ubuntu 12.04 Precise Pangolin.</p>
 		</div>
 		<div class="col span_1_of_5"><br></div>

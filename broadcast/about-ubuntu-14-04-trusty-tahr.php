@@ -27,7 +27,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 		<div class="col span_3_of_5">
 			<h2>About Ubuntu 14.04 Trusty Tahr</h2>
 			<h3 class="textcenter"><a class="download" href="http://www.ubuntu.com/download/desktop">Download Ubuntu</a></h3>
-			<p class="nomargin after-download textcenter"><a title="Install Ubuntu 14.04 Trusty Tahr" href="http://howtoubuntu.org/how-to-install-ubuntu-14-04-trusty-tahr">Install Ubuntu 14.04</a> &nbsp;&middot;&nbsp; <a title="After Installing Ubuntu 14.04 Trusty Tahr" href="http://howtoubuntu.org/things-to-do-after-installing-ubuntu-14-04-trusty-tahr">After Installing Ubuntu 14.04</a></p>
+			<p class="nomargin after-download textcenter"><a title="Install Ubuntu 14.04 Trusty Tahr" href="https://howtoubuntu.org/how-to-install-ubuntu-14-04-trusty-tahr">Install Ubuntu 14.04</a> &nbsp;&middot;&nbsp; <a title="After Installing Ubuntu 14.04 Trusty Tahr" href="https://howtoubuntu.org/things-to-do-after-installing-ubuntu-14-04-trusty-tahr">After Installing Ubuntu 14.04</a></p>
 			<p>Ubuntu 14.04 <a title="Ubuntu 14.04 Trusty Tahr Release Schedule" href="https://wiki.ubuntu.com/TrustyTahr/ReleaseSchedule">was released</a> on the 26th of April 2014, which just so happened to be a Thursday. From there on in, Ubuntu 14.04 Trusty Tahr provided millions of users all over the world with a free, stable, secure operating system.</p>
 		</div>
 		<div class="col span_1_of_5"><br></div>

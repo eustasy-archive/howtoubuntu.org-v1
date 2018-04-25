@@ -28,7 +28,7 @@
 				<div class="network facebook">
 					<div class="box">
 						<a class="type" target="_blank" href="https://www.facebook.com/howtoubuntu"><span>Facebook</span></a>
-						<script type="text/javascript">document.write('<div class="fb-like" data-href="http://www.facebook.com/howtoubuntu" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>');</script>
+						<script type="text/javascript">document.write('<div class="fb-like" data-href="https://www.facebook.com/howtoubuntu" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>');</script>
 						<noscript><iframe src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fhowtoubuntu&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21&amp;appId=211598199034258" scrolling="no" frameborder="0" style="border:none;overflow:hidden;height:21px;" allowTransparency="true"></iframe></noscript>
 					</div>
 				</div>
@@ -48,7 +48,7 @@
 				</div>
 			</div>
 			<!-- Google+ and YouTube -->
-			<script type="text/javascript">(function(){var po=document.createElement('script');po.type='text/javascript';po.async=true;po.src='http://apis.google.com/js/platform.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(po,s);})();</script>
+			<script type="text/javascript">(function(){var po=document.createElement('script');po.type='text/javascript';po.async=true;po.src='https://apis.google.com/js/platform.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(po,s);})();</script>
 			<!-- Twitter -->
 			<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','twitter-wjs');</script>
 			<!-- Facebook -->
@@ -90,7 +90,7 @@
 
 		<div class="col span_2_of_12">
 			<h4 class="nomargin textcenter">powered by</h4>
-			<h2 class="nomargin textcenter"><a href="http://simplet.eustasy.org/">Simplet</a></h2>
+			<h2 class="nomargin textcenter"><a href="https://simplet.eustasy.org/">Simplet</a></h2>
 			<p class="nomargin textcenter">the file-based blog for github</p>
 		</div>
 
