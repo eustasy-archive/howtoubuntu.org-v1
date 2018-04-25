@@ -6,16 +6,6 @@
 
 Ubuntu Tutorials and How to's
 
-### Roadmap
-- [Things to do after installing Ubuntu 13.10 Saucy Salamander](http://b.howtoubuntu.org/things-to-do-after-installing-ubuntu-13-10-saucy-salamander) needs checking.
-- Add Kernel Control Article.
-- Attain YouTube Partnership(s).
-- Update Kernel Articles
-- Arrange Regular Checking of:
-	- Kernel Versions
-	- Dependencies (Libraries)
-- As Available: Utilize Asynchronous Advertisements.
-
 ### Dependencies
 These things should be regularly checked for new releases, and the relevant updates pushed to [JSDelivr](https://github.com/jsdelivr/jsdelivr), with the exception of jQi, which is in-line in the `header.php` file.
 
