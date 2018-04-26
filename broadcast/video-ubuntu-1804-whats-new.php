@@ -3,7 +3,7 @@
 	$Title_HTML = 'Video: Ubuntu 18.04: What\'s New?';
 	$Title_Plain = $Title_HTML;
 
-	$Description_HTML = '<p><a href="https://www.youtube.com/channel/UCIiSwcm9xiFb3Y4wjzR41eQ">OMG! Ubuntu!</a> has put out their bi-annual video on what\'s new in Ubuntu.</p><h3 class="textcenter"><a class="download fancybox-media" href="https://ww.youtube.com/embed/ONXfL6evR0Q?autohide=1&showinfo=0">Play Video</a></h3>';
+	$Description_HTML = '<p><a href="https://www.youtube.com/channel/UCIiSwcm9xiFb3Y4wjzR41eQ">OMG! Ubuntu!</a> has put out their bi-annual video on what\'s new in Ubuntu.</p><h3 class="textcenter"><a class="download fancybox-media" href="https://www.youtube.com/embed/ONXfL6evR0Q?autohide=1&showinfo=0">Play Video</a></h3>';
 	$Description_Plain = 'OMG! Ubuntu! has put out their bi-annual video on what\'s new in Ubuntu.';
 
 	$Keywords = 'ubuntu 18.04 bionic beaver video';
@@ -27,7 +27,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 		<div class="col span_3_of_5">
 			<h2>Video: Ubuntu 18.04: What's New?</h2>
 			<p><a href="https://www.youtube.com/channel/UCIiSwcm9xiFb3Y4wjzR41eQ">OMG! Ubuntu!</a> has put out their bi-annual video on what's new in Ubuntu.</p>
-			<h3 class="textcenter"><a class="download fancybox-media" href="https://ww.youtube.com/embed/ONXfL6evR0Q?autohide=1&showinfo=0">Play Video</a></h3>
+			<h3 class="textcenter"><a class="download fancybox-media" href="https://www.youtube.com/embed/ONXfL6evR0Q?autohide=1&showinfo=0">Play Video</a></h3>
 		</div>
 		<div class="col span_1_of_5"><br></div>
 	</div>
