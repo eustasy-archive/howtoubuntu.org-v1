@@ -3,7 +3,7 @@
 	$Title_HTML = 'Video: How to Manage Partitions and Dual Boot Ubuntu';
 	$Title_Plain = $Title_HTML;
 
-	$Description_HTML = '<p>The lovely <a target="_blank" href="http://www.youtube.com/nixiedoeslinux">NixiePixel</a> has a video on Resizing and Dual Booting Ubuntu.</p><h3 class="textcenter"><a class="download fancybox-media" href="http://www.youtube.com/embed/eSMMs4cfMqY?autohide=1&showinfo=0">Play Video</a></h3>';
+	$Description_HTML = '<p>The lovely <a target="_blank" href="https://ww.youtube.com/nixiedoeslinux">NixiePixel</a> has a video on Resizing and Dual Booting Ubuntu.</p><h3 class="textcenter"><a class="download fancybox-media" href="https://ww.youtube.com/embed/eSMMs4cfMqY?autohide=1&showinfo=0">Play Video</a></h3>';
 	$Description_Plain = 'The lovely NixiePixel has a video on Resizing and Dual Booting Ubuntu.';
 
 	$Keywords = 'manage partitions dual boot video';
@@ -24,8 +24,8 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 		<div class="col span_1_of_5"><br></div>
 		<div class="col span_3_of_5">
 			<h2>Video: How to Manage Partitions and Dual Boot Ubuntu</h2>
-			<p>The lovely <a target="_blank" href="http://www.youtube.com/nixiedoeslinux">NixiePixel</a> has a video on Resizing and Dual Booting Ubuntu.</p>
-			<h3 class="textcenter"><a class="download fancybox-media" href="http://www.youtube.com/embed/eSMMs4cfMqY?autohide=1&showinfo=0">Play Video</a></h3>
+			<p>The lovely <a target="_blank" href="https://ww.youtube.com/nixiedoeslinux">NixiePixel</a> has a video on Resizing and Dual Booting Ubuntu.</p>
+			<h3 class="textcenter"><a class="download fancybox-media" href="https://ww.youtube.com/embed/eSMMs4cfMqY?autohide=1&showinfo=0">Play Video</a></h3>
 			<p>As you may be moving everything on your hard drive, remember to back up anything important. We recommend using a Live CD or USB for this, to maximize the performance of your drive, and kill any issues from parts of your drive that are in use.</p>
 
 		</div>
