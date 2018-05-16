@@ -30,9 +30,11 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 			<div class="info">
 				<p>Consider disabling System Protection and Pagefile on Windows (if you are running out of space there too, both can use a lot of space but protect and speed up Windows).</p>
 			</div>
+			<br>
 			<div class="warning">
 				<p>Make a Backup of as much as possible if you have the space on an external drive, usb, or cd/dvd.</p>
 			</div>
+			<br>
 			<ol>
 				<li>Boot either a <a href="https://www.ubuntu.com/download" target="_blank">Ubuntu</a> or <a href="https://gparted.sourceforge.io/livecd.php" target="_blank">GParted Live CD</a>.</li>
 				<li>Open GParted.</li>
@@ -53,9 +55,11 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 	<div class="warning">
 		<p>This could take a fair while to shift things about, so make sure you're plugged in and don't shut a laptops lid (the Ubuntu Live CD will go to sleep). You may want to disable screen locking and sleeping after a certain time on the Ubuntu Live CD under Power Options.</p>
 	</div>
+	<br>
 	<div class="info">
 		<p>if you have modified a partition containing Microsoft Windows, it might run a disk check when next started, this is normal behavior, it should finish and reboot. Boot into Windows before accessing the Windows partition from Ubuntu.</p>
 	</div>
+	<br>
 	<h3>Congratulations, you've successfully resized your partitions!</h3>
 
 <?php require '../footer.php'; } ?>
