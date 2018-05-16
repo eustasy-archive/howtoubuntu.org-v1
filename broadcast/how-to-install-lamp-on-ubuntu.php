@@ -79,8 +79,8 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 			<h3 id="check-apache">5. Check Apache</h3>
 			<p>Open a web browser and navigate to <a href="http://localhost/">http://localhost/</a>. You should see a message saying <span class="box">It works!</span></p>
 		</div>
-		<div class="col span_3_of_11">
 		<div class="col span_1_of_11"><br></div>
+		<div class="col span_3_of_11">
 			<h3 id="check-php">6. Check PHP</h3>
 			<p>You can check your PHP by executing any PHP file from within <span class="box">/var/www/</span>. Alternatively you can execute the  following command, which will make PHP run the code without the need for creating a file .</p>
 			<input type="text" class="code" value="php -r 'echo &quot;\n\nYour PHP installation is working fine.\n\n\n&quot;;'">
