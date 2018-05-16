@@ -39,10 +39,11 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 echo 'deb-src http://download.videolan.org/pub/debian/stable/ /' | sudo tee -a /etc/apt/sources.list.d/libdvdcss.list &&
 wget -O - http://download.videolan.org/pub/debian/videolan-apt.asc | sudo apt-key add - &&
 sudo apt-get update &&
-sudo apt-get install libdvdcss2 libdvdread4 libdvdnav4 libavcodec-extra-53 libavformat-extra-53 libavutil-extra-51 libpostproc-extra-52 libswscale-extra-2 ubuntu-restricted-extras</textarea>
+sudo apt-get install libdvdcss2 libdvdread4 libdvdnav4 libavcodec-extra-53 libavformat-extra-53 libavutil-extra-51 libpostproc-extra-52 libswscale-extra-2 ubuntu-restricted-extras gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly libdvd-pkg</textarea>
 			<p>*Note: To paste in the terminal, DO NOT use Ctrl+V. Use Ctrl+Shift+V.<br>
 			The same applies to copying and cutting.</p>
 			<p>You will be prompted for your password. When you provide it, no dots, stars, or other characters will appear in place of the letters. This is normal. Proceed and hit enter.</p>
+			<p>You may need to confirm you want to install certain things using tab to navigate text-buttons and space to check boxes.</p>
 		</div>
 	</div>
 	<br>
