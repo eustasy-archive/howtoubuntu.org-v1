@@ -52,19 +52,19 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 		<div class="col span_3_of_11">
 			<h3 id="install-apache">1. Install Apache</h3>
 			<p>To install Apache you must install the Metapackage <span class="box">apache2</span>. This can be done by searching for and installing in the Software Centre, or by running the following command.</p>
-			<input type="text" class="code" value="sudo apt-get install apache2">
+			<input type="text" class="code" value="sudo apt install apache2">
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_3_of_11">
 			<h3 id="install-mysql">2. Install MySQL</h3>
 			<p>To install MySQL you must install the Metapackage <span class="box">mysql-server</span>. This can be done by searching for and installing in the Software Centre, or by running the following command.</p>
-			<input type="text" class="code" value="sudo apt-get install mysql-server">
+			<input type="text" class="code" value="sudo apt install mysql-server">
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_3_of_11">
 			<h3 id="install-php">3. Install PHP</h3>
-			<p>To install PHP you must install the Metapackages <span class="box">php5</span> and <span class="box">libapache2-mod-php5</span>. This can be done by searching for and installing in the Software Centre, or by running the following command.</p>
-			<input type="text" class="code" value="sudo apt-get install php5 libapache2-mod-php5">
+			<p>PHP requires a few packages to work as you expect, so we recommend the following command.</p>
+			<input type="text" class="code" value="sudo apt install php-pear php-fpm php-dev php-zip php-curl php-xmlrpc php-gd php-mysql php-mbstring php-xml libapache2-mod-php">
 		</div>
 	</div>
 	<br>
@@ -72,7 +72,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 		<div class="col span_3_of_11">
 			<h3 id="restart-server">4. Restart Server</h3>
 			<p>Your server should restart Apache automatically after the installation of both MySQL and PHP. If it doesn't, execute this command.</p>
-			<input type="text" class="code" value="sudo /etc/init.d/apache2 restart">
+			<input type="text" class="code" value="sudo service apache2 restart">
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_3_of_11">
