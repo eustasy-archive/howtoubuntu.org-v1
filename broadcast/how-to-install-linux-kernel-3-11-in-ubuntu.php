@@ -26,6 +26,12 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 		<div class="col span_3_of_5">
 			<h2>How to Install Linux Kernel 3.11</h2>
 			<p>Linux Kernel 3.11 is mostly a driver-driven release, with fixes for bugs and updates for Radeon, Intel i915, Wireless and USB devices, as well as the standard list of bugs and security fixes that simply can't all be listed here. This includes the implementation of Dynamic Power Management from AMDs open-source driver, as well as low-latency network polling.</p>
+			<br>
+			<div class="warning">
+				<h3>Warning: Outdated for Ubuntu 14.04 or newer.</h3>
+				<p>Ubuntu 14.04 already includes 3.13, which is newer than the version this script provides. Kernel downgrades may result in unbootable systems.</p>
+			</div>
+			<br>
 			<h3>Important Notes</h3>
 			<p>This script will attempt to install Linux Kernel 3.11 on this machine. Typically, your current version will be kept, and you will be able to utilize it again later if Linux Kernel 3.11 does not work. However, it is possible, if unlikely, that this script will render your system inoperable on with certain software installed, or with certain hardware configurations. How to Ubuntu does not offer any guarantees whatsoever, but it worked for us. Use with care (especially around UEFI).</p>
 			<p>Also, note that your system will be running a package that it is unlikely to receive updates for, and that you will have to manually check for subsequent versions on How to Ubuntu.</p>
