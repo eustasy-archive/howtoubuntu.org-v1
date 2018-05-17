@@ -26,6 +26,12 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 		<div class="col span_3_of_5">
 			<h2>How to Install Linux Kernel 3.12</h2>
 			<p>Linux Kernel 3.12 includes some major patches, including improved Dynamic Power Management on Radeon, a new DRM/KMS Driver, support for aggressive extent caching and better recovery capabilities on an EXT4 file-system, and other improvements on F2FS, XFS, and Btrfs file-systems.</p>
+			<br>
+			<div class="warning">
+				<h3>Warning: Outdated for Ubuntu 14.04 or newer.</h3>
+				<p>Ubuntu 14.04 already includes 3.13, which is newer than the version this script provides. Kernel downgrades may result in unbootable systems.</p>
+			</div>
+			<br>
 			<h3>Important Notes</h3>
 			<p>This script will attempt to install Linux Kernel 3.12 on this machine. Typically, your current version will be kept, and you will be able to utilize it again later if Linux Kernel 3.12 does not work. However, it is possible, if unlikely, that this script will render your system inoperable on with certain software installed, or with certain hardware configurations. How to Ubuntu does not offer any guarantees whatsoever, but it worked for us. Use with care (especially around UEFI).</p>
 			<p>Also, note that your system will be running a package that it is unlikely to receive updates for, and that you will have to manually check for subsequent versions on How to Ubuntu.</p>
