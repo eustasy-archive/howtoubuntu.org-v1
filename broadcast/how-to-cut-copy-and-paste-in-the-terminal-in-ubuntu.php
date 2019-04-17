@@ -26,13 +26,13 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 	<div class="section group">
 		<div class="col span_1_of_5"><br></div>
 		<div class="col span_3_of_5">
-			<p>If you're new to the Terminal, Pasting Commands probably seems like a godsend. Until it doesn't work. Here's how to do it properly.</p>
-			<h3 id="do">Cutting, Copying and Pasting</h3>
-			<p>This is actually very simple to do.</p>
+			<h3 id="do">Cutting, Copying and Pasting in Ubuntu Terminal</h3>
 			<p>In most applications Cut, Copy and Paste are <span class="box">Ctrl</span> + <span class="box">X</span>, <span class="box">Ctrl</span> + <span class="box">C</span> and <span class="box">Ctrl</span>+<span class="box">V</span> respectively.</p>
-			<p>In the Terminal, <span class="box">Ctrl</span>+<span class="box">C</span> is Cancel Command. The others do things to, but that's not important.</p><p>To paste (probably the one you'll use the most), use <span class="box">Ctrl</span> + <span class="box">Shift</span> + <span class="box">V</span>.</p>
-			<p>Use <span class="box">X</span> or <span class="box">C</span> appropriately for cutting and copying.</p>
-			<h3>Congratulations, you have just learnt how to Cut, Copy, and Paste in the Terminal in Ubuntu!</h3>
+			<p>In the Terminal, <span class="box">Ctrl</span>+<span class="box">C</span> is the cancel command. Use these in the terminal instead:</p>
+			<p>To cut <span class="box">Ctrl</span> + <span class="box">Shift</span> + <span class="box">X</span>.</p>
+			<p>To copy <span class="box">Ctrl</span> + <span class="box">Shift</span> + <span class="box">C</span>.</p>
+			<p>To paste <span class="box">Ctrl</span> + <span class="box">Shift</span> + <span class="box">V</span>.</p>
+			
 		</div>
 		<div class="col span_1_of_5"><br></div>
 	</div>
