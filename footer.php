@@ -18,13 +18,6 @@
 			<hr>
 			<h3>Social</h3>
 			<div class="networks">
-				<div class="network google">
-					<div class="box">
-						<a class="type" target="_blank" href="https://plus.google.com/+HowtoubuntuOrg"><span>Google+</span></a>
-						<script type="text/javascript">document.write('<div class="g-follow" data-annotation="bubble" data-height="20" data-href="//plus.google.com/117279225305045556184" data-rel="publisher"></div>');</script>
-						<noscript><a target="_blank" href="https://plus.google.com/+HowtoubuntuOrg">Circle</a></noscript>
-					</div>
-				</div>
 				<div class="network facebook">
 					<div class="box">
 						<a class="type" target="_blank" href="https://www.facebook.com/howtoubuntu"><span>Facebook</span></a>
@@ -47,7 +40,7 @@
 					</div>
 				</div>
 			</div>
-			<!-- Google+ and YouTube -->
+			<!-- YouTube -->
 			<script type="text/javascript">(function(){var po=document.createElement('script');po.type='text/javascript';po.async=true;po.src='https://apis.google.com/js/platform.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(po,s);})();</script>
 			<!-- Twitter -->
 			<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','twitter-wjs');</script>
