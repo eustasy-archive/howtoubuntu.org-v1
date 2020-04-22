@@ -645,13 +645,16 @@ table { width: 100%; }
 	-moz-border-radius: 2px !important;
 	border-radius: 2px !important;
 }
-.gsc-search-button-v2 { padding: 8px 27px 7px !important; }
+.gsc-search-button-v2 {
+    margin-top: -2px !important;
+    margin-bottom: 0 !important;
+    padding: 8px 27px !important;
+}
 .gsc-control-cse { padding: 2em 0 0 !important; }
 .gs_tti0 { padding: 4px 6px !important; }
 .gsib_b { padding: 2px 6px !important; }
 .gsc-search-box table, .gsc-search-box tr, .gsc-search-box td 	{ outline: none !important; }
 .gsc-webResult.gsc-result, .gsc-results .gsc-imageResult, .gsc-results .gsc-cursor-box .gsc-cursor-page { padding: 10px !important; }
-.gsc-search-button-v2 { margin-top: 0 !important; }
 .gsc-control-cse, .gsc-control-cse .gsc-table-result { font-family: Ubuntu, sans-serif !important; }
 .gsc-selected-option { font-weight: normal; }
 
