@@ -20,6 +20,7 @@
 	<link rel="icon" href="<?php echo $Sitewide_Root; ?>favicon.ico">
 	<link rel="shortcut icon" href="<?php echo $Sitewide_Root; ?>favicon.ico">
 	<link rel="stylesheet prefetch" type="text/css" media="all" href="//fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu:300,300italic,400">
+	<link rel="stylesheet" type="text/css" media="all" href="https://cdn.jsdelivr.net/gh/eustasy/Colors.css@2/ubuntu.min.css">
 	<link rel="stylesheet" type="text/css" media="all" href="<?php echo $Sitewide_Root; ?>assets/css/combined.min.css">
 	<link rel="stylesheet" type="text/css" media="all" href="<?php echo $Sitewide_Root; ?>assets/css/htu.css">
 
