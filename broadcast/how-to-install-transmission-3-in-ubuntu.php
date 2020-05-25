@@ -32,7 +32,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 			<input type="text" class="code" value="deb http://ppa.launchpad.net/transmissionbt/ppa/ubuntu focal main">
 			<p>Check for Updates.</p>
 			<p>Now you need to run just one line in the Terminal.</p>
-			<input type="text" class="code" value="sudo apt-get install transmission">
+			<input type="text" class="code" value="sudo apt-get install transmission-gtk">
 		</div>
 		<div class="col span_1_of_11"><br></div>
 		<div class="col span_5_of_11">
@@ -40,7 +40,7 @@ if ($Request['path'] === $Place['path'].$Canonical) {
 			<p>Installing via the terminal is rather easy.</p>
 			<input type="text" class="code" value="sudo add-apt-repository ppa:transmissionbt/ppa">
 			<input type="text" class="code" value="sudo apt update">
-			<input type="text" class="code" value="sudo apt install transmission">
+			<input type="text" class="code" value="sudo apt install transmission-gtk">
 		</div>
 	</div>
 	<h3>Congratulations, you've just installed Transmission 3.0 in Ubuntu!</h3>
