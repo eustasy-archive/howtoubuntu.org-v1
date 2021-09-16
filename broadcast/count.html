@@ -2,9 +2,8 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Ubuntu 20.04 Countdown</title>
-		<link rel="icon" href="https://howtoubuntu.org/favicon.ico" />
-		<link rel="shortcut icon" href="https://howtoubuntu.org/favicon.ico" />
+		<title>Ubuntu 21.10 Countdown</title>
+		<link rel="shortcut icon" href="https://howtoubuntu.org/favicon.ico">
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -59,20 +58,20 @@
 				dd=Date.parse(futurestring)-Date.parse(todaystring)
 				dday=Math.floor(dd/(60*60*1000*24)*1)
 				if(dday==0){
-					document.getElementById("count").innerHTML="Ubuntu <span class='light'>20.04</span> comes today!";
-					document.title = "Ubuntu 20.04 comes today!";
+					document.getElementById("count").innerHTML="Ubuntu <span class='light'>21.10</span> comes today!";
+					document.title = "Ubuntu 21.10 comes today!";
 					return
 				} else if(dday<0){
-					document.getElementById("count").innerHTML="Download Ubuntu <span class='light'>20.04</span>";
-					document.title = "Ubuntu 20.04 is here!";
+					document.getElementById("count").innerHTML="Download Ubuntu <span class='light'>21.10</span>";
+					document.title = "Ubuntu 21.10 is here!";
 					return
 				} else {
-					document.getElementById("count").innerHTML="Only <span class='light'>"+dday+"</span> days until Ubuntu 20.04";
-					document.title = ""+dday+" days until Ubuntu 20.04";
+					document.getElementById("count").innerHTML="Only <span class='light'>"+dday+"</span> days until Ubuntu 21.10";
+					document.title = ""+dday+" days until Ubuntu 21.10";
 					return
 				}
 			}
-			countdown(2020,04,23)
+			countdown(2021,10,16)
 		</script>
 	</body>
 </html>
